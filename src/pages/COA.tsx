@@ -1,0 +1,258 @@
+import { Button } from '@/components/ui/button';
+import coa_data from '@/data/coa2.json';
+import React, { useState } from 'react'
+import {
+    Pagination,
+    PaginationContent,
+    PaginationEllipsis,
+    PaginationItem,
+    PaginationLink,
+    PaginationNext,
+    PaginationPrevious,
+} from "@/components/ui/pagination"
+import { Input } from '@/components/ui/input';
+import { Search } from 'lucide-react';
+
+const ITEMS_PER_PAGE = 10;
+
+const COA = () => {
+
+    const [currentPage, setCurrentPage] = useState(1);
+
+    const [searchQuery, setSearchQuery] = useState('');
+
+    // Utility to sanitize ItemName for URL (replace spaces with underscores, remove special chars)
+    const sanitizeFileName = (name: string) =>
+        name.trim().replace(/\s+/g, '_').replace(/[^a-zA-Z0-9_\-]/g, '');
+
+    // Add coaLink to each item
+    const coaDataWithLinks = coa_data.map(item => ({
+        ...item,
+        coaLink: `pdfs/coa/${(item.ItemName)}.pdf`
+    }));
+
+    // Filter data based on search query
+    const filteredData = coaDataWithLinks.filter(item =>
+        item.ItemName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        item.CatalogeNumber.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        item.CASNumber.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        item.BatchNumber.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
+    const totalPages = Math.ceil(filteredData.length / ITEMS_PER_PAGE);
+
+    const paginatedData = filteredData.slice(
+        (currentPage - 1) * ITEMS_PER_PAGE,
+        currentPage * ITEMS_PER_PAGE
+    );
+
+    const handlePageChange = (page: number) => {
+        if (page >= 1 && page <= totalPages) {
+            setCurrentPage(page);
+        }
+    };
+
+    const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        setSearchQuery(e.target.value);
+        setCurrentPage(1); // Reset to first page on new search
+    };
+
+    const handleSearchSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        setCurrentPage(1);
+    };
+
+    const getPageNumbers = () => {
+        const pages = [];
+        let start = Math.max(1, currentPage - 2);
+        let end = Math.min(totalPages, currentPage + 2);
+
+        if (currentPage <= 3) {
+            end = Math.min(5, totalPages);
+        } else if (currentPage >= totalPages - 2) {
+            start = Math.max(1, totalPages - 4);
+        }
+
+        for (let i = start; i <= end; i++) {
+            pages.push(i);
+        }
+        return pages;
+    };
+
+    return (
+        <main className='border-t border-gray-200 '>
+            <section className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-16'>
+                <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
+                    <h2 className='text-center  text-2xl'>certificate of</h2>
+                    <h2 className='bg-primary text-white p-2 rounded-md'>analysis</h2>
+                </span>
+
+                <div className='mt-6'>
+                    <div className='flex justify-center md:justify-end  mb-5'>
+                        <form className=' relative flex items-center gap-2' onSubmit={handleSearchSubmit}>
+                            <Input type="text" onChange={handleSearchChange} value={searchQuery}
+                                placeholder=" Search CoA by Name, CAS Number, etc."
+                                className="w-78 focus:ring-primary hover:border-primary pl-9" />
+                            {/* <Button size={'icon'} type='submit' className='bg-primary text-white '><Search /></Button> */}
+                            <span className='absolute left-2'><Search color='gray' size={20} /></span>
+                        </form>
+                    </div>
+                    <div className="overflow-x-auto bg-white rounded-lg shadow hidden md:block">
+                        <table className="min-w-full text-sm text-left border border-gray-200">
+                            <thead className="bg-gray-100 text-gray-700 font-semibold">
+                                <tr>
+                                    <th className="px-4 py-3">Item Name</th>
+                                    <th className="px-4 py-3">Catalog Number</th>
+                                    <th className="px-4 py-3">CAS Number</th>
+                                    <th className="px-4 py-3">Batch Number</th>
+                                    <th className="px-4 py-3">COA</th>
+                                    {/* <th className="px-4 py-3">MSDS</th> */}
+                                </tr>
+                            </thead>
+                            <tbody className="divide-y divide-gray-200">
+                                {paginatedData.map((item, index) => (
+                                    <tr key={index} className="hover:bg-gray-50">
+                                        <td className="px-4 py-3 text-gray-900 hover:underline cursor-pointer" onClick={() => window.open(encodeURI(item.coaLink), '_blank')}>{item.ItemName}</td>
+                                        <td className="px-4 py-3">{item.CatalogeNumber}</td>
+                                        <td className="px-4 py-3">{item.CASNumber}</td>
+                                        <td className="px-4 py-3">{item.BatchNumber}</td>
+                                        <td className="px-4 py-3 text-blue-600 underline cursor-pointer">
+                                            <Button variant="link" onClick={() => window.open(encodeURI(item.coaLink), '_blank')}>Click To View</Button>
+                                        </td>
+                                        {/* <td className="px-4 py-3 text-blue-600 underline cursor-pointer">
+                                            <a href={item.msdsLink}>Click here</a>
+                                        </td> */}
+                                    </tr>
+                                ))}
+                                {paginatedData.length === 0 && (
+                                    <tr>
+                                        <td colSpan={5} className="text-center py-6 font-bold text-neutral-500">No results found.</td>
+                                    </tr>
+                                )}
+                            </tbody>
+                        </table>
+                    </div>
+
+                    {/* ✅ Mobile Card View */}
+                    <div className="block md:hidden space-y-3">
+                        {paginatedData.length === 0 ? (
+                            <div className="text-center py-6 font-bold text-neutral-500">No results found.</div>
+                        ) : (
+                            paginatedData.map((item, index) => (
+                                <div key={index} className="border-b border-gray-200 py-2 space-y-3 bg-white">
+                                    <table>
+                                        <tbody className='text-sm  space-y-5'>
+                                            <tr className='bg-zinc-100'>
+                                                <td className="font-bold whitespace-nowrap p-2">Item Name :</td>
+                                                <td onClick={() => window.open(encodeURI(item.coaLink), '_blank')} className="p-2 w-full text-gray-900 cursor-pointer hover:underline">
+                                                    {item.ItemName}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">Catalog Number :</td>
+                                                <td className='p-2'>{item.CatalogeNumber}</td>
+                                            </tr>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">CAS Number :</td>
+                                                <td className='p-2'>{item.CASNumber}</td>
+                                            </tr>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">Batch Number :</td>
+                                                <td className='p-2'>{item.BatchNumber}</td>
+                                            </tr>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">COA :</td>
+                                                <td className='p-2'>
+                                                    <span onClick={() => window.open(encodeURI(item.coaLink), '_blank')} className="text-blue-600 underline cursor-pointer">
+                                                        Click To View
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            ))
+                        )}
+                    </div>
+
+                    {/* Pagination */}
+
+                    <div className='flex justify-end mt-5'>
+                        <Pagination>
+                            <PaginationContent>
+                                <PaginationItem>
+                                    <PaginationPrevious
+                                        href="#"
+                                        onClick={e => { e.preventDefault(); handlePageChange(currentPage - 1); }}
+                                        aria-disabled={currentPage === 1}
+                                    />
+                                </PaginationItem>
+
+                                {/* First page and leading ellipsis */}
+                                {getPageNumbers()[0] > 1 && (
+                                    <>
+                                        <PaginationItem>
+                                            <PaginationLink
+                                                href="#"
+                                                isActive={currentPage === 1}
+                                                onClick={e => { e.preventDefault(); handlePageChange(1); }}
+                                            >1</PaginationLink>
+                                        </PaginationItem>
+                                        {getPageNumbers()[0] > 2 && (
+                                            <PaginationItem>
+                                                <PaginationEllipsis />
+                                            </PaginationItem>
+                                        )}
+                                    </>
+                                )}
+
+                                {/* Main page numbers */}
+                                {getPageNumbers().map(page => (
+                                    <PaginationItem key={page}>
+                                        <PaginationLink
+                                            href="#"
+                                            isActive={currentPage === page}
+                                            onClick={e => { e.preventDefault(); handlePageChange(page); }}
+                                        >
+                                            {page}
+                                        </PaginationLink>
+                                    </PaginationItem>
+                                ))}
+
+                                {/* Trailing ellipsis and last page */}
+                                {getPageNumbers().slice(-1)[0] < totalPages && (
+                                    <>
+                                        {getPageNumbers().slice(-1)[0] < totalPages - 1 && (
+                                            <PaginationItem>
+                                                <PaginationEllipsis />
+                                            </PaginationItem>
+                                        )}
+                                        <PaginationItem>
+                                            <PaginationLink
+                                                href="#"
+                                                isActive={currentPage === totalPages}
+                                                onClick={e => { e.preventDefault(); handlePageChange(totalPages); }}
+                                            >{totalPages}</PaginationLink>
+                                        </PaginationItem>
+                                    </>
+                                )}
+
+                                <PaginationItem>
+                                    <PaginationNext
+                                        href="#"
+                                        onClick={e => { e.preventDefault(); handlePageChange(currentPage + 1); }}
+                                        aria-disabled={currentPage === totalPages}
+                                    />
+                                </PaginationItem>
+                            </PaginationContent>
+                        </Pagination>
+                    </div>
+                </div>
+            </section>
+        </main>
+    )
+}
+
+export default COA;
+
+
