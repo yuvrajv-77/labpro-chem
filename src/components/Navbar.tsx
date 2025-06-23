@@ -82,7 +82,7 @@ const Navbar = () => {
                                 <div className="flex  items-center justify-between p-4 border-b">
                                     <div className="flex items-center gap-2">
                                         <span className='border border-primary p-1'>
-                                            <img src="/Brand Logo.png" className='size-10' alt="" />
+                                            <img src="/Brand Logo.png" className='size-10 rounded-sm' alt="" />
                                         </span>
                                         <h1 className='text-lg font-extrabold text-white'>LABPRO CHEMICALS</h1>
                                     </div>
@@ -146,7 +146,7 @@ const Navbar = () => {
                                 </Link>
                             ))}
                         </div> */}
-                        <NavigationMenu className=''>
+                        <NavigationMenu viewport={false} className=''>
                             <NavigationMenuList className=' text-white' >
 
                                 <NavigationMenuItem className=''>
@@ -163,8 +163,8 @@ const Navbar = () => {
 
                                 <NavigationMenuItem>
                                     <NavigationMenuTrigger>Laboratory Chemicals</NavigationMenuTrigger>
-                                    <NavigationMenuContent >
-                                        <ul className='flex flex-col gap-2 p-1 font-bold w-64 text-sm'>
+                                    <NavigationMenuContent className='  '>
+                                        <ul className=' p-1 font-bold  w-64 text-sm'>
                                             <li>
                                                 <NavigationMenuLink asChild>
                                                     <Link to="/chemicals">Browse By Category</Link>
@@ -196,13 +196,13 @@ const Navbar = () => {
                                     </NavigationMenuLink>
                                 </NavigationMenuItem>
 
-                                 <NavigationMenuItem>
+                                <NavigationMenuItem>
                                     <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
                                         <Link to="/gallery">Gallery</Link>
                                     </NavigationMenuLink>
                                 </NavigationMenuItem>
 
-                                 <NavigationMenuItem>
+                                <NavigationMenuItem>
                                     <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
                                         <Link to="/contact">Contact</Link>
                                     </NavigationMenuLink>

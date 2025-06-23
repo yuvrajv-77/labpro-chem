@@ -35,9 +35,9 @@ const HomePage = () => {
                 <div className='max-w-6xl mx-auto px-5 md:px-0'>
                     <div className='flex flex-col md:flex-row justify-between gap-5 '>
                         <div className=' flex-1 flex flex-col item-center justify-between gap-5'>
-                            <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center'>
+                            <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
                                 <h2 className='bg-primary text-white p-2 rounded-md'>LABPRO</h2>
-                                <h2 className='text-center  text-2xl'>CHEM</h2>
+                                <h2 className='text-center'>CHEM</h2>
                             </span>
                             <div className='space-y-2   '>
                                 <h4 className=' font-bold text-2xl'>Manufacturers of Laboratory Reagents and Fine Chemicals</h4>
@@ -62,9 +62,9 @@ const HomePage = () => {
             <section className='bg-[url(./assets/grid-bg.jpg)] bg-cover bg-center my-20 py-20 relative'>
                 <div className="absolute inset-0 bg-black/60 backdrop-blur-sm pointer-events-none" />
                 <div className='relative max-w-6xl mx-auto px-5 md:px-0'>
-                    <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase '>
+                    <span className='text-center font-extrabold text-lg  md:text-2xl flex gap-2 items-center justify-center uppercase '>
                         <h2 className='bg-primary text-white p-2 rounded-md shadow-sm'>industries</h2>
-                        <h2 className='text-center text-white text-2xl'>we serve</h2>
+                        <h2 className='text-center text-white '>we serve</h2>
                     </span>
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-15">
@@ -107,9 +107,9 @@ const HomePage = () => {
             {/* why choose us  */}
             <section className='bg-white my-20 '>
                 <div className='max-w-6xl mx-auto px-5 md:px-0'>
-                    <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center'>
-                        <h2 className='bg-primary text-white p-2 rounded-md'>WHY</h2>
-                        <h2 className='text-center  text-2xl'>CHOOSE US</h2>
+                    <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
+                        <h2 className='text-center '>why</h2>
+                        <h2 className='bg-primary text-white p-2 rounded-md'>choose us</h2>
                     </span>
 
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-6 mt-15'>
@@ -141,7 +141,7 @@ const HomePage = () => {
                     <div className='grid grid-cols-1 md:grid-cols-4 gap-15 md:gap-4 py-10  rounded-xl mt-15'>
                         <div className=' md:border-x flex items-center flex-col gap-5'>
                             <span className='text-4xl md:text-5xl font-bold flex items-center'><NumberTicker
-                                value={13000} startValue={100}
+                                value={7000} startValue={1000}
                                 className="whitespace-pre-wrap tracking-tighter text-black"
                             />+</span>
                             <p className='text-center font-bold text-lg md:text-2xl'>Chemicals</p>
@@ -173,9 +173,9 @@ const HomePage = () => {
 
             {/* event gallery  */}
             <section className=' my-20 '>
-                <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
+                <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
                     <h2 className='bg-primary text-white p-2 rounded-md'>Events </h2>
-                    <h2 className='text-center  text-2xl'>WorldWide</h2>
+                    <h2 className='text-center  '>WorldWide</h2>
                 </span>
                 <div className="py-10 rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
                     <InfiniteMovingCards
@@ -191,8 +191,8 @@ const HomePage = () => {
 
             {/* testimonials */}
             <section className='my-20 py-20 bg-violet-50'>
-                <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
-                    <h2 className='text-center  text-2xl'>What Our</h2>
+                <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
+                    <h2 className='text-center '>What Our</h2>
                     <h2 className='bg-primary text-white p-2 rounded-md'>Clients Says </h2>
                 </span>
 
@@ -223,8 +223,8 @@ const HomePage = () => {
 
             {/* Certifications */}
             <section className='my-20 py-20 bg-white'>
-                <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
-                    <h2 className='text-center  text-2xl'>our</h2>
+                <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
+                    <h2 className='text-center'>our</h2>
                     <h2 className='bg-primary text-white p-2 rounded-md'>Certifications </h2>
                 </span>
 
