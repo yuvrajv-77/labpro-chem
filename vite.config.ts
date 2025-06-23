@@ -16,7 +16,7 @@ export default defineConfig({
 
  ) as PluginOption],
 
- base: "/LabProChemicals",
+ base: "/labpro-chem",
 
   resolve: {
     alias: {
