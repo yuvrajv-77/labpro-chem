@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router"
 
-import RootLayout from "./Layout/RootLayout"
+import RootLayout from "./layout/RootLayout"
 import HomePage from "./pages/HomePage"
 import CompanyProfile from "./pages/CompanyProfile"
 import Certifications from "./pages/Certifications"

@@ -15,6 +15,9 @@ export default defineConfig({
   },
 
  ) as PluginOption],
+
+ base: "/LabProChemicals",
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
