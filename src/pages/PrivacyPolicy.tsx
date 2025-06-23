@@ -4,9 +4,9 @@ const PrivacyPolicy = () => {
     return (
         <main>
             <section className='max-w-6xl mx-auto px-4 lg:px-0 py-20'>
-                <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
+                <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
                     <h2 className='bg-primary text-white p-2 rounded-md'>Privacy</h2>
-                    <h2 className='text-center  text-2xl'>Policy</h2>
+                    <h2 className='text-center '>Policy</h2>
                 </span>
 
                 <div className='mt-10 text-gray-700'>

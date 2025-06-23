@@ -56,8 +56,8 @@ const Certifications = () => {
         <main className='bg-neutral-50'>
             <section className='max-w-6xl mx-auto py-20 px-5 md:px-0'>
 
-                <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
-                    <h2 className='text-center  text-2xl'>Our</h2>
+                <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
+                    <h2 className='text-center'>Our</h2>
                     <h2 className='bg-primary text-white p-2 rounded-md'>Certifications</h2>
                 </span>
 
@@ -68,11 +68,11 @@ const Certifications = () => {
                                 initial={{ opacity: 0, y: 40 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                                className='space-y-2'
+                                className='space-y-2 '
                                 key={index}
                                 onClick={() => { setShowCarousel(true); setSelectedIndex(index) }}>
                                 <div style={{ backgroundImage: `url(${item.image})` }}
-                                    className={` cursor-pointer bg-cover bg-center antialiased h-[410px] md:h-[500px] rounded-xl hover:scale-102 border-2 border-violet-400 hover:border-2 duration-300`}>
+                                    className={` cursor-pointer overflow-hidden bg-cover bg-center antialiased h-[410px] md:h-[500px] rounded-xl hover:scale-102 border-2 border-violet-400 hover:border-2 duration-300`}>
                                     <div className='opacity-0 hover:opacity-100 bg-black/20 h-full flex items-center justify-center '>
                                         <Button variant={'secondary'} size={'lg'}> <Maximize />View</Button>
                                     </div>
@@ -87,7 +87,7 @@ const Certifications = () => {
 
             {/* Fullscreen Carousel Modal */}
             {showCarousel && (
-                <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center">
+                <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-xs flex items-center justify-center">
                     <Button
                         className="absolute top-4 right-4 z-50"
                         variant="secondary"
@@ -96,7 +96,7 @@ const Certifications = () => {
                     >
                         <X size={28} />
                     </Button>
-                    <div className="w-full max-w-3xl px-4">
+                    <div className="w-full  max-w-3xl px-4">
                         <Carousel
                             className="relative"
                             opts={{

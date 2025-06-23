@@ -63,7 +63,7 @@ const Navbar = () => {
                             </span>
                             <span>
                                 <h1 className='text-lg md:text-2xl font-black text-primary'>LABPRO CHEMICALS</h1>
-                                <p className='text-[9px] font-semibold md:text-sm'>High-Purity Chemicals. On Time. Every Time</p>
+                                <p className='text-[9px] font-semibold md:text-xs'>High-Purity Chemicals. On Time. Every Time</p>
                             </span>
                         </div>
 
@@ -187,6 +187,12 @@ const Navbar = () => {
                                 <NavigationMenuItem>
                                     <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
                                         <Link to="/downloads">Downloads</Link>
+                                    </NavigationMenuLink>
+                                </NavigationMenuItem>
+
+                                <NavigationMenuItem>
+                                    <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                                        <Link to="/coa">COA</Link>
                                     </NavigationMenuLink>
                                 </NavigationMenuItem>
 

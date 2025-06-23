@@ -314,46 +314,46 @@ const testimonials = [
 
 const certifications = [
     {
-        image: 'src/assets/cert1.png',
+        image: '/images/certificates/cert1.png',
         title: 'ISO 9001:2015'
     },
     {
-        image: 'src/assets/cert2.png',
+        image: '/images/certificates/cert2.png',
         title: 'ISO 9001:2015'
     },
     {
-        image: 'src/assets/cert3.png',
+        image: '/images/certificates/cert3.png',
         title: 'ISO 9001:2015'
     },
     {
-        image: 'src/assets/cert4.png',
+        image: '/images/certificates/cert4.png',
         title: 'ISO 9001:2015'
     },
     {
-        image: 'src/assets/cert2.png',
+        image: '/images/certificates/cert2.png',
         title: 'ISO 9001:2015'
     }
 ];
 
 const events = [
     {
-        image: "src/assets/why1.jpg",
+        image: "/images/events/event (1).jpg",
         title: "Zimbabwe",
     },
     {
-        image: "src/assets/grid-food.jpg",
+        image: "/images/events/event (2).jpg",
         title: "Australia",
     },
     {
-        image: "src/assets/grid-edu.jpg",
+        image: "/images/events/event (3).jpg",
         title: "Malaysia",
     },
     {
-        image: "src/assets/why3.jpg",
+        image: "/images/events/event (4).jpg",
         title: "Bangladesh",
     },
     {
-        image: "src/assets/grid-env.jpg",
+        image: "/images/events/event (2).jpg",
         title: "Saudi Arabia",
     },
 ];
