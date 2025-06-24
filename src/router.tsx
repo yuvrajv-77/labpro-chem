@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router"
 
-import RootLayout from "./layout/RootLayout"
-import HomePage from "./pages/HomePage"
-import CompanyProfile from "./pages/CompanyProfile"
-import Certifications from "./pages/Certifications"
-import COA from "./pages/COA"
-import PrivacyPolicy from "./pages/PrivacyPolicy"
-// import AdminRoutes from "./components/AdminRoutes"
+import RootLayout from "@/layout/RootLayout"
+import HomePage from "@/pages/HomePage"
+import CompanyProfile from "@/pages/CompanyProfile"
+import Certifications from "@/pages/Certifications"
+import COA from "@/pages/COA"
+import PrivacyPolicy from "@/pages/PrivacyPolicy"
+
 
 
 export const router = createBrowserRouter([
@@ -35,8 +35,6 @@ export const router = createBrowserRouter([
         path: "/privacy-policy",
         element: <PrivacyPolicy />
       },
-    
-    
     ]
   }
 ])
