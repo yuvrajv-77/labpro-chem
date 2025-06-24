@@ -2,7 +2,7 @@ import { NumberTicker } from '@/components/magicui/number-ticker'
 import { Button } from '@/components/ui/button'
 import { InfiniteMovingCards } from '@/components/ui/infinite-moving-cards'
 import { ArrowRight, CheckCircle, Headphones, PillBottle } from 'lucide-react'
-import React from 'react'
+
 import {
     Carousel,
     CarouselContent,
@@ -11,7 +11,7 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
-import FloatingButtons from '@/components/FloatingButtons'
+
 
 
 
