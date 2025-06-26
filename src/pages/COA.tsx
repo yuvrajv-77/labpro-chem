@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import coa_data from '@/data/coa2.json';
+import coa_data from '@/data/coa_list1.json';
 import React, { useState } from 'react'
 import {
     Pagination,
@@ -12,13 +12,14 @@ import {
 } from "@/components/ui/pagination"
 import { Input } from '@/components/ui/input';
 import { Search } from 'lucide-react';
+import PdfModal from '@/components/PDFModal';
 
 const ITEMS_PER_PAGE = 10;
 
 const COA = () => {
 
     const [currentPage, setCurrentPage] = useState(1);
-
+    const [pdfUrl, setPdfUrl] = useState<string | null>(null);
     const [searchQuery, setSearchQuery] = useState('');
 
     // Utility to sanitize ItemName for URL (replace spaces with underscores, remove special chars)
@@ -28,13 +29,13 @@ const COA = () => {
     // Add coaLink to each item
     const coaDataWithLinks = coa_data.map(item => ({
         ...item,
-        coaLink: `pdfs/coa/${(item.ItemName)}.pdf`
+        coaLink: `pdfs/coa/${encodeURIComponent(item.ItemName)}.pdf`
     }));
 
     // Filter data based on search query
     const filteredData = coaDataWithLinks.filter(item =>
         item.ItemName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        item.CatalogeNumber.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        item.CatalogueNumber.toLowerCase().includes(searchQuery.toLowerCase()) ||
         item.CASNumber.toLowerCase().includes(searchQuery.toLowerCase()) ||
         item.BatchNumber.toLowerCase().includes(searchQuery.toLowerCase())
     );
@@ -81,6 +82,7 @@ const COA = () => {
 
     return (
         <main className='border-t border-gray-200 '>
+              <PdfModal fileUrl={pdfUrl} onClose={() => setPdfUrl(null)} />
             <section className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-16'>
                 <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
                     <h2 className='text-center  text-2xl'>certificate of</h2>
@@ -113,11 +115,11 @@ const COA = () => {
                                 {paginatedData.map((item, index) => (
                                     <tr key={index} className="hover:bg-gray-50">
                                         <td className="px-4 py-3 text-gray-900 hover:underline cursor-pointer" onClick={() => window.open(encodeURI(item.coaLink), '_blank')}>{item.ItemName}</td>
-                                        <td className="px-4 py-3">{item.CatalogeNumber}</td>
+                                        <td className="px-4 py-3">{item.CatalogueNumber}</td>
                                         <td className="px-4 py-3">{item.CASNumber}</td>
                                         <td className="px-4 py-3">{item.BatchNumber}</td>
                                         <td className="px-4 py-3 text-blue-600 underline cursor-pointer">
-                                            <Button variant="link" onClick={() => window.open(encodeURI(item.coaLink), '_blank')}>Click To View</Button>
+                                            <Button variant="link" onClick={() => setPdfUrl(item.coaLink)} >Click To View</Button>
                                         </td>
                                         {/* <td className="px-4 py-3 text-blue-600 underline cursor-pointer">
                                             <a href={item.msdsLink}>Click here</a>
@@ -150,7 +152,7 @@ const COA = () => {
                                             </tr>
                                             <tr>
                                                 <td className="font-bold whitespace-nowrap p-2">Catalog Number :</td>
-                                                <td className='p-2'>{item.CatalogeNumber}</td>
+                                                <td className='p-2'>{item.CatalogueNumber}</td>
                                             </tr>
                                             <tr>
                                                 <td className="font-bold whitespace-nowrap p-2">CAS Number :</td>
@@ -177,7 +179,7 @@ const COA = () => {
 
                     {/* Pagination */}
 
-                    <div className='flex justify-end mt-5'>
+                    <div className='flex justify-center mt-5'>
                         <Pagination>
                             <PaginationContent>
                                 <PaginationItem>
