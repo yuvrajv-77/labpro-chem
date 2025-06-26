@@ -165,7 +165,7 @@ const COA = () => {
                                             <tr>
                                                 <td className="font-bold whitespace-nowrap p-2">COA :</td>
                                                 <td className='p-2'>
-                                                    <span onClick={() => window.open(encodeURI(item.coaLink), '_blank')} className="text-blue-600 underline cursor-pointer">
+                                                    <span onClick={() => setPdfUrl(item.coaLink)} className="text-blue-600 underline cursor-pointer">
                                                         Click To View
                                                     </span>
                                                 </td>
