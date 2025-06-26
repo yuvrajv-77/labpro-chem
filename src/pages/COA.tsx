@@ -114,7 +114,7 @@ const COA = () => {
                             <tbody className="divide-y divide-gray-200">
                                 {paginatedData.map((item, index) => (
                                     <tr key={index} className="hover:bg-gray-50">
-                                        <td className="px-4 py-3 text-gray-900 hover:underline cursor-pointer" onClick={() => window.open(encodeURI(item.coaLink), '_blank')}>{item.ItemName}</td>
+                                        <td className="px-4 py-3 text-gray-900 hover:underline cursor-poi">{item.ItemName}</td>
                                         <td className="px-4 py-3">{item.CatalogueNumber}</td>
                                         <td className="px-4 py-3">{item.CASNumber}</td>
                                         <td className="px-4 py-3">{item.BatchNumber}</td>
@@ -146,7 +146,7 @@ const COA = () => {
                                         <tbody className='text-sm  space-y-5'>
                                             <tr className='bg-zinc-100'>
                                                 <td className="font-bold whitespace-nowrap p-2">Item Name :</td>
-                                                <td onClick={() => window.open(encodeURI(item.coaLink), '_blank')} className="p-2 w-full text-gray-900 cursor-pointer hover:underline">
+                                                <td className="p-2 w-full text-gray-900 cursor- hover:underline">
                                                     {item.ItemName}
                                                 </td>
                                             </tr>

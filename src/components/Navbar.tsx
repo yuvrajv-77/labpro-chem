@@ -35,20 +35,22 @@ const Navbar = () => {
         <header className='bg-white border-b border-gray-800'>
             <div className=' '>
 
-                <div className='md:max-w-6xl px-2 mx-auto  flex items-center justify-between mt-2'>
-                    <p className='hidden md:flex text-sm items-center gap-2 font-bold'> <Mail size={15} />
-                        info@labprochemicals.co.in</p>
-                    <Input placeholder='Search 7000+ Chemicals' className='w-70 h-8' />
+                <div className='bg-primary py-1 '>
+                    <div className='md:max-w-6xl text-white  mx-auto  flex items-center justify-between '>
+                        <p className='hidden md:flex text-sm items-center gap-2 font-bold '> <Mail size={15} />
+                            info@labprochemicals.co.in</p>
+                        <Input placeholder='Search 7000+ Chemicals' className='w-70 h-8 border-white'  />
 
-                    <Select defaultValue='inr'>
-                        <SelectTrigger className="w-[90px] h-5" size='sm'>
-                            <SelectValue placeholder="Currency" />
-                        </SelectTrigger>
-                        <SelectContent >
-                            <SelectItem value="inr">₹ INR</SelectItem>
-                            <SelectItem value="usd">$ USD</SelectItem>
-                        </SelectContent>
-                    </Select>
+                        <Select defaultValue='inr'>
+                            <SelectTrigger className="w-[90px] h-5" size='sm'>
+                                <SelectValue placeholder="Currency" />
+                            </SelectTrigger>
+                            <SelectContent >
+                                <SelectItem value="inr">₹ INR</SelectItem>
+                                <SelectItem value="usd">$ USD</SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
                 </div>
 
                 {/* brand */}
