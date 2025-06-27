@@ -6,6 +6,9 @@ import CompanyProfile from "@/pages/CompanyProfile"
 import Certifications from "@/pages/Certifications"
 import COA from "@/pages/COA"
 import PrivacyPolicy from "@/pages/PrivacyPolicy"
+import { Gallery } from "./pages/Gallery"
+import Search from "./pages/Search"
+import ErrorPage from "./pages/ErrorPage"
 
 
 
@@ -14,6 +17,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
        index: true,
@@ -34,6 +38,14 @@ export const router = createBrowserRouter([
       {
         path: "/privacy-policy",
         element: <PrivacyPolicy />
+      },
+      {
+        path: "/gallery",
+        element: <Gallery />
+      },
+      {
+        path: "/search",
+        element: <Search />
       },
     ]
   }

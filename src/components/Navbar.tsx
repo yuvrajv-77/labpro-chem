@@ -2,7 +2,7 @@ import React from 'react'
 import { Input } from './ui/input'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select'
 import { CheckSquare, CheckSquare2, Mail, Menu, Search, X } from 'lucide-react'
-import { Link } from 'react-router'
+import { Link, useNavigate } from 'react-router'
 import { Button } from './ui/button'
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -29,37 +29,38 @@ const navLinks = [
     { name: 'Contact', href: '/contact' },
 ]
 const Navbar = () => {
+const navigate = useNavigate();
 
     const [isMobileNavOpen, setIsMobileNavOpen] = React.useState(false)
     return (
-        <header className='bg-white border-b border-gray-800'>
+        <header className='bg-white border-b border-gray-800 z-40'>
             <div className=' '>
 
-                <div className='bg-primary py-1 '>
+                <div className='bg-primary py-2 md:py-1 px-4 md:px-10 lg:px-0'>
                     <div className='md:max-w-6xl text-white  mx-auto  flex items-center justify-between '>
                         <p className='hidden md:flex text-sm items-center gap-2 font-bold '> <Mail size={15} />
                             info@labprochemicals.co.in</p>
-                        <Input placeholder='Search 7000+ Chemicals' className='w-70 h-8 border-white'  />
+                        <span  className='w-50 relative md:w-70 border rounded-lg cursor-text text-xs md:text-base flex items-center gap-3 justify-center text-white/80 h-6  md:h-7 border-white/60' onClick={() => navigate('/search')} >
+                           <Search size={15} /> Search 7000+ Chemicals
+                        </span>
 
-                        <Select defaultValue='inr'>
-                            <SelectTrigger className="w-[90px] h-5" size='sm'>
-                                <SelectValue placeholder="Currency" />
-                            </SelectTrigger>
-                            <SelectContent >
-                                <SelectItem value="inr">₹ INR</SelectItem>
-                                <SelectItem value="usd">$ USD</SelectItem>
-                            </SelectContent>
-                        </Select>
+                        <span className='flex items-center gap-6'>
+                            <img className='w-4 lg:w-5 cursor-pointer ' src="https://cdn.brandfetch.io/idJFz6sAsl/theme/dark/id745SkyD0.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" />
+                            <img className='w-4 lg:w-5 cursor-pointer ' src="https://cdn.brandfetch.io/idpKX136kp/theme/light/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" />
+                            <img className='w-4 lg:w-5 cursor-pointer' src="https://cdn.brandfetch.io/ido5G85nya/theme/light/idmP9VWUNi.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" />
+                            {/* <img className='w-4 lg:w-5 cursor-pointer' src="https://cdn.brandfetch.io/idS5WhqBbM/theme/light/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" /> */}
+                            {/* <img className='w-5 cursor-pointer' src="https://cdn.brandfetch.io/idVfYwcuQz/theme/light/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" /> */}
+                        </span>
                     </div>
                 </div>
 
                 {/* brand */}
                 <div className='px-3 lg:px-0 my-5  lg:max-w-6xl mx-auto flex md:flex-row flex-col items-center  justify-between '>
                     <div className='flex  w-full lg:w-auto items-center justify- gap-2' >
-                        <Button size={'icon'} className='bg-primary md:hidden text-white ' type='button' onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
+                        <Button size={'icon'} className='bg-primary lg:hidden text-white ' type='button' onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
                             <Menu size={23} />
                         </Button>
-                        <div className='flex items-center gap-2'>
+                        <Link to={"/"} className='flex items-center gap-2'>
                             <span className=' brightness-140 border-primary p-1'>
                                 <img src="/Brand Logo.png" className='size-14' alt="" />
                             </span>
@@ -67,7 +68,7 @@ const Navbar = () => {
                                 <h1 className='text-lg md:text-2xl font-black text-primary'>LABPRO CHEMICALS</h1>
                                 <p className='text-[9px] font-semibold md:text-xs'>High-Purity Chemicals. On Time. Every Time</p>
                             </span>
-                        </div>
+                        </Link>
 
                     </div>
 
@@ -102,7 +103,7 @@ const Navbar = () => {
                                         <Link
                                             key={link.name}
                                             to={link.href}
-                                            className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-100"
+                                            className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
                                             onClick={() => setIsMobileNavOpen(false)}
                                         >
                                             {link.name}
@@ -134,7 +135,7 @@ const Navbar = () => {
 
 
                 {/* navigation */}
-                <nav className='w-full bg-violet-800  hidden md:block '>
+                <nav className='w-full bg-violet-800  hidden lg:block'>
                     <div className='max-w-6xl mx-auto flex items-center justify-between  py-3'>
 
 
@@ -220,7 +221,7 @@ const Navbar = () => {
                             </NavigationMenuList>
                         </NavigationMenu>
 
-                        <span className='text-white p-2 hover:bg-white rounded-lg hover:text-black cursor-pointer'><Search size={20} /></span>
+                        <Link to="/search" className='text-white p-2 hover:bg-white rounded-lg hover:text-black cursor-pointer'><Search size={20} /></Link>
                     </div>
                 </nav>
 

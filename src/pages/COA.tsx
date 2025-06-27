@@ -10,6 +10,14 @@ import {
     PaginationNext,
     PaginationPrevious,
 } from "@/components/ui/pagination"
+import {
+    Breadcrumb,
+    BreadcrumbItem,
+    BreadcrumbLink,
+    BreadcrumbList,
+    BreadcrumbPage,
+    BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 import { Input } from '@/components/ui/input';
 import { Search } from 'lucide-react';
 import PdfModal from '@/components/PDFModal';
@@ -82,11 +90,24 @@ const COA = () => {
 
     return (
         <main className='border-t border-gray-200 '>
-              <PdfModal fileUrl={pdfUrl} onClose={() => setPdfUrl(null)} />
-            <section className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-16'>
+            <PdfModal fileUrl={pdfUrl} onClose={() => setPdfUrl(null)} />
+            <Breadcrumb className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-8'>
+                <BreadcrumbList>
+                    <BreadcrumbItem>
+                        <BreadcrumbLink href="/">Home</BreadcrumbLink>
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbSeparator />
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbPage>Certificates of Analysis</BreadcrumbPage>
+                    </BreadcrumbItem>
+                </BreadcrumbList>
+            </Breadcrumb>
+            <section className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-8 lg:py-16'>
                 <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
                     <h2 className='text-center  text-2xl'>certificate of</h2>
-                    <h2 className='bg-primary text-white p-2 rounded-md'>analysis</h2>
+                    <h2 className='bg-primary text-white p-2 rounded-'>analysis</h2>
                 </span>
 
                 <div className='mt-6'>

@@ -1,8 +1,9 @@
+import React, { useEffect, useState } from 'react'
 import { NumberTicker } from '@/components/magicui/number-ticker'
 import { Button } from '@/components/ui/button'
 import { InfiniteMovingCards } from '@/components/ui/infinite-moving-cards'
 import { ArrowRight, CheckCircle, Headphones, PillBottle } from 'lucide-react'
-
+import { motion } from 'motion/react'
 import {
     Carousel,
     CarouselContent,
@@ -11,32 +12,120 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
+import { ImagesSlider } from '@/components/ui/images-slider'
+import { WordRotate } from '@/components/magicui/word-rotate'
 
+const heroSlides = [
+    {
+        image: '/ui_images/hero-banner1.jpg',
+        lines: [
+            "Driving Innovation with Quality Lab Chemicals",
+            "Precision. Purity. Performance.",
+            "LABPRO"
+        ]
+    },
+    {
+        image: '/ui_images/footer.png',
+        lines: [
+            "Your Trusted Partner in Laboratory Chemicals",
+            "Quality You Can Rely On.",
+            "LABPRO CHEM"
+        ]
+    },
+    {
+        image: '/ui_images/grid-chem.jpg',
+        lines: [
+            "Empowering Research, Enabling Progress",
+            "Excellence in Every Batch.",
+            "LABPRO CHEMICALS"
+        ]
+    }
+]
 
-
+const herolines = [
+    "Driving Innovation with Quality Lab Chemicals Precision.",
+    "Your Trusted Partner in Laboratory Chemicals Quality You Can Rely On.",
+    "Empowering Research, Enabling Progress Excellence in Every Batch."
+]
 
 const HomePage = () => {
+    const [current, setCurrent] = useState(0)
+    const [fade, setFade] = useState(true)
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setFade(false)
+            setTimeout(() => {
+                setCurrent((prev) => (prev + 1) % heroSlides.length)
+                setFade(true)
+            }, 500) // fade out duration
+        }, 4000) // change every 4 seconds
+        return () => clearInterval(interval)
+    }, []);
+
+
+    const images = [
+        "/ui_images/hero-banner1.jpg",
+        "/ui_images/footer.png",
+        "/ui_images/grid-chem.jpg",
+        "/ui_images/bannermin1.jpg",
+    ];
+
+
     return (
         <main className=''>
             {/* hero section */}
-            <section className="bg-[url(./assets/hero-banner1.jpg)] h-[400px] md:h-[550px] bg-cover  bg-center ">
+            <section className={` `}>
+                <ImagesSlider className="h-[400px] md:h-[550px] lg:h-[700px]" images={images}>
+                    <motion.div
+                        initial={{
+                            opacity: 0,
+                            y: -80,
+                        }}
+                        animate={{
+                            opacity: 1,
+                            y: 0,
+                        }}
+                        transition={{
+                            duration: 0.5,
+                        }}
+                        className="z-50 flex flex-col justify-center items-center"
+                    >
+                        <WordRotate
+                            className="text-2xl lg:text-5xl font-semibold leading-9 space-mono tracking-tighter md:leading-16 px-10 md:px-0  lg:w-[700px] text-center text-white"
+                            words={herolines}
+                        />
+                        {/* <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text leading-20  text-white py-4">
+                            Driving Innovation with Quality Lab Chemicals <br /> Precision. Purity. Performance.<br /> LABPRO
+                        </motion.p> */}
+                        <Button type='button' size={"lg"} className='mt-2  cursor-pointer'>Read More <ArrowRight /></Button>
+
+                    </motion.div>
+                </ImagesSlider>
+            </section>
+            {/* <section
+                className={`h-[400px] md:h-[550px] bg-cover bg-center transition-all duration-700`}
+                style={{
+                    backgroundImage: `url(${heroSlides[current].image})`
+                }}
+            >
                 <div className='h-full bg-black/50 flex items-center justify-center'>
-                    <div className=' flex items-start md:items-center flex-col gap-2 px-10 md:px-25'>
-                        <h1 className='text-white font-bold text-2xl md:text-4xl'> Driving Innovation with Quality Lab Chemicals</h1>
-                        <h1 className='text-white font-bold text-xl md:text-4xl'>Precision. Purity. Performance.</h1>
-                        <h1 className='text-white font-bold text-xl md:text-4xl'>LABPRO</h1>
+                    <div className={`flex items-start md:items-center flex-col gap-2 px-10 md:px-25 transition-opacity duration-500 ${fade ? 'opacity-100' : 'opacity-0'}`}>
+                        <h1 className='text-white font-bold text-2xl md:text-4xl'>{heroSlides[current].lines[0]}</h1>
+                        <h1 className='text-white font-bold text-xl md:text-4xl'>{heroSlides[current].lines[1]}</h1>
+                        <h1 className='text-white font-bold text-xl md:text-4xl'>{heroSlides[current].lines[2]}</h1>
                         <Button type='button' size={"lg"} className='mt-5 cursor-pointer'>Read More <ArrowRight /></Button>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* about section  */}
             <section className='bg-white mt-20 '>
-                <div className='max-w-6xl mx-auto px-5 md:px-0'>
+                <div className='max-w-6xl mx-auto px-5 md:px-10 lg:px-0'>
                     <div className='flex flex-col md:flex-row justify-between gap-5 '>
                         <div className=' flex-1 flex flex-col item-center justify-between gap-5'>
                             <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
-                                <h2 className='bg-primary text-white p-2 rounded-md'>LABPRO</h2>
+                                <h2 className='bg-primary text-white p-2 rounded-'>LABPRO</h2>
                                 <h2 className='text-center'>CHEM</h2>
                             </span>
                             <div className='space-y-2   '>
@@ -51,7 +140,7 @@ const HomePage = () => {
                             </div>
                         </div>
                         <div className=''>
-                            <img src="/Brand Logo.png" alt="" className='size-[400px]' />
+                            <img src="/Brand Logo.png" alt="" className='size-[300px] lg:size-[400px]' />
                         </div>
                     </div>
                 </div>
@@ -59,42 +148,42 @@ const HomePage = () => {
 
 
             {/* industries we serve */}
-            <section className='bg-[url(./assets/grid-bg.jpg)] bg-cover bg-center my-20 py-20 relative'>
+            <section className='bg-[url(./ui_images/grid-bg.jpg)] bg-cover bg-center my-20 py-20 md: relative'>
                 <div className="absolute inset-0 bg-black/60 backdrop-blur-sm pointer-events-none" />
-                <div className='relative max-w-6xl mx-auto px-5 md:px-0'>
+                <div className='relative max-w-6xl mx-auto px-5 md:px-10 lg:px-0'>
                     <span className='text-center font-extrabold text-lg  md:text-2xl flex gap-2 items-center justify-center uppercase '>
-                        <h2 className='bg-primary text-white p-2 rounded-md shadow-sm'>industries</h2>
+                        <h2 className='bg-primary text-white p-2 rounded shadow-sm'>industries</h2>
                         <h2 className='text-center text-white '>we serve</h2>
                     </span>
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-15">
                         {/* Card 1 */}
-                        <div className="col-span-2 bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02]  hover:shadow-lg hover:outline-2 outline-primary  transition bg-[url(./assets/grid-food.jpg)]" >
+                        <div className="col-span-2 bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02]  hover:shadow-lg hover:outline-2 outline-primary  transition bg-[url(/ui_images/grid-food.jpg)]" >
                             <div className="relative z-10 p-4 bg-gradient-to-b from-black/60 to-transparent    text-white font-bold text-xl">
                                 Food & Beverage Testing Labs
                             </div>
                         </div>
-                        <div className=" bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02] transition hover:shadow-lg hover:outline-2 outline-primary  bg-[url(./assets/grid-bio.jpg)]" >
+                        <div className=" bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02] transition hover:shadow-lg hover:outline-2 outline-primary  bg-[url(/ui_images/grid-bio.jpg)]" >
                             <div className="relative z-10 p-4 bg-gradient-to-b from-black/60 to-transparent    text-white font-bold text-xl">
                                 Biotechnology
                             </div>
                         </div>
-                        <div className=" bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02] transition hover:shadow-lg hover:outline-2 outline-primary   bg-[url(./assets/grid-chem.jpg)]" >
+                        <div className=" bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02] transition hover:shadow-lg hover:outline-2 outline-primary   bg-[url(/ui_images/grid-chem.jpg)]" >
                             <div className="relative z-10 p-4 bg-gradient-to-b from-black/60 to-transparent    text-white font-bold text-xl">
                                 Chemical Manufacturing Units
                             </div>
                         </div>
-                        <div className=" bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02] transition hover:shadow-lg hover:outline-2 outline-primary   bg-[url(./assets/grid-env.jpg)]" >
+                        <div className=" bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02] transition hover:shadow-lg hover:outline-2 outline-primary   bg-[url(/ui_images/grid-env.jpg)]" >
                             <div className="relative z-10 p-4 bg-gradient-to-b from-black/60 to-transparent  text-white font-bold text-xl">
                                 Environmental Research
                             </div>
                         </div>
-                        <div className=" bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02] transition hover:shadow-lg hover:outline-2 outline-primary   bg-[url(./assets/grid-pharm.jpg)]" >
+                        <div className=" bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02] transition hover:shadow-lg hover:outline-2 outline-primary   bg-[url(/ui_images/grid-pharm.jpg)]" >
                             <div className="relative z-10 p-4 bg-gradient-to-b from-black/60 to-transparent  text-white font-bold text-xl">
                                 Pharmaceuticals
                             </div>
                         </div>
-                        <div className="col-span-2 bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02] transition hover:shadow-lg hover:outline-2 outline-primary   bg-[url(./assets/grid-edu.jpg)]" >
+                        <div className="col-span-2 bg-cover bg-center rounded-xl overflow-hidden shadow-md h-60 hover:scale-[1.02] transition hover:shadow-lg hover:outline-2 outline-primary   bg-[url(/ui_images/grid-edu.jpg)]" >
                             <div className="relative z-10 p-4 bg-gradient-to-b from-black/60 to-transparent  text-white font-bold text-xl">
                                 Educational Institutions
                             </div>
@@ -106,30 +195,30 @@ const HomePage = () => {
 
             {/* why choose us  */}
             <section className='bg-white my-20 '>
-                <div className='max-w-6xl mx-auto px-5 md:px-0'>
+                <div className='max-w-6xl mx-auto px-5 md:px-10 lg:px-0'>
                     <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
                         <h2 className='text-center '>why</h2>
-                        <h2 className='bg-primary text-white p-2 rounded-md'>choose us</h2>
+                        <h2 className='bg-primary text-white p-2 rounded-'>choose us</h2>
                     </span>
 
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-6 mt-15'>
 
                         <div className='group cursor-default hover:scale-102 transition'>
-                            <div className='bg-[url(./assets/why1.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
+                            <div className='bg-[url(/ui_images/why1.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
                                 <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 flex transition-all duration-200 bg-black/60 h-full'>All our products are backed by COAs and meet stringent international quality standards.
                                 </p>
                             </div>
                             <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><CheckCircle />Certified Quality</p>
                         </div>
                         <div className='group cursor-default hover:scale-102 transition'>
-                            <div className='bg-[url(./assets/why2.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
+                            <div className='bg-[url(/ui_images/why2.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
                                 <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 flex transition-all duration-200 bg-black/60 h-full'> From basic laboratory reagents to advanced research chemicals, we stock over 2,000+ chemical compounds.
                                 </p>
                             </div>
                             <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><PillBottle />Wide Products Range</p>
                         </div>
                         <div className='group cursor-default hover:scale-102 transition'>
-                            <div className='bg-[url(./assets/why4.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
+                            <div className='bg-[url(/ui_images/why4.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
                                 <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 flex transition-all duration-200 bg-black/60 h-full'>Experienced chemical experts ready to assist with specifications, documentation, and custom requirements.
                                 </p>
                             </div>
@@ -174,7 +263,7 @@ const HomePage = () => {
             {/* event gallery  */}
             <section className=' my-20 '>
                 <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
-                    <h2 className='bg-primary text-white p-2 rounded-md'>Events </h2>
+                    <h2 className='bg-primary text-white p-2 rounded-'>Events </h2>
                     <h2 className='text-center  '>WorldWide</h2>
                 </span>
                 <div className="py-10 rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
@@ -193,7 +282,7 @@ const HomePage = () => {
             <section className='my-20 py-20 bg-violet-50'>
                 <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
                     <h2 className='text-center '>What Our</h2>
-                    <h2 className='bg-primary text-white p-2 rounded-md'>Clients Says </h2>
+                    <h2 className='bg-primary text-white p-2 rounded-'>Clients Says </h2>
                 </span>
 
                 <Carousel className=" max-w-screen md:max-w-6xl mx-auto  mt-15"
@@ -225,7 +314,7 @@ const HomePage = () => {
             <section className='my-20 py-20 bg-white'>
                 <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
                     <h2 className='text-center'>our</h2>
-                    <h2 className='bg-primary text-white p-2 rounded-md'>Certifications </h2>
+                    <h2 className='bg-primary text-white p-2 rounded-'>Certifications </h2>
                 </span>
 
                 <Carousel className="max-w-screen md:max-w-6xl mx-auto  mt-15"
@@ -246,13 +335,13 @@ const HomePage = () => {
                             </CarouselItem>
                         ))}
                     </CarouselContent>
-                    <CarouselPrevious className='hidden md:flex' />
-                    <CarouselNext className='hidden md:flex' />
+                    <CarouselPrevious className='hidden lg:flex' />
+                    <CarouselNext className='hidden lg:flex' />
                 </Carousel>
             </section>
 
-           
-           
+
+
         </main>
     )
 }
@@ -288,7 +377,7 @@ const testimonials = [
     {
         image: "/assets/grid-pharm.jpg",
         title: "Labpro Chem is our trusted partner for all lab needs.",
-        name: "Dr. Anjali Rao",
+        name: "Vijay Mallya",
     },
     {
         image: "/assets/why2.jpg",

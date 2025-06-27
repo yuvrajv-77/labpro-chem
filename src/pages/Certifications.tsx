@@ -8,6 +8,14 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from '@/components/ui/carousel'
+import {
+    Breadcrumb,
+    BreadcrumbItem,
+    BreadcrumbLink,
+    BreadcrumbList,
+    BreadcrumbPage,
+    BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb"
 import { motion } from "motion/react"
 
 const certificateImages = [
@@ -54,11 +62,30 @@ const Certifications = () => {
 
     return (
         <main className='bg-neutral-50'>
-            <section className='max-w-6xl mx-auto py-20 px-5 md:px-0'>
+            <Breadcrumb className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-8'>
+                <BreadcrumbList>
+                    <BreadcrumbItem>
+                        <BreadcrumbLink href="/">Home</BreadcrumbLink>
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbSeparator />
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbLink href="/profile">About</BreadcrumbLink>
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbSeparator />
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbPage>Our Certifications</BreadcrumbPage>
+                    </BreadcrumbItem>
+                </BreadcrumbList>
+            </Breadcrumb>
+            <section className='max-w-6xl mx-auto py-15 px-5 md:px-0'>
 
                 <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
                     <h2 className='text-center'>Our</h2>
-                    <h2 className='bg-primary text-white p-2 rounded-md'>Certifications</h2>
+                    <h2 className='bg-primary text-white p-2 rounded-'>Certifications</h2>
                 </span>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-20'>

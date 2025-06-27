@@ -10,6 +10,7 @@ import {
 } from '@/components/ui/carousel'
 import { useNavigate } from 'react-router'
 import { motion } from "motion/react";
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
 const certificateImages = [
     {
         image: '/images/certificates/iso-9001-2015.new2.jpg',
@@ -56,14 +57,28 @@ const CompanyProfile = () => {
 
     return (
         <main>
+
+            <Breadcrumb className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-8'>
+                <BreadcrumbList>
+                    <BreadcrumbItem>
+                        <BreadcrumbLink href="/">Home</BreadcrumbLink>
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbSeparator />
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbPage>Company Profile</BreadcrumbPage>
+                    </BreadcrumbItem>
+                </BreadcrumbList>
+            </Breadcrumb>
             {/* about us  */}
-            <section className='bg-gray-50  py-22'>
+            <section className='bg-gray-50  py-15'>
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.6 }}
-                    className='max-w-6xl mx-auto px-7 lg:px-0'>
+                    className='max-w-6xl mx-auto px-7 md:px-10 lg:px-0'>
 
                     <div className='flex flex-col md:flex-row justify-between gap-y-10 gap-x-25 '>
 
@@ -97,7 +112,7 @@ const CompanyProfile = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.6 }}
-                    className='max-w-6xl mx-auto px-5 md:px-0'>
+                    className='max-w-6xl mx-auto px-5 md:px-10 lg:px-0'>
                     <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
                         <h2 className='text-center  text-2xl'>our mission,</h2>
                         <h2 className='bg-primary text-white p-2 rounded-md'>vision & values</h2>
@@ -152,7 +167,7 @@ const CompanyProfile = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.6 }}
-                    className='max-w-6xl mx-auto px-7 md:px-0'>
+                    className='max-w-6xl mx-auto px-7 md:px-10 lg:px-0'>
                     <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
                         <h2 className='text-center  text-2xl'>Our</h2>
                         <h2 className='bg-primary text-white p-2 rounded-md'>Certification</h2>
@@ -191,7 +206,7 @@ const CompanyProfile = () => {
                     >
                         <X size={28} />
                     </Button>
-                    <div className="w-full max-w-3xl px-4">
+                    <div className="md:max-w-2xl lg:max-w-3xl px-4">
                         <Carousel
                             className="relative"
                             opts={{

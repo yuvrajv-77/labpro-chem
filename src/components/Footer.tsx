@@ -7,10 +7,10 @@ const Footer = () => {
     const navigate = useNavigate()
 
     return (
-        <footer className='bg-[url(./assets/footer.png)] bg-cover bg-center '>
+        <footer className='bg-[url(/ui_images/footer2.png)] bg-cover bg-center '>
             <div className='h-full bg-black/70 '>
-                <div className='max-w-6xl mx-auto h-full  px-2 md:px-1 lg:px-0 py-20'>
-                    <div className='grid grid-cols-1 md:grid-cols-4 gap-15'>
+                <div className='max-w-6xl mx-auto h-full  px-4 md:px-10 lg:px-0 py-20'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-15'>
                         <div className=''>
                             <div className='flex items-center gap-2'>
                                 <span className=' border-primary p-1'>
@@ -41,7 +41,7 @@ const Footer = () => {
                             <Link to={"/"} className='text-sm font-bold hover:text-violet-400'>Quality Control & Assurance</Link>
                             <Link to={"/"} className='text-sm font-bold hover:text-violet-400'>Global Harmonized System (GHS)</Link>
                         </div>
-                        <div className=' text-white flex flex-col gap-3'>
+                        <div className=' text-white flex flex-col gap-3 md:col-span-3 lg:col-span-1'>
                             <div>
                                 <h2 className='text-lg font-bold mb-3'>Head Office</h2>
                                 <p className='text-sm font-bold '>
@@ -67,8 +67,8 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='bg-primary px-2 md:px-0 text-white '>
-                <div className='max-w-6xl mx-auto flex flex-col md:flex-row gap-y-3 items-center justify-between  py-5'>
+            <div className='bg-primary px-2 md:px-10 text-white '>
+                <div className='w-full md:max-w-6xl mx-auto flex flex-col md:flex-row gap-y-3 items-center justify-between  py-5'>
                     <span className='space-x-2'>
                         <span>© 2023</span>
                         <strong>LABPRO CHEM.</strong>
@@ -78,8 +78,8 @@ const Footer = () => {
                         <img className='w-5 cursor-pointer ' src="https://cdn.brandfetch.io/idJFz6sAsl/theme/dark/id745SkyD0.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" />
                         <img className='w-5 cursor-pointer ' src="https://cdn.brandfetch.io/idpKX136kp/theme/light/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" />
                         <img className='w-5 cursor-pointer' src="https://cdn.brandfetch.io/ido5G85nya/theme/light/idmP9VWUNi.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" />
-                        <img className='w-5 cursor-pointer' src="https://cdn.brandfetch.io/idS5WhqBbM/theme/light/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" />
-                        <img className='w-5 cursor-pointer' src="https://cdn.brandfetch.io/idVfYwcuQz/theme/light/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" />
+                        {/* <img className='w-5 cursor-pointer' src="https://cdn.brandfetch.io/idS5WhqBbM/theme/light/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" />
+                        <img className='w-5 cursor-pointer' src="https://cdn.brandfetch.io/idVfYwcuQz/theme/light/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="" /> */}
                     </span>
                 </div>
             </div>
