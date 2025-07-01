@@ -31,6 +31,14 @@ export const router = createBrowserRouter([
         element: <div className="flex items-center justify-center h-screen text-3xl animate-pulse"> This page is in 🧑🏻‍💻development🧑🏻‍💻 </div>
       },
       {
+        path: "/events",
+        element: <div className="flex items-center justify-center h-screen text-3xl animate-pulse"> This page is in 🧑🏻‍💻development🧑🏻‍💻 </div>
+      },
+      {
+        path: "/contact",
+        element: <div className="flex items-center justify-center h-screen text-3xl animate-pulse"> This page is in 🧑🏻‍💻development🧑🏻‍💻 </div>
+      },
+      {
         path: "/chemicals",
         element: <Chemicals/>
       },

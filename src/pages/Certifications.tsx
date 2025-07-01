@@ -20,28 +20,28 @@ import { motion } from "motion/react"
 
 const certificateImages = [
     {
-        image: '/images/certificates/iso-9001-2015.new2.jpg',
+        image: '/images/certificates/certificate-dummy.jpg',
         title: 'Certificate of ISO 9001:2015'
     },
     {
-        image: '/images/certificates/iso-9001-2015.new2.jpg',
+        image: '/images/certificates/certificate-dummy.jpg',
         title: 'Certificate of ISO 9001:2015'
     },
     {
-        image: '/images/certificates/iso-9001-2015.new.jpg',
+        image: '/images/certificates/certificate-dummy.jpg',
         title: 'Certificate of ISO 9001:2015'
     },
     {
-        image: '/images/certificates/iso-9001-2015.new3.jpg',
+        image: '/images/certificates/certificate-dummy.jpg',
         title: 'Certificate of ISO 9001:2015'
     },
 
     {
-        image: '/images/certificates/iso-9001-2015.new3.jpg',
+        image: '/images/certificates/certificate-dummy.jpg',
         title: 'Certificate of ISO 9001:2015'
     },
     {
-        image: '/images/certificates/iso-9001-2015.new.jpg',
+        image: '/images/certificates/certificate-dummy.jpg',
         title: 'Certificate of ISO 9001:2015'
     },
 ]

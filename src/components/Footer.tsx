@@ -51,7 +51,7 @@ const Footer = () => {
                             <div>
                                 <h2 className='text-lg font-bold mb-3'>Call Us</h2>
                                 <p className='text-sm font-bold'>
-                                    +91-73388 20509
+                                    +91-7894563210
                                 </p>
                             </div>
                             <div>

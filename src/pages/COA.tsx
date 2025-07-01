@@ -124,6 +124,7 @@ const COA = () => {
                         <table className="min-w-full text-sm text-left border border-gray-200">
                             <thead className="bg-gray-100 text-gray-700 font-semibold">
                                 <tr>
+                                    <th className="px-4 py-3">No.</th>
                                     <th className="px-4 py-3">Item Name</th>
                                     <th className="px-4 py-3">Catalog Number</th>
                                     <th className="px-4 py-3">CAS Number</th>
@@ -135,6 +136,7 @@ const COA = () => {
                             <tbody className="divide-y divide-gray-200">
                                 {paginatedData.map((item, index) => (
                                     <tr key={index} className="hover:bg-gray-50">
+                                        <td className="px-4 py-3">{item.ID}</td>
                                         <td
                                             className="px-4 py-3 text-gray-900 hover:underline cursor-pointer"
                                         >
@@ -183,7 +185,12 @@ const COA = () => {
                                 <div key={index} className="border-b border-gray-200 py-2 space-y-3 bg-white">
                                     <table>
                                         <tbody className='text-sm  space-y-5'>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">No. :</td>
+                                                <td className='p-2'>{item.ID}</td>
+                                            </tr>
                                             <tr className='bg-zinc-100'>
+                                                
                                                 <td className="font-bold whitespace-nowrap p-2">Item Name :</td>
                                                 <td className="p-2 w-full text-gray-900 cursor- hover:underline">
                                                     <a
