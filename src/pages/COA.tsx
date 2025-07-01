@@ -34,10 +34,15 @@ const COA = () => {
     const sanitizeFileName = (name: string) =>
         name.trim().replace(/\s+/g, '_').replace(/[^a-zA-Z0-9_\-]/g, '');
 
+    // Utility to clean up ItemName: remove extra spaces and trim
+    const cleanItemName = (name: string) =>
+        name.replace(/\s+/g, ' ').trim();
+
     // Add coaLink to each item
     const coaDataWithLinks = coa_data.map(item => ({
         ...item,
-        coaLink: `pdfs/coa/${encodeURIComponent(item.ItemName)}.pdf`
+        ItemName: cleanItemName(item.ItemName),
+        coaLink: `pdfs/coa/${encodeURIComponent(cleanItemName(item.ItemName))}.pdf`
     }));
 
     // Filter data based on search query
@@ -190,7 +195,7 @@ const COA = () => {
                                                 <td className='p-2'>{item.ID}</td>
                                             </tr>
                                             <tr className='bg-zinc-100'>
-                                                
+
                                                 <td className="font-bold whitespace-nowrap p-2">Item Name :</td>
                                                 <td className="p-2 w-full text-gray-900 cursor- hover:underline">
                                                     <a
