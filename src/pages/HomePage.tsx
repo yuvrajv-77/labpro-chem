@@ -70,6 +70,7 @@ const HomePage = () => {
         "/ui_images/footer.png",
         "/ui_images/grid-chem.jpg",
         "/ui_images/bannermin1.jpg",
+        "/ui_images/hero.jpg",
     ];
 
 
@@ -281,7 +282,9 @@ const HomePage = () => {
                     />
                 </div>
                 <div className='flex items-center justify-center'>
-                    <Button>View Gallery <ArrowRight /></Button>
+                    <Link to="/gallery">
+                        <Button>View Gallery <ArrowRight /></Button>
+                    </Link>
                 </div>
             </section>
 

@@ -1048,5 +1048,194 @@
     "CatalogueNumber": "LA0100",
     "CASNumber": "87-32-1",
     "BatchNumber": "920HH"
+  },
+  {
+    "ID": 151,
+    "ItemName": "ALIZARIN RED S AR (pH indicator)",
+    "CatalogueNumber": "LA0164",
+    "CASNumber": "130-22-3",
+    "BatchNumber": "324ED"
+  },
+  {
+    "ID": 152,
+    "ItemName": "ALIZARIN YELLOW GG",
+    "CatalogueNumber": "LA0166",
+    "CASNumber": "584-42-9",
+    "BatchNumber": "761SC"
+  },
+  {
+    "ID": 153,
+    "ItemName": "ALKALI BLUE 6B (Indicator) ",
+    "CatalogueNumber": "LA0167",
+    "CASNumber": "1324-76-1",
+    "BatchNumber": "674AC "
+  },
+  {
+    "ID": 154,
+    "ItemName": "ALKALI BLUE 6B Indicator Solution",
+    "CatalogueNumber": "LA0168",
+    "CASNumber": "",
+    "BatchNumber": "742AB"
+  },
+  {
+    "ID": 155,
+    "ItemName": "ALKALINE COPPER TARTRATE",
+    "CatalogueNumber": "LA0169",
+    "CASNumber": "",
+    "BatchNumber": "985YT"
+  },
+  {
+    "ID": 156,
+    "ItemName": "ALLANTOIN ",
+    "CatalogueNumber": "LA0170",
+    "CASNumber": "97-59-6",
+    "BatchNumber": "961VN"
+  },
+  {
+    "ID": 157,
+    "ItemName": "ALLOXAN ",
+    "CatalogueNumber": "LA0171",
+    "CASNumber": "2244-11-3",
+    "BatchNumber": "516BH"
+  },
+  {
+    "ID": 158,
+    "ItemName": "ALLURA RED",
+    "CatalogueNumber": "LA0172",
+    "CASNumber": "25956-17-6",
+    "BatchNumber": "856FH"
+  },
+  {
+    "ID": 159,
+    "ItemName": "ALLYL ALCOHOL",
+    "CatalogueNumber": "LA0173",
+    "CASNumber": "107-18-6",
+    "BatchNumber": "647UJ"
+  },
+  {
+    "ID": 160,
+    "ItemName": "N-ALLYLANILINE",
+    "CatalogueNumber": "LA0175",
+    "CASNumber": "589-09-3",
+    "BatchNumber": "217HY"
+  },
+  {
+    "ID": 161,
+    "ItemName": "ALLYL BROMIDE For Synthesis",
+    "CatalogueNumber": "LA0176",
+    "CASNumber": "106-95-6",
+    "BatchNumber": "105FF"
+  },
+  {
+    "ID": 162,
+    "ItemName": "ALLYL CHLORIDE For Synthesis",
+    "CatalogueNumber": "LA0177",
+    "CASNumber": "107-05-1",
+    "BatchNumber": "781HV "
+  },
+  {
+    "ID": 163,
+    "ItemName": "ALLYL IODIDE  For Synthesis",
+    "CatalogueNumber": "LA0178",
+    "CASNumber": "556-56-9",
+    "BatchNumber": "810SD"
+  },
+  {
+    "ID": 164,
+    "ItemName": "2-ALLYLPHENOL",
+    "CatalogueNumber": "LA0179",
+    "CASNumber": "1745-81-9",
+    "BatchNumber": "712JJ"
+  },
+  {
+    "ID": 165,
+    "ItemName": "N-ALLYLTHIOUREA",
+    "CatalogueNumber": "LA0180",
+    "CASNumber": "109-57-9",
+    "BatchNumber": "716DS"
+  },
+  {
+    "ID": 166,
+    "ItemName": "ALMOND OIL Extra Pure (bitter)",
+    "CatalogueNumber": "LA0181",
+    "CASNumber": "8007-69-0",
+    "BatchNumber": "710SG"
+  },
+  {
+    "ID": 167,
+    "ItemName": "ALMOND OIL Extra Pure (sweet)",
+    "CatalogueNumber": "LA0182",
+    "CASNumber": "8007-69-0",
+    "BatchNumber": "813MF"
+  },
+  {
+    "ID": 168,
+    "ItemName": "ALUMINIUM AAS STANDARD SOLUTION",
+    "CatalogueNumber": "LA0183",
+    "CASNumber": "",
+    "BatchNumber": "618RF "
+  },
+  {
+    "ID": 169,
+    "ItemName": "ALUMINIUM ICP STANDARD SOLUTION",
+    "CatalogueNumber": "LA0184",
+    "CASNumber": "",
+    "BatchNumber": "852HH"
+  },
+  {
+    "ID": 170,
+    "ItemName": "ALUMINIUM ICP STANDARD SOLUTION 10000mg",
+    "CatalogueNumber": "LA0185",
+    "CASNumber": "",
+    "BatchNumber": "894FG"
+  },
+  {
+    "ID": 171,
+    "ItemName": "ALUMINIUM (metal) FOIL (thin)",
+    "CatalogueNumber": "LA0186",
+    "CASNumber": "7429-90-5",
+    "BatchNumber": "613HR"
+  },
+  {
+    "ID": 172,
+    "ItemName": "ALUMINIUM (metal) FOIL  AR (thin)",
+    "CatalogueNumber": "LA0187",
+    "CASNumber": "7429-90-5",
+    "BatchNumber": "812W"
+  },
+  {
+    "ID": 173,
+    "ItemName": "ALUMINIUM (metal) POWDER",
+    "CatalogueNumber": "LA0188",
+    "CASNumber": "7429-90-5",
+    "BatchNumber": "102WS  "
+  },
+  {
+    "ID": 174,
+    "ItemName": "ALUMINIUM AMMONIUM SULPHATE (Dodecahydrate)",
+    "CatalogueNumber": "LA0191",
+    "CASNumber": "7784-26-1",
+    "BatchNumber": "751SC"
+  },
+  {
+    "ID": 175,
+    "ItemName": "ALUMINIUM AMMONIUM SULPHATE  AR (Dodecahydrate)",
+    "CatalogueNumber": "LA0192",
+    "CASNumber": "7784-26-1",
+    "BatchNumber": "405FH"
+  },
+  {
+    "ID": 176,
+    "ItemName": "ALUMINIUM BORATE",
+    "CatalogueNumber": "LA0193",
+    "CASNumber": "11121-16-7",
+    "BatchNumber": "716WS"
+  },
+  {
+    "ID": 177,
+    "ItemName": "ALUMINIUM BROMIDE",
+    "CatalogueNumber": "LA0194",
+    "CASNumber": "7727-15-3",
+    "BatchNumber": "410HH"
   }
 ]
