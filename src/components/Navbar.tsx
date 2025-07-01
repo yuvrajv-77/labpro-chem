@@ -16,6 +16,7 @@ import {
     navigationMenuTriggerStyle,
     NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
 
 const navLinks = [
     { name: 'Home', href: '/' },
@@ -29,7 +30,7 @@ const navLinks = [
     { name: 'Contact', href: '/contact' },
 ]
 const Navbar = () => {
-const navigate = useNavigate();
+    const navigate = useNavigate();
 
     const [isMobileNavOpen, setIsMobileNavOpen] = React.useState(false)
     return (
@@ -40,8 +41,8 @@ const navigate = useNavigate();
                     <div className='md:max-w-6xl text-white  mx-auto  flex items-center justify-between '>
                         <p className='hidden md:flex text-sm items-center gap-2 font-bold '> <Mail size={15} />
                             info@labprochemicals.co.in</p>
-                        <span  className='w-50 relative md:w-70 border rounded-lg cursor-text text-xs md:text-base flex items-center gap-3 justify-center text-white/80 h-6  md:h-7 border-white/60' onClick={() => navigate('/search')} >
-                           <Search size={15} /> Search 7000+ Chemicals
+                        <span className='w-50 relative md:w-70 border rounded-lg cursor-text text-xs md:text-base flex items-center gap-3 justify-center text-white/80 h-6  md:h-7 border-white/60' onClick={() => navigate('/search')} >
+                            <Search size={15} /> Search 7000+ Chemicals
                         </span>
 
                         <span className='flex items-center gap-6'>
@@ -99,7 +100,7 @@ const navigate = useNavigate();
                                     </Button>
                                 </div>
                                 <nav className="flex flex-col gap-6 p-4">
-                                    {navLinks.map((link) => (
+                                    {/* {navLinks.map((link) => (
                                         <Link
                                             key={link.name}
                                             to={link.href}
@@ -108,7 +109,80 @@ const navigate = useNavigate();
                                         >
                                             {link.name}
                                         </Link>
-                                    ))}
+                                    ))} */}
+                                    <Link
+                                        to={'/'}
+                                        className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
+                                        onClick={() => setIsMobileNavOpen(false)}
+                                    >
+                                        Home
+                                    </Link>
+                                    <Link
+                                        to={'/profile'}
+                                        className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
+                                        onClick={() => setIsMobileNavOpen(false)}
+                                    >
+                                        About
+                                    </Link>
+                                    <Link
+                                        to={'/downloads'}
+                                        className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
+                                        onClick={() => setIsMobileNavOpen(false)}
+                                    >
+                                        Downloads
+                                    </Link>
+                                    <Link
+                                        to={'/coa'}
+                                        className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
+                                        onClick={() => setIsMobileNavOpen(false)}
+                                    >
+                                        CoA
+                                    </Link>
+
+                                    <Accordion type="single" className='' collapsible>
+                                        <AccordionItem value="item-1">
+                                            <AccordionTrigger className="text-white focus:bg-violet-400 font-semibold py-2 text-base px-2 rounded hover:bg-violet-400">Laboratory Chemicals</AccordionTrigger>
+                                            <AccordionContent className='bg-violet-500 p-4 text-primary flex flex-col gap-2 rounded-b-lg'>
+                                                <Link
+                                                    to={'/coa'}
+                                                    className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
+                                                    onClick={() => setIsMobileNavOpen(false)}
+                                                >
+                                                    All Chemicals
+                                                </Link>
+                                                <Link
+                                                    to={'/chemicals'}
+                                                    className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
+                                                    onClick={() => setIsMobileNavOpen(false)}
+                                                >
+                                                    By Category
+                                                </Link>
+                                            </AccordionContent>
+                                        </AccordionItem>
+                                    </Accordion>
+
+                                    <Link
+                                        to={'/events'}
+                                        className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
+                                        onClick={() => setIsMobileNavOpen(false)}
+                                    >
+                                        Events
+                                    </Link>
+                                    <Link
+                                        to={'/gallery'}
+                                        className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
+                                        onClick={() => setIsMobileNavOpen(false)}
+                                    >
+                                        Gallery
+                                    </Link>
+                                    <Link
+                                        to={'/contact'}
+                                        className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
+                                        onClick={() => setIsMobileNavOpen(false)}
+                                    >
+                                        Contact
+                                    </Link>
+
                                 </nav>
                             </motion.aside>
                         )}

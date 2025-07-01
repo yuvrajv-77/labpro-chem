@@ -1,95 +1,1052 @@
 [
-{"ItemName":"ABSCISIC ACID 98% Extra Pure","CatalogueNumber":"LA0001","CASNumber":"21293-29-8","BatchNumber":"193AS"},
-{"ItemName":"ACACIA Extra Pure (confirming to IP)","CatalogueNumber":"LA0002","CASNumber":"9000-01-5","BatchNumber":"105AC"},
-{"ItemName":"ACACIA AR (enzyme free)","CatalogueNumber":"LA0003","CASNumber":"9000-01-5","BatchNumber":"211AR"},
-{"ItemName":"ACENAPHTHENE 97% For Synthesis","CatalogueNumber":"LA0004","CASNumber":"83-32-9","BatchNumber":"332NP"},
-{"ItemName":"ACENAPHTHYLENE","CatalogueNumber":"LA0005","CASNumber":"208-96-8","BatchNumber":"896NA"},
-{"ItemName":"ACES BUFFER 99% For Molecular Biology","CatalogueNumber":"LA0006","CASNumber":"7365-82-4","BatchNumber":"652CE"},
-{"ItemName":"ACETLADEHYDE Solution 20-30% (EthanLA)","CatalogueNumber":"LA0007","CASNumber":"75-07-0","BatchNumber":"757DE"},
-{"ItemName":"ACETLADEHYDE DIETHYL ACETLA 97%","CatalogueNumber":"LA0008","CASNumber":"105-57-7","BatchNumber":"557TL"},
-{"ItemName":"ACETAMIDE 98% For Synthesis (Amide C2)","CatalogueNumber":"LA009","CASNumber":"60-35-5","BatchNumber":"605MI"},
-{"ItemName":"ACETAMIDE 99% AR (Amide C2)","CatalogueNumber":"LA0010","CASNumber":"60-35-5","BatchNumber":"355TA"},
-{"ItemName":"ACETAMIDE 99% For Molecular Biology (Amide C2)","CatalogueNumber":"LA0011","CASNumber":"60-35-5","BatchNumber":"603MO"},
-{"ItemName":"ACETAMIDINIUM CHLORIDE 98%","CatalogueNumber":"LA0012","CASNumber":"124-42-5","BatchNumber":"442IN"},
-{"ItemName":"4-ACETAMIDOBENZENE SULFONYL CHLORIDE 97.5%","CatalogueNumber":"LA0013","CASNumber":"121-60-8","BatchNumber":"608SU"},
-{"ItemName":"4-ACETAMIDO TEMPO 98%, free radicLA","CatalogueNumber":"LA0014","CASNumber":"14691-89-5","BatchNumber":"146EM"},
-{"ItemName":"ACETANILIDE 98.5% For Synthesis","CatalogueNumber":"LA0015","CASNumber":"103-84-4","BatchNumber":"384SY"},
-{"ItemName":"ACETANILIDE 99% AR","CatalogueNumber":"LA0016","CASNumber":"103-84-4","BatchNumber":"103AN"},
-{"ItemName":"ACETATE BUFFER SOLUTION pH 4.6","CatalogueNumber":"LA0017","CASNumber":"","BatchNumber":"752AB"},
-{"ItemName":"ACETIC ACID 90% SOLUTION AR","CatalogueNumber":"LA0018","CASNumber":"64-19-7","BatchNumber":"419AC"},
-{"ItemName":"ACETIC ACID 60% Extra Pure","CatalogueNumber":"LA0018A","CASNumber":"64-19-7","BatchNumber":"419CE"},
-{"ItemName":"ACETIC ACID 30% Extra Pure","CatalogueNumber":"LA0018B","CASNumber":"64-19-7","BatchNumber":"419AA"},
-{"ItemName":"ACETIC ACID 25% SOLUTION AR","CatalogueNumber":"LA0018C","CASNumber":"64-19-7","BatchNumber":"764AS"},
-{"ItemName":"ACETIC ACID GLACILA 99.5% For Synthesis","CatalogueNumber":"LA0019","CASNumber":"64-19-7","BatchNumber":"791GA"},
-{"ItemName":"ACETIC ACID GLACILA 99.7% AR","CatalogueNumber":"LA0020","CASNumber":"64-19-7","BatchNumber":"947LA"},
-{"ItemName":"ACETIC ACID GLACILA 99.7% AR (LAdehyde free)","CatalogueNumber":"LA0021","CASNumber":"64-19-7","BatchNumber":"139DY"},
-{"ItemName":"ACETIC ACID GLACILA 99.8% For HPLC and Spectroscopy","CatalogueNumber":"LA0022","CASNumber":"64-19-7","BatchNumber":"578FD"},
-{"ItemName":"ACETIC ACID GLACILA 99.7% For Molecular Biology","CatalogueNumber":"LA0023","CASNumber":"64-19-7","BatchNumber":"721SG"},
-{"ItemName":"ACETIC ACID 0.1M (0.1N) Standardized Solution","CatalogueNumber":"LA0024","CASNumber":"","BatchNumber":"415CF"},
-{"ItemName":"ACETIC ACID 1 Mol/L (1N) Standardized Solution","CatalogueNumber":"LA0025","CASNumber":"","BatchNumber":"858XV"},
-{"ItemName":"ACETIC ACID 2M (2N) Standardized Solution","CatalogueNumber":"LA0026","CASNumber":"","BatchNumber":"855YE"},
-{"ItemName":"ACETIC ACID HYDRAZIDE 96% For Synthesis","CatalogueNumber":"LA0027","CASNumber":"1068-57-1","BatchNumber":"786HY"},
-{"ItemName":"ACETOACETANILIDE 98% For Synthesis","CatalogueNumber":"LA0028","CASNumber":"102-01-2","BatchNumber":"894SF"},
-{"ItemName":"ACETOBROMO-α-D-GLUCOSE 95%","CatalogueNumber":"LA0029","CASNumber":"572-09-8","BatchNumber":"236SC"}
-,
-{"ItemName":"ACETO CARMINE solution (for microscopicLA staining)","CatalogueNumber":"LA0030","CASNumber":"","BatchNumber":"127WD"},
-{"ItemName":"ACETO CARMINE solution AR","CatalogueNumber":"LA0031","CASNumber":"","BatchNumber":"046DE"},
-{"ItemName":"ACETOHYDROXAMIC ACID 98%","CatalogueNumber":"LA0032","CASNumber":"546-88-3","BatchNumber":"465TR"},
-{"ItemName":"1-ACETONAPHTHONE 95%","CatalogueNumber":"LA0033","CASNumber":"941-98-0","BatchNumber":"749CG"},
-{"ItemName":"ACETONE 99% For Synthesis","CatalogueNumber":"LA0034","CASNumber":"67-64-1","BatchNumber":"865BV"},
-{"ItemName":"ACETONE 99.5% AR","CatalogueNumber":"LA0035","CASNumber":"67-64-1","BatchNumber":"897DT"},
-{"ItemName":"ACETONE 99.8% For HPLC and Spectroscopy","CatalogueNumber":"LA0036","CASNumber":"67-64-1","BatchNumber":"856YT"},
-{"ItemName":"ACETONE 99.8% For Molecular Biology","CatalogueNumber":"LA0037","CASNumber":"67-64-1","BatchNumber":"149GF"},
-{"ItemName":"ACETONE 99.90% GC","CatalogueNumber":"LA0038","CASNumber":"67-64-1","BatchNumber":"526GY"},
-{"ItemName":"ACETONE 99.50% Electronic","CatalogueNumber":"LA0039","CASNumber":"67-64-1","BatchNumber":"186EG"},
-{"ItemName":"ACETONE LACOHOL (decolourizer 50% solution)","CatalogueNumber":"LA0040","CASNumber":"116-09-6","BatchNumber":"762CG"},
-{"ItemName":"ACETONE CYANOHYDRIN 98.5% For Synthesis","CatalogueNumber":"LA0041","CASNumber":"75-86-5","BatchNumber":"761SG"},
-{"ItemName":"1,3-ACETONEDICARBOXYLIC ACID 95%","CatalogueNumber":"LA0042","CASNumber":"542-05-2","BatchNumber":"122UI"},
-{"ItemName":"ACETONE OXIME 99% (acetoxime)","CatalogueNumber":"LA0043","CASNumber":"127-06-0","BatchNumber":"416SG"},
-{"ItemName":"ACETONITRILE 99% For Synthesis","CatalogueNumber":"LA0044","CASNumber":"75-05-8","BatchNumber":"716SF"},
-{"ItemName":"ACETONITRILE 99.5% AR","CatalogueNumber":"LA0045","CASNumber":"75-05-8","BatchNumber":"785SV"},
-{"ItemName":"ACETONITRILE 99.9% For HPLC and Spectroscopy","CatalogueNumber":"LA0046","CASNumber":"75-05-8","BatchNumber":"916WC"},
-{"ItemName":"ACETONITRILE 99.9% HPLC Gradient","CatalogueNumber":"LA0047","CASNumber":"75-05-8","BatchNumber":"831SV"},
-{"ItemName":"ACETONITRILE 99.7% PREPARATIVE HPLC","CatalogueNumber":"LA0048","CASNumber":"75-05-8","BatchNumber":"921HH"},
-{"ItemName":"ACETONITRILE 99.9% LCMS","CatalogueNumber":"LA0049","CASNumber":"75-05-8","BatchNumber":"166SG"},
-{"ItemName":"ACETONITRILE 99.5% For DNA Synthesis","CatalogueNumber":"LA0050","CASNumber":"75-05-8","BatchNumber":"213WF"},
-{"ItemName":"ACETONITRILE 99.50% SPECILALY DRIED","CatalogueNumber":"LA0051","CASNumber":"75-05-8","BatchNumber":"684EG"},
-{"ItemName":"ACETO ORCEIN solution","CatalogueNumber":"LA0052","CASNumber":"","BatchNumber":"987AO"},
-{"ItemName":"ACETOPHENONE 99% For Synthesis","CatalogueNumber":"LA0053","CASNumber":"98-86-2","BatchNumber":"862HJ"},
-{"ItemName":"ACETOPHENONE 99.5% AR","CatalogueNumber":"LA0054","CASNumber":"98-86-2","BatchNumber":"328UH"},
-{"ItemName":"2-ACETOXYACETOPHENONE 97.5%","CatalogueNumber":"LA0055","CASNumber":"7250-94-4","BatchNumber":"325HJ"},
-{"ItemName":"ACETYL ACETONE 98% For Synthesis","CatalogueNumber":"LA0056","CASNumber":"123-54-6","BatchNumber":"671WF"},
-{"ItemName":"ACETYL ACETONE 99.5% AR","CatalogueNumber":"LA0057","CASNumber":"123-54-6","BatchNumber":"324AS"},
-{"ItemName":"ACETYL BROMIDE 98% For Synthesis","CatalogueNumber":"LA0058","CASNumber":"506-96-7","BatchNumber":"561ER"},
-{"ItemName":"ACETYL BROMIDE 99% AR","CatalogueNumber":"LA0059","CASNumber":"506-96-7","BatchNumber":"512SG"},
-{"ItemName":"a-ACETYL-y-BUTYROLACTONE 98%","CatalogueNumber":"LA0060","CASNumber":"517-23-7","BatchNumber":"789VH"},
-{"ItemName":"n-ACETYL CAPROLACTAM 98%","CatalogueNumber":"LA0061","CASNumber":"1888-91-1","BatchNumber":"242SG"},
-{"ItemName":"ACETYL CHLORIDE 98-102% For Synthesis","CatalogueNumber":"LA0062","CASNumber":"75-36-5","BatchNumber":"348OU"},
-{"ItemName":"ACETYL CHLORIDE 99% AR","CatalogueNumber":"LA0063","CASNumber":"75-36-5","BatchNumber":"347UI"},
-{"ItemName":"O-ACETYL CHOLINE BROMIDE 99%","CatalogueNumber":"LA0064","CASNumber":"66-23-9","BatchNumber":"176RY"},
-{"ItemName":"ACETYL CHOLINE CHLORIDE 99% AR","CatalogueNumber":"LA0064","CASNumber":"60-31-1","BatchNumber":"545DY"},
-{"ItemName":"ACETYL CHOLINE IODIDE 99% AR","CatalogueNumber":"LA0065","CASNumber":"2260-50-6","BatchNumber":"248UG"},
-{"ItemName":"N-ACETYL-L-CYSTEINE 99% For Biochemistry","CatalogueNumber":"LA0066","CASNumber":"616-91-1","BatchNumber":"246WR"},
-{"ItemName":"ACETYLENEDICARBOXYLIC ACID 98.5%","CatalogueNumber":"LA0067","CASNumber":"142-45-0","BatchNumber":"934WE"},
-{"ItemName":"ACETYLENE TETRABROMIDE 98%","CatalogueNumber":"LA0068","CASNumber":"79-27-6","BatchNumber":"671WR"},
-{"ItemName":"2-ACETYLFLUORENE 98% For Synthesis","CatalogueNumber":"LA0069","CASNumber":"781-73-7","BatchNumber":"347YU"},
-{"ItemName":"2-ACETYLFURAN 99%","CatalogueNumber":"LA0070","CASNumber":"1192-62-7","BatchNumber":"671HT"},
-{"ItemName":"N-ACETYL-L-GLUTAMIC ACID 99%","CatalogueNumber":"LA0071","CASNumber":"1188-37-0","BatchNumber":"564RG"},
-{"ItemName":"N-ACETYL-L-GLUTAMINE 98%","CatalogueNumber":"LA0072","CASNumber":"2490-97-3","BatchNumber":"246EW"},
-{"ItemName":"N-ACETYLGLYCINE 99%","CatalogueNumber":"LA0073","CASNumber":"543-24-8","BatchNumber":"458RT"},
-{"ItemName":"N-ACETYL-DL-METHIONINE 99% Extra Pure","CatalogueNumber":"LA0074","CASNumber":"1115-47-5","BatchNumber":"135WD"},
-{"ItemName":"2-ACETYL-5-METHYLTHIOPHENE 97.5%","CatalogueNumber":"LA0075","CASNumber":"13679-74-8","BatchNumber":"551HB"},
-{"ItemName":"1-ACETYL NAPHTHLAENE 97.5% For Synthesis","CatalogueNumber":"LA0076","CASNumber":"941-98-0","BatchNumber":"516ER"},
-{"ItemName":"2-ACETYL NAPHTHLAENE 98.5%","CatalogueNumber":"LA0077","CASNumber":"93-08-3","BatchNumber":"257HU"},
-{"ItemName":"1-ACETYL-2-PHENYLHYDRAZINE 98%","CatalogueNumber":"LA0078","CASNumber":"114-83-0","BatchNumber":"457GH"},
-{"ItemName":"1-ACETYL-4-PIPERIDONE 94%","CatalogueNumber":"LA0091","CASNumber":"32161-06-1","BatchNumber":"305JJ"},
-{"ItemName":"1-ACETYLPIPERAZINE 99%","CatalogueNumber":"LA0092","CASNumber":"13889-98-0","BatchNumber":"710OJ"},
-{"ItemName":"4-ACETYLPYRIDINE 96.5%","CatalogueNumber":"LA0093","CASNumber":"1122-54-9","BatchNumber":"461EF"},
-{"ItemName":"2-ACETYLPYRROL 98%","CatalogueNumber":"LA0094","CASNumber":"1072-83-9","BatchNumber":"891XG"},
-{"ItemName":"5-ACETYLSLAICYLAMIDE 98%","CatalogueNumber":"LA0095","CASNumber":"40187-51-7","BatchNumber":"716SV"},
-{"ItemName":"ACETYL SLAICYLIC ACID 99% For Synthesis","CatalogueNumber":"LA0096","CASNumber":"50-78-2","BatchNumber":"245AS"},
-{"ItemName":"ACETYL SLAICYLIC ACID 99.5% AR","CatalogueNumber":"LA0097","CASNumber":"50-78-2","BatchNumber":"964FG"},
-{"ItemName":"2-ACETYLTHIOPHENE 98% For Synthesis","CatalogueNumber":"LA0098","CASNumber":"88-15-3","BatchNumber":"340CC"},
-{"ItemName":"ACETYLTHIOUREA 98%","CatalogueNumber":"LA0099","CASNumber":"591-08-2","BatchNumber":"761CN"},
-{"ItemName":"N-ACETYL-DL-TRYPTOPHANE 99% For Biochemistry","CatalogueNumber":"LA0100","CASNumber":"87-32-1","BatchNumber":"920HH"}
+  {
+    "ID": 1,
+    "ItemName": "ACRIDINE ORANGE (M.S.) (C.I. No.46005)",
+    "CatalogueNumber": "LA0101",
+    "CASNumber": "494-38-2",
+    "BatchNumber": "106DR"
+  },
+  {
+    "ID": 2,
+    "ItemName": "ACRIDINE YELLOW G",
+    "CatalogueNumber": "LA0102",
+    "CASNumber": "135-49-9",
+    "BatchNumber": "706HH"
+  },
+  {
+    "ID": 3,
+    "ItemName": "ACRIFALVIN, NEUTRAL For Molecular Biology (C.I. No.46000)",
+    "CatalogueNumber": "LA0103",
+    "CASNumber": "8048-52-0",
+    "BatchNumber": "716IJ"
+  },
+  {
+    "ID": 4,
+    "ItemName": "ACRYALMIDE 98% For Synthesis",
+    "CatalogueNumber": "LA0104",
+    "CASNumber": "79-06-1",
+    "BatchNumber": "241IH"
+  },
+  {
+    "ID": 5,
+    "ItemName": "ACRYALMIDE 99.9% For Molecular Biology",
+    "CatalogueNumber": "LA0105",
+    "CASNumber": "79-06-1",
+    "BatchNumber": "500DF"
+  },
+  {
+    "ID": 6,
+    "ItemName": "ACRYALMIDE 99% AR",
+    "CatalogueNumber": "LA0106",
+    "CASNumber": "79-06-1",
+    "BatchNumber": "741SX"
+  },
+  {
+    "ID": 7,
+    "ItemName": "ACRYALMIDE 98.5% For Electrophoresis",
+    "CatalogueNumber": "LA0107",
+    "CASNumber": "79-06-1",
+    "BatchNumber": "154WC"
+  },
+  {
+    "ID": 8,
+    "ItemName": "ACRYALMIDE SOLUTION IN WATER 40% Molecular Biology",
+    "CatalogueNumber": "LA0108",
+    "CASNumber": "",
+    "BatchNumber": ""
+  },
+  {
+    "ID": 9,
+    "ItemName": "2-ACRYALMIDO-2-METHYLPROPANE SULPHONIC ACID 98% (AMPS)",
+    "CatalogueNumber": "LA0109",
+    "CASNumber": "15214-89-8",
+    "BatchNumber": "941GF"
+  },
+  {
+    "ID": 10,
+    "ItemName": "ACRYLIC ACID 99% For Synthesis",
+    "CatalogueNumber": "LA0110",
+    "CASNumber": "79-10-7",
+    "BatchNumber": "647GF"
+  },
+  {
+    "ID": 11,
+    "ItemName": "ACRYLONITRILE 99% For Synthesis",
+    "CatalogueNumber": "LA0111",
+    "CASNumber": "107-13-1",
+    "BatchNumber": "748HH"
+  },
+  {
+    "ID": 12,
+    "ItemName": "ACRYLONITRILE AR",
+    "CatalogueNumber": "LA0112",
+    "CASNumber": "107-13-1",
+    "BatchNumber": "752UY"
+  },
+  {
+    "ID": 13,
+    "ItemName": "ACTIDIONE 94% AR",
+    "CatalogueNumber": "LA0113",
+    "CASNumber": "66-81-9",
+    "BatchNumber": "826WG"
+  },
+  {
+    "ID": 14,
+    "ItemName": "ACTIVATED CHARCOAL",
+    "CatalogueNumber": "LA0115",
+    "CASNumber": "7440-44-0",
+    "BatchNumber": "716FV"
+  },
+  {
+    "ID": 15,
+    "ItemName": "ACTIVATED CHARCOAL STRONG",
+    "CatalogueNumber": "LA0116",
+    "CASNumber": "7440-44-0",
+    "BatchNumber": "105GJ"
+  },
+  {
+    "ID": 16,
+    "ItemName": "ACTIVATED CHARCOAL AR",
+    "CatalogueNumber": "LA0117",
+    "CASNumber": "7440-44-0",
+    "BatchNumber": "710HJ"
+  },
+  {
+    "ID": 17,
+    "ItemName": "ACTIVATED CHARCOAL (granular) (2.5 – 5.0 mm)",
+    "CatalogueNumber": "LA0118",
+    "CASNumber": "7440-44-0",
+    "BatchNumber": "475KM"
+  },
+  {
+    "ID": 18,
+    "ItemName": "ADA BUFFER 98%",
+    "CatalogueNumber": "LA0119",
+    "CASNumber": "26239-55-4",
+    "BatchNumber": "894UH"
+  },
+  {
+    "ID": 19,
+    "ItemName": "ADENINE 99% For Biochemistry",
+    "CatalogueNumber": "LA0120",
+    "CASNumber": "73-24-5",
+    "BatchNumber": "716YH"
+  },
+  {
+    "ID": 20,
+    "ItemName": "ADENINE SULPHATE 99% AR",
+    "CatalogueNumber": "LA0121",
+    "CASNumber": "321-30-2",
+    "BatchNumber": "405JH"
+  },
+  {
+    "ID": 21,
+    "ItemName": "ADENOSINE 99% For Biochemistry",
+    "CatalogueNumber": "LA0122",
+    "CASNumber": "58-61-7",
+    "BatchNumber": "852SC"
+  },
+  {
+    "ID": 22,
+    "ItemName": "ADENOSINE-5-DIPHOSPHORIC ACID DISODIUM SALT 90%",
+    "CatalogueNumber": "LA0123",
+    "CASNumber": "16178-48-6",
+    "BatchNumber": "436JV"
+  },
+  {
+    "ID": 23,
+    "ItemName": "ADENOSINE-5-MONOPHOSPHORIC ACID SODIUM SALT 95%",
+    "CatalogueNumber": "LA0124",
+    "CASNumber": "4578-31-8",
+    "BatchNumber": "856HH"
+  },
+  {
+    "ID": 24,
+    "ItemName": "ADENOSINE-5-TRIPHOSPHORIC ACID DISODIUM SALT 98%",
+    "CatalogueNumber": "LA0125",
+    "CASNumber": "987-65-5",
+    "BatchNumber": "406HB"
+  },
+  {
+    "ID": 25,
+    "ItemName": "ADIPIC ACID 99% Extra Pure",
+    "CatalogueNumber": "LA0126",
+    "CASNumber": "124-04-9",
+    "BatchNumber": "716WF"
+  },
+  {
+    "ID": 26,
+    "ItemName": "ADIPIC ACID 99.5% AR",
+    "CatalogueNumber": "LA0127",
+    "CASNumber": "124-04-9",
+    "BatchNumber": "715HB"
+  },
+  {
+    "ID": 27,
+    "ItemName": "ADONITOL 99% For Biochemistry",
+    "CatalogueNumber": "LA0128",
+    "CASNumber": "488-81-3",
+    "BatchNumber": "516NH"
+  },
+  {
+    "ID": 28,
+    "ItemName": "L-ADRENALINE 97% AR",
+    "CatalogueNumber": "LA0130",
+    "CASNumber": "51-43-4",
+    "BatchNumber": "791WF"
+  },
+  {
+    "ID": 29,
+    "ItemName": "ADRENALINE BITARTRATE 98% AR",
+    "CatalogueNumber": "LA0131",
+    "CASNumber": "51-42-3",
+    "BatchNumber": "481GG"
+  },
+  {
+    "ID": 30,
+    "ItemName": "AEROSIL 200 Extra Pure",
+    "CatalogueNumber": "LA0132",
+    "CASNumber": "7631-86-9",
+    "BatchNumber": "871HH"
+  },
+  {
+    "ID": 31,
+    "ItemName": "AESCULIN 98% (Esculin)",
+    "CatalogueNumber": "LA0133",
+    "CASNumber": "66778-17-4",
+    "BatchNumber": "475WT"
+  },
+  {
+    "ID": 32,
+    "ItemName": "AGAR AGAR POWDER (Food Grade)",
+    "CatalogueNumber": "LA0134",
+    "CASNumber": "9002-18-0",
+    "BatchNumber": "405HV"
+  },
+  {
+    "ID": 33,
+    "ItemName": "AGAR AGAR POWDER For Bacteriology",
+    "CatalogueNumber": "LA0135",
+    "CASNumber": "9002-18-0",
+    "BatchNumber": "564HB"
+  },
+  {
+    "ID": 34,
+    "ItemName": "AGAR AGAR POWDER For Microbiology",
+    "CatalogueNumber": "LA0136",
+    "CASNumber": "9002-18-0",
+    "BatchNumber": "415GH"
+  },
+  {
+    "ID": 35,
+    "ItemName": "AGAROSE (H) (high EEO) For Microbiology",
+    "CatalogueNumber": "LA0137",
+    "CASNumber": "9012-36-6",
+    "BatchNumber": "452HB"
+  },
+  {
+    "ID": 36,
+    "ItemName": "AGAROSE (L) (low EEO) For Microbiology",
+    "CatalogueNumber": "LA0138",
+    "CASNumber": "9012-36-6",
+    "BatchNumber": "105BN"
+  },
+  {
+    "ID": 37,
+    "ItemName": "AGAROSE (M) (medium EEO) For Microbiology",
+    "CatalogueNumber": "LA0149",
+    "CASNumber": "9012-36-6",
+    "BatchNumber": "800JV"
+  },
+  {
+    "ID": 38,
+    "ItemName": "AGAROSE TYPE A Molecular Biology",
+    "CatalogueNumber": "LA0150",
+    "CASNumber": "9012-36-6",
+    "BatchNumber": "405HH"
+  },
+  {
+    "ID": 39,
+    "ItemName": "AGAROSE TYPE B Molecular Biology",
+    "CatalogueNumber": "LA0151",
+    "CASNumber": "9012-36-6",
+    "BatchNumber": "858GH"
+  },
+  {
+    "ID": 40,
+    "ItemName": "AJOWAN OIL Extra Pure Liquid",
+    "CatalogueNumber": "LA0152",
+    "CASNumber": "8001-99-8",
+    "BatchNumber": "856FG"
+  },
+  {
+    "ID": 41,
+    "ItemName": "B-ALANINE 99% For Biochemistry",
+    "CatalogueNumber": "LA0153",
+    "CASNumber": "107-95-9",
+    "BatchNumber": "200GF"
+  },
+  {
+    "ID": 42,
+    "ItemName": "D-ALANINE 99% For Biochemistry",
+    "CatalogueNumber": "LA0154",
+    "CASNumber": "338-69-2",
+    "BatchNumber": "560VB"
+  },
+  {
+    "ID": 43,
+    "ItemName": "DL-ALANINE 99% For Biochemistry",
+    "CatalogueNumber": "LA0155",
+    "CASNumber": "302-72-7",
+    "BatchNumber": "413RG"
+  },
+  {
+    "ID": 44,
+    "ItemName": "L-ALANINE 98% For Biochemistry",
+    "CatalogueNumber": "LA0156",
+    "CASNumber": "56-41-7",
+    "BatchNumber": "563EF"
+  },
+  {
+    "ID": 45,
+    "ItemName": "ALAR (B-9) 99% AR",
+    "CatalogueNumber": "LA0157",
+    "CASNumber": "1596-84-5",
+    "BatchNumber": "641JJ"
+  },
+  {
+    "ID": 46,
+    "ItemName": "ALBENDAZOLE 98%",
+    "CatalogueNumber": "LA0158",
+    "CASNumber": "54965-21-8",
+    "BatchNumber": "751YH"
+  },
+  {
+    "ID": 47,
+    "ItemName": "ALBERT STAIN ‘A’ solution",
+    "CatalogueNumber": "LA0159",
+    "CASNumber": "",
+    "BatchNumber": "615JJ"
+  },
+  {
+    "ID": 48,
+    "ItemName": "ALBERT STAIN ‘B’ solution",
+    "CatalogueNumber": "LA0160",
+    "CASNumber": "",
+    "BatchNumber": "105EV"
+  },
+  {
+    "ID": 49,
+    "ItemName": "ALBUMIN BOVINE FRACTION V 98% For Molecular Biology",
+    "CatalogueNumber": "LA0162",
+    "CASNumber": "9048-46-8",
+    "BatchNumber": "912FV"
+  },
+  {
+    "ID": 50,
+    "ItemName": "ALBUMIN EGG (powder)",
+    "CatalogueNumber": "LA0163",
+    "CASNumber": "9006-59-1",
+    "BatchNumber": "405GH"
+  },
+  {
+    "ID": 51,
+    "ItemName": "ALCIAN BLUE 8 GX (C.I.No.74240)",
+    "CatalogueNumber": "LA0164",
+    "CASNumber": "75881-23-1",
+    "BatchNumber": "516FG"
+  },
+  {
+    "ID": 52,
+    "ItemName": "ALCIAN BLUE Solution",
+    "CatalogueNumber": "LA0165",
+    "CASNumber": "",
+    "BatchNumber": "945UJ"
+  },
+  {
+    "ID": 53,
+    "ItemName": "ALGINIC ACID",
+    "CatalogueNumber": "LA0166",
+    "CASNumber": "9005-32-7",
+    "BatchNumber": "841JB"
+  },
+  {
+    "ID": 54,
+    "ItemName": "ALIQUAT 336 88% Extra Pure",
+    "CatalogueNumber": "LA0167",
+    "CASNumber": "63393-96-4",
+    "BatchNumber": "542UJ"
+  },
+  {
+    "ID": 55,
+    "ItemName": "ALIZARIN AR (pH indicator) (C.I.No.58000)",
+    "CatalogueNumber": "LA0168",
+    "CASNumber": "72-48-0",
+    "BatchNumber": "408HJ"
+  },
+  {
+    "ID": 56,
+    "ItemName": "ALIZARIN COMPLEXONE 88%",
+    "CatalogueNumber": "LA0169",
+    "CASNumber": "3952-78-1",
+    "BatchNumber": "861JJ"
+  },
+  {
+    "ID": 57,
+    "ItemName": "ALIZARIN CYANINE GREEN (C.I. No.61570)",
+    "CatalogueNumber": "LA0170",
+    "CASNumber": "4403-90-1",
+    "BatchNumber": "708WF"
+  },
+  {
+    "ID": 58,
+    "ItemName": "ALIZARIN RED S (pH indicator) (C.I. No.58005)",
+    "CatalogueNumber": "LA0171",
+    "CASNumber": "130-22-3",
+    "BatchNumber": "813SF"
+  },
+  {
+    "ID": 59,
+    "ItemName": "ABSCISIC ACID 98% Extra Pure",
+    "CatalogueNumber": "LA0001",
+    "CASNumber": "21293-29-8",
+    "BatchNumber": "193AS"
+  },
+  {
+    "ID": 60,
+    "ItemName": "ACACIA Extra Pure (confirming to IP)",
+    "CatalogueNumber": "LA0002",
+    "CASNumber": "9000-01-5",
+    "BatchNumber": "105AC"
+  },
+  {
+    "ID": 61,
+    "ItemName": "ACACIA AR (enzyme free)",
+    "CatalogueNumber": "LA0003",
+    "CASNumber": "9000-01-5",
+    "BatchNumber": "211AR"
+  },
+  {
+    "ID": 62,
+    "ItemName": "ACENAPHTHENE 97% For Synthesis",
+    "CatalogueNumber": "LA0004",
+    "CASNumber": "83-32-9",
+    "BatchNumber": "332NP"
+  },
+  {
+    "ID": 63,
+    "ItemName": "ACENAPHTHYLENE",
+    "CatalogueNumber": "LA0005",
+    "CASNumber": "208-96-8",
+    "BatchNumber": "896NA"
+  },
+  {
+    "ID": 64,
+    "ItemName": "ACES BUFFER 99% For Molecular Biology",
+    "CatalogueNumber": "LA0006",
+    "CASNumber": "7365-82-4",
+    "BatchNumber": "652CE"
+  },
+  {
+    "ID": 65,
+    "ItemName": "ACETLADEHYDE Solution 20-30% (EthanLA)",
+    "CatalogueNumber": "LA0007",
+    "CASNumber": "75-07-0",
+    "BatchNumber": "757DE"
+  },
+  {
+    "ID": 66,
+    "ItemName": "ACETLADEHYDE DIETHYL ACETLA 97%",
+    "CatalogueNumber": "LA0008",
+    "CASNumber": "105-57-7",
+    "BatchNumber": "557TL"
+  },
+  {
+    "ID": 67,
+    "ItemName": "ACETAMIDE 98% For Synthesis (Amide C2)",
+    "CatalogueNumber": "LA009",
+    "CASNumber": "60-35-5",
+    "BatchNumber": "605MI"
+  },
+  {
+    "ID": 68,
+    "ItemName": "ACETAMIDE 99% AR (Amide C2)",
+    "CatalogueNumber": "LA0010",
+    "CASNumber": "60-35-5",
+    "BatchNumber": "355TA"
+  },
+  {
+    "ID": 69,
+    "ItemName": "ACETAMIDE 99% For Molecular Biology (Amide C2)",
+    "CatalogueNumber": "LA0011",
+    "CASNumber": "60-35-5",
+    "BatchNumber": "603MO"
+  },
+  {
+    "ID": 70,
+    "ItemName": "ACETAMIDINIUM CHLORIDE 98%",
+    "CatalogueNumber": "LA0012",
+    "CASNumber": "124-42-5",
+    "BatchNumber": "442IN"
+  },
+  {
+    "ID": 71,
+    "ItemName": "4-ACETAMIDOBENZENE SULFONYL CHLORIDE 97.5%",
+    "CatalogueNumber": "LA0013",
+    "CASNumber": "121-60-8",
+    "BatchNumber": "608SU"
+  },
+  {
+    "ID": 72,
+    "ItemName": "4-ACETAMIDO TEMPO 98%, free radicLA",
+    "CatalogueNumber": "LA0014",
+    "CASNumber": "14691-89-5",
+    "BatchNumber": "146EM"
+  },
+  {
+    "ID": 73,
+    "ItemName": "ACETANILIDE 98.5% For Synthesis",
+    "CatalogueNumber": "LA0015",
+    "CASNumber": "103-84-4",
+    "BatchNumber": "384SY"
+  },
+  {
+    "ID": 74,
+    "ItemName": "ACETANILIDE 99% AR",
+    "CatalogueNumber": "LA0016",
+    "CASNumber": "103-84-4",
+    "BatchNumber": "103AN"
+  },
+  {
+    "ID": 75,
+    "ItemName": "ACETATE BUFFER SOLUTION pH 4.6",
+    "CatalogueNumber": "LA0017",
+    "CASNumber": "",
+    "BatchNumber": "752AB"
+  },
+  {
+    "ID": 76,
+    "ItemName": "ACETIC ACID 90% SOLUTION AR",
+    "CatalogueNumber": "LA0018",
+    "CASNumber": "64-19-7",
+    "BatchNumber": "419AC"
+  },
+  {
+    "ID": 77,
+    "ItemName": "ACETIC ACID 60% Extra Pure",
+    "CatalogueNumber": "LA0018A",
+    "CASNumber": "64-19-7",
+    "BatchNumber": "419CE"
+  },
+  {
+    "ID": 78,
+    "ItemName": "ACETIC ACID 30% Extra Pure",
+    "CatalogueNumber": "LA0018B",
+    "CASNumber": "64-19-7",
+    "BatchNumber": "419AA"
+  },
+  {
+    "ID": 79,
+    "ItemName": "ACETIC ACID 25% SOLUTION AR",
+    "CatalogueNumber": "LA0018C",
+    "CASNumber": "64-19-7",
+    "BatchNumber": "764AS"
+  },
+  {
+    "ID": 80,
+    "ItemName": "ACETIC ACID GLACILA 99.5% For Synthesis",
+    "CatalogueNumber": "LA0019",
+    "CASNumber": "64-19-7",
+    "BatchNumber": "791GA"
+  },
+  {
+    "ID": 81,
+    "ItemName": "ACETIC ACID GLACILA 99.7% AR",
+    "CatalogueNumber": "LA0020",
+    "CASNumber": "64-19-7",
+    "BatchNumber": "947LA"
+  },
+  {
+    "ID": 82,
+    "ItemName": "ACETIC ACID GLACILA 99.7% AR (LAdehyde free)",
+    "CatalogueNumber": "LA0021",
+    "CASNumber": "64-19-7",
+    "BatchNumber": "139DY"
+  },
+  {
+    "ID": 83,
+    "ItemName": "ACETIC ACID GLACILA 99.8% For HPLC and Spectroscopy",
+    "CatalogueNumber": "LA0022",
+    "CASNumber": "64-19-7",
+    "BatchNumber": "578FD"
+  },
+  {
+    "ID": 84,
+    "ItemName": "ACETIC ACID GLACILA 99.7% For Molecular Biology",
+    "CatalogueNumber": "LA0023",
+    "CASNumber": "64-19-7",
+    "BatchNumber": "721SG"
+  },
+  {
+    "ID": 85,
+    "ItemName": "ACETIC ACID 0.1M (0.1N) Standardized Solution",
+    "CatalogueNumber": "LA0024",
+    "CASNumber": "",
+    "BatchNumber": "415CF"
+  },
+  {
+    "ID": 86,
+    "ItemName": "ACETIC ACID 1 Mol/L (1N) Standardized Solution",
+    "CatalogueNumber": "LA0025",
+    "CASNumber": "",
+    "BatchNumber": "858XV"
+  },
+  {
+    "ID": 87,
+    "ItemName": "ACETIC ACID 2M (2N) Standardized Solution",
+    "CatalogueNumber": "LA0026",
+    "CASNumber": "",
+    "BatchNumber": "855YE"
+  },
+  {
+    "ID": 88,
+    "ItemName": "ACETIC ACID HYDRAZIDE 96% For Synthesis",
+    "CatalogueNumber": "LA0027",
+    "CASNumber": "1068-57-1",
+    "BatchNumber": "786HY"
+  },
+  {
+    "ID": 89,
+    "ItemName": "ACETOACETANILIDE 98% For Synthesis",
+    "CatalogueNumber": "LA0028",
+    "CASNumber": "102-01-2",
+    "BatchNumber": "894SF"
+  },
+  {
+    "ID": 90,
+    "ItemName": "ACETOBROMO-α-D-GLUCOSE 95%",
+    "CatalogueNumber": "LA0029",
+    "CASNumber": "572-09-8",
+    "BatchNumber": "236SC"
+  },
+  {
+    "ID": 91,
+    "ItemName": "ACETO CARMINE solution (for microscopicLA staining)",
+    "CatalogueNumber": "LA0030",
+    "CASNumber": "",
+    "BatchNumber": "127WD"
+  },
+  {
+    "ID": 92,
+    "ItemName": "ACETO CARMINE solution AR",
+    "CatalogueNumber": "LA0031",
+    "CASNumber": "",
+    "BatchNumber": "046DE"
+  },
+  {
+    "ID": 93,
+    "ItemName": "ACETOHYDROXAMIC ACID 98%",
+    "CatalogueNumber": "LA0032",
+    "CASNumber": "546-88-3",
+    "BatchNumber": "465TR"
+  },
+  {
+    "ID": 94,
+    "ItemName": "1-ACETONAPHTHONE 95%",
+    "CatalogueNumber": "LA0033",
+    "CASNumber": "941-98-0",
+    "BatchNumber": "749CG"
+  },
+  {
+    "ID": 95,
+    "ItemName": "ACETONE 99% For Synthesis",
+    "CatalogueNumber": "LA0034",
+    "CASNumber": "67-64-1",
+    "BatchNumber": "865BV"
+  },
+  {
+    "ID": 96,
+    "ItemName": "ACETONE 99.5% AR",
+    "CatalogueNumber": "LA0035",
+    "CASNumber": "67-64-1",
+    "BatchNumber": "897DT"
+  },
+  {
+    "ID": 97,
+    "ItemName": "ACETONE 99.8% For HPLC and Spectroscopy",
+    "CatalogueNumber": "LA0036",
+    "CASNumber": "67-64-1",
+    "BatchNumber": "856YT"
+  },
+  {
+    "ID": 98,
+    "ItemName": "ACETONE 99.8% For Molecular Biology",
+    "CatalogueNumber": "LA0037",
+    "CASNumber": "67-64-1",
+    "BatchNumber": "149GF"
+  },
+  {
+    "ID": 99,
+    "ItemName": "ACETONE 99.90% GC",
+    "CatalogueNumber": "LA0038",
+    "CASNumber": "67-64-1",
+    "BatchNumber": "526GY"
+  },
+  {
+    "ID": 100,
+    "ItemName": "ACETONE 99.50% Electronic",
+    "CatalogueNumber": "LA0039",
+    "CASNumber": "67-64-1",
+    "BatchNumber": "186EG"
+  },
+  {
+    "ID": 101,
+    "ItemName": "ACETONE LACOHOL (decolourizer 50% solution)",
+    "CatalogueNumber": "LA0040",
+    "CASNumber": "116-09-6",
+    "BatchNumber": "762CG"
+  },
+  {
+    "ID": 102,
+    "ItemName": "ACETONE CYANOHYDRIN 98.5% For Synthesis",
+    "CatalogueNumber": "LA0041",
+    "CASNumber": "75-86-5",
+    "BatchNumber": "761SG"
+  },
+  {
+    "ID": 103,
+    "ItemName": "1,3-ACETONEDICARBOXYLIC ACID 95%",
+    "CatalogueNumber": "LA0042",
+    "CASNumber": "542-05-2",
+    "BatchNumber": "122UI"
+  },
+  {
+    "ID": 104,
+    "ItemName": "ACETONE OXIME 99% (acetoxime)",
+    "CatalogueNumber": "LA0043",
+    "CASNumber": "127-06-0",
+    "BatchNumber": "416SG"
+  },
+  {
+    "ID": 105,
+    "ItemName": "ACETONITRILE 99% For Synthesis",
+    "CatalogueNumber": "LA0044",
+    "CASNumber": "75-05-8",
+    "BatchNumber": "716SF"
+  },
+  {
+    "ID": 106,
+    "ItemName": "ACETONITRILE 99.5% AR",
+    "CatalogueNumber": "LA0045",
+    "CASNumber": "75-05-8",
+    "BatchNumber": "785SV"
+  },
+  {
+    "ID": 107,
+    "ItemName": "ACETONITRILE 99.9% For HPLC and Spectroscopy",
+    "CatalogueNumber": "LA0046",
+    "CASNumber": "75-05-8",
+    "BatchNumber": "916WC"
+  },
+  {
+    "ID": 108,
+    "ItemName": "ACETONITRILE 99.9% HPLC Gradient",
+    "CatalogueNumber": "LA0047",
+    "CASNumber": "75-05-8",
+    "BatchNumber": "831SV"
+  },
+  {
+    "ID": 109,
+    "ItemName": "ACETONITRILE 99.7% PREPARATIVE HPLC",
+    "CatalogueNumber": "LA0048",
+    "CASNumber": "75-05-8",
+    "BatchNumber": "921HH"
+  },
+  {
+    "ID": 110,
+    "ItemName": "ACETONITRILE 99.9% LCMS",
+    "CatalogueNumber": "LA0049",
+    "CASNumber": "75-05-8",
+    "BatchNumber": "166SG"
+  },
+  {
+    "ID": 111,
+    "ItemName": "ACETONITRILE 99.5% For DNA Synthesis",
+    "CatalogueNumber": "LA0050",
+    "CASNumber": "75-05-8",
+    "BatchNumber": "213WF"
+  },
+  {
+    "ID": 112,
+    "ItemName": "ACETONITRILE 99.50% SPECILALY DRIED",
+    "CatalogueNumber": "LA0051",
+    "CASNumber": "75-05-8",
+    "BatchNumber": "684EG"
+  },
+  {
+    "ID": 113,
+    "ItemName": "ACETO ORCEIN solution",
+    "CatalogueNumber": "LA0052",
+    "CASNumber": "",
+    "BatchNumber": "987AO"
+  },
+  {
+    "ID": 114,
+    "ItemName": "ACETOPHENONE 99% For Synthesis",
+    "CatalogueNumber": "LA0053",
+    "CASNumber": "98-86-2",
+    "BatchNumber": "862HJ"
+  },
+  {
+    "ID": 115,
+    "ItemName": "ACETOPHENONE 99.5% AR",
+    "CatalogueNumber": "LA0054",
+    "CASNumber": "98-86-2",
+    "BatchNumber": "328UH"
+  },
+  {
+    "ID": 116,
+    "ItemName": "2-ACETOXYACETOPHENONE 97.5%",
+    "CatalogueNumber": "LA0055",
+    "CASNumber": "7250-94-4",
+    "BatchNumber": "325HJ"
+  },
+  {
+    "ID": 117,
+    "ItemName": "ACETYL ACETONE 98% For Synthesis",
+    "CatalogueNumber": "LA0056",
+    "CASNumber": "123-54-6",
+    "BatchNumber": "671WF"
+  },
+  {
+    "ID": 118,
+    "ItemName": "ACETYL ACETONE 99.5% AR",
+    "CatalogueNumber": "LA0057",
+    "CASNumber": "123-54-6",
+    "BatchNumber": "324AS"
+  },
+  {
+    "ID": 119,
+    "ItemName": "ACETYL BROMIDE 98% For Synthesis",
+    "CatalogueNumber": "LA0058",
+    "CASNumber": "506-96-7",
+    "BatchNumber": "561ER"
+  },
+  {
+    "ID": 120,
+    "ItemName": "ACETYL BROMIDE 99% AR",
+    "CatalogueNumber": "LA0059",
+    "CASNumber": "506-96-7",
+    "BatchNumber": "512SG"
+  },
+  {
+    "ID": 121,
+    "ItemName": "a-ACETYL-y-BUTYROLACTONE 98%",
+    "CatalogueNumber": "LA0060",
+    "CASNumber": "517-23-7",
+    "BatchNumber": "789VH"
+  },
+  {
+    "ID": 122,
+    "ItemName": "n-ACETYL CAPROLACTAM 98%",
+    "CatalogueNumber": "LA0061",
+    "CASNumber": "1888-91-1",
+    "BatchNumber": "242SG"
+  },
+  {
+    "ID": 123,
+    "ItemName": "ACETYL CHLORIDE 98-102% For Synthesis",
+    "CatalogueNumber": "LA0062",
+    "CASNumber": "75-36-5",
+    "BatchNumber": "348OU"
+  },
+  {
+    "ID": 124,
+    "ItemName": "ACETYL CHLORIDE 99% AR",
+    "CatalogueNumber": "LA0063",
+    "CASNumber": "75-36-5",
+    "BatchNumber": "347UI"
+  },
+  {
+    "ID": 125,
+    "ItemName": "O-ACETYL CHOLINE BROMIDE 99%",
+    "CatalogueNumber": "LA0064",
+    "CASNumber": "66-23-9",
+    "BatchNumber": "176RY"
+  },
+  {
+    "ID": 126,
+    "ItemName": "ACETYL CHOLINE CHLORIDE 99% AR",
+    "CatalogueNumber": "LA0064",
+    "CASNumber": "60-31-1",
+    "BatchNumber": "545DY"
+  },
+  {
+    "ID": 127,
+    "ItemName": "ACETYL CHOLINE IODIDE 99% AR",
+    "CatalogueNumber": "LA0065",
+    "CASNumber": "2260-50-6",
+    "BatchNumber": "248UG"
+  },
+  {
+    "ID": 128,
+    "ItemName": "N-ACETYL-L-CYSTEINE 99% For Biochemistry",
+    "CatalogueNumber": "LA0066",
+    "CASNumber": "616-91-1",
+    "BatchNumber": "246WR"
+  },
+  {
+    "ID": 129,
+    "ItemName": "ACETYLENEDICARBOXYLIC ACID 98.5%",
+    "CatalogueNumber": "LA0067",
+    "CASNumber": "142-45-0",
+    "BatchNumber": "934WE"
+  },
+  {
+    "ID": 130,
+    "ItemName": "ACETYLENE TETRABROMIDE 98%",
+    "CatalogueNumber": "LA0068",
+    "CASNumber": "79-27-6",
+    "BatchNumber": "671WR"
+  },
+  {
+    "ID": 131,
+    "ItemName": "2-ACETYLFLUORENE 98% For Synthesis",
+    "CatalogueNumber": "LA0069",
+    "CASNumber": "781-73-7",
+    "BatchNumber": "347YU"
+  },
+  {
+    "ID": 132,
+    "ItemName": "2-ACETYLFURAN 99%",
+    "CatalogueNumber": "LA0070",
+    "CASNumber": "1192-62-7",
+    "BatchNumber": "671HT"
+  },
+  {
+    "ID": 133,
+    "ItemName": "N-ACETYL-L-GLUTAMIC ACID 99%",
+    "CatalogueNumber": "LA0071",
+    "CASNumber": "1188-37-0",
+    "BatchNumber": "564RG"
+  },
+  {
+    "ID": 134,
+    "ItemName": "N-ACETYL-L-GLUTAMINE 98%",
+    "CatalogueNumber": "LA0072",
+    "CASNumber": "2490-97-3",
+    "BatchNumber": "246EW"
+  },
+  {
+    "ID": 135,
+    "ItemName": "N-ACETYLGLYCINE 99%",
+    "CatalogueNumber": "LA0073",
+    "CASNumber": "543-24-8",
+    "BatchNumber": "458RT"
+  },
+  {
+    "ID": 136,
+    "ItemName": "N-ACETYL-DL-METHIONINE 99% Extra Pure",
+    "CatalogueNumber": "LA0074",
+    "CASNumber": "1115-47-5",
+    "BatchNumber": "135WD"
+  },
+  {
+    "ID": 137,
+    "ItemName": "2-ACETYL-5-METHYLTHIOPHENE 97.5%",
+    "CatalogueNumber": "LA0075",
+    "CASNumber": "13679-74-8",
+    "BatchNumber": "551HB"
+  },
+  {
+    "ID": 138,
+    "ItemName": "1-ACETYL NAPHTHLAENE 97.5% For Synthesis",
+    "CatalogueNumber": "LA0076",
+    "CASNumber": "941-98-0",
+    "BatchNumber": "516ER"
+  },
+  {
+    "ID": 139,
+    "ItemName": "2-ACETYL NAPHTHLAENE 98.5%",
+    "CatalogueNumber": "LA0077",
+    "CASNumber": "93-08-3",
+    "BatchNumber": "257HU"
+  },
+  {
+    "ID": 140,
+    "ItemName": "1-ACETYL-2-PHENYLHYDRAZINE 98%",
+    "CatalogueNumber": "LA0078",
+    "CASNumber": "114-83-0",
+    "BatchNumber": "457GH"
+  },
+  {
+    "ID": 141,
+    "ItemName": "1-ACETYL-4-PIPERIDONE 94%",
+    "CatalogueNumber": "LA0091",
+    "CASNumber": "32161-06-1",
+    "BatchNumber": "305JJ"
+  },
+  {
+    "ID": 142,
+    "ItemName": "1-ACETYLPIPERAZINE 99%",
+    "CatalogueNumber": "LA0092",
+    "CASNumber": "13889-98-0",
+    "BatchNumber": "710OJ"
+  },
+  {
+    "ID": 143,
+    "ItemName": "4-ACETYLPYRIDINE 96.5%",
+    "CatalogueNumber": "LA0093",
+    "CASNumber": "1122-54-9",
+    "BatchNumber": "461EF"
+  },
+  {
+    "ID": 144,
+    "ItemName": "2-ACETYLPYRROL 98%",
+    "CatalogueNumber": "LA0094",
+    "CASNumber": "1072-83-9",
+    "BatchNumber": "891XG"
+  },
+  {
+    "ID": 145,
+    "ItemName": "5-ACETYLSLAICYLAMIDE 98%",
+    "CatalogueNumber": "LA0095",
+    "CASNumber": "40187-51-7",
+    "BatchNumber": "716SV"
+  },
+  {
+    "ID": 146,
+    "ItemName": "ACETYL SLAICYLIC ACID 99% For Synthesis",
+    "CatalogueNumber": "LA0096",
+    "CASNumber": "50-78-2",
+    "BatchNumber": "245AS"
+  },
+  {
+    "ID": 147,
+    "ItemName": "ACETYL SLAICYLIC ACID 99.5% AR",
+    "CatalogueNumber": "LA0097",
+    "CASNumber": "50-78-2",
+    "BatchNumber": "964FG"
+  },
+  {
+    "ID": 148,
+    "ItemName": "2-ACETYLTHIOPHENE 98% For Synthesis",
+    "CatalogueNumber": "LA0098",
+    "CASNumber": "88-15-3",
+    "BatchNumber": "340CC"
+  },
+  {
+    "ID": 149,
+    "ItemName": "ACETYLTHIOUREA 98%",
+    "CatalogueNumber": "LA0099",
+    "CASNumber": "591-08-2",
+    "BatchNumber": "761CN"
+  },
+  {
+    "ID": 150,
+    "ItemName": "N-ACETYL-DL-TRYPTOPHANE 99% For Biochemistry",
+    "CatalogueNumber": "LA0100",
+    "CASNumber": "87-32-1",
+    "BatchNumber": "920HH"
+  }
 ]

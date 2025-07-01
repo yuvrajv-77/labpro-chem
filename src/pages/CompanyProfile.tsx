@@ -88,8 +88,8 @@ const CompanyProfile = () => {
 
                         <div className=' flex-1 flex flex-col item-center justify-between gap-5'>
                             <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
-                                <h2 className='bg-primary text-white p-2 rounded-md'>LABPRO</h2>
-                                <h2 className='text-center  text-2xl'>CHEM</h2>
+                                <h2 className='bg-primary text-white p-2 rounded-'>LabPro</h2>
+                                <h2 className='text-center  text-2xl'>Chem</h2>
                             </span>
                             <div className='space-y-2   '>
                                 <h4 className=' font-bold text-2xl'>Manufacturers of Laboratory Reagents and Fine Chemicals</h4>
@@ -106,7 +106,7 @@ const CompanyProfile = () => {
             </section>
 
             {/* our mission and vision */}
-            <section className='bg-white  py-22'>
+            <section className='bg-white py-20 md:py-22 border'>
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -114,10 +114,10 @@ const CompanyProfile = () => {
                     transition={{ duration: 0.6 }}
                     className='max-w-6xl mx-auto px-5 md:px-10 lg:px-0'>
                     <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
-                        <h2 className='text-center  text-2xl'>our mission,</h2>
-                        <h2 className='bg-primary text-white p-2 rounded-md'>vision & values</h2>
+                        <h2 className='text-center  text-2xl'>Our Mission &</h2>
+                        <h2 className='bg-primary text-white p-2 rounded-'>Vision</h2>
                     </span>
-                    <div className='  grid grid-rows-8 md:grid-rows-4 grid-cols-1 md:grid-cols-2 gap-5 py-10'>
+                    <div className='  grid grid-rows-7 md:grid-rows-4 grid-cols-1 md:grid-cols-2 gap-5 py-10'>
                         <div className=''>
                             <h4 className=' font-black text-lg mb-2'>Our Mission</h4>
                             <p className='text-justify text-sm font-semibold'>
@@ -161,6 +161,7 @@ const CompanyProfile = () => {
                 </motion.div>
             </section>
 
+            {/* certicicates section */}
             <section className='bg-gray-50 py-22'>
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
@@ -169,9 +170,9 @@ const CompanyProfile = () => {
                     transition={{ duration: 0.6 }}
                     className='max-w-6xl mx-auto px-7 md:px-10 lg:px-0'>
                     <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
-                        <h2 className='text-center  text-2xl'>Our</h2>
-                        <h2 className='bg-primary text-white p-2 rounded-md'>Certification</h2>
-                    </span>
+                    <h2 className='text-center  text-2xl'>Our</h2>
+                    <h2 className='bg-primary text-white p-2 rounded-'>Certifications</h2>
+                </span>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-20'>
                         {

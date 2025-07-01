@@ -135,12 +135,30 @@ const COA = () => {
                             <tbody className="divide-y divide-gray-200">
                                 {paginatedData.map((item, index) => (
                                     <tr key={index} className="hover:bg-gray-50">
-                                        <td className="px-4 py-3 text-gray-900 hover:underline cursor-poi">{item.ItemName}</td>
+                                        <td
+                                            className="px-4 py-3 text-gray-900 hover:underline cursor-pointer"
+                                        >
+                                            <a
+                                                href={item.coaLink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="hover:underline"
+                                            >
+                                                {item.ItemName}
+                                            </a>
+                                        </td>
                                         <td className="px-4 py-3">{item.CatalogueNumber}</td>
                                         <td className="px-4 py-3">{item.CASNumber}</td>
                                         <td className="px-4 py-3">{item.BatchNumber}</td>
                                         <td className="px-4 py-3 text-blue-600 underline cursor-pointer">
-                                            <Button variant="link" onClick={() => setPdfUrl(item.coaLink)} >Click To View</Button>
+                                            <a
+                                                href={item.coaLink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-blue-600 underline cursor-pointer"
+                                            >
+                                                Click To View
+                                            </a>
                                         </td>
                                         {/* <td className="px-4 py-3 text-blue-600 underline cursor-pointer">
                                             <a href={item.msdsLink}>Click here</a>
@@ -168,7 +186,14 @@ const COA = () => {
                                             <tr className='bg-zinc-100'>
                                                 <td className="font-bold whitespace-nowrap p-2">Item Name :</td>
                                                 <td className="p-2 w-full text-gray-900 cursor- hover:underline">
-                                                    {item.ItemName}
+                                                    <a
+                                                        href={item.coaLink}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="hover:underline"
+                                                    >
+                                                        {item.ItemName}
+                                                    </a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -186,9 +211,14 @@ const COA = () => {
                                             <tr>
                                                 <td className="font-bold whitespace-nowrap p-2">COA :</td>
                                                 <td className='p-2'>
-                                                    <span onClick={() => setPdfUrl(item.coaLink)} className="text-blue-600 underline cursor-pointer">
+                                                    <a
+                                                        href={item.coaLink}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-blue-600 underline cursor-pointer"
+                                                    >
                                                         Click To View
-                                                    </span>
+                                                    </a>
                                                 </td>
                                             </tr>
                                         </tbody>

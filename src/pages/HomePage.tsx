@@ -14,6 +14,7 @@ import {
 import Autoplay from "embla-carousel-autoplay"
 import { ImagesSlider } from '@/components/ui/images-slider'
 import { WordRotate } from '@/components/magicui/word-rotate'
+import { Link } from 'react-router'
 
 const heroSlides = [
     {
@@ -136,10 +137,12 @@ const HomePage = () => {
                                 </p>
                             </div>
                             <div className='flex justify-center'>
-                                <Button type='button' size={"lg"} className='mt-5 cursor-pointer'>Know More <ArrowRight /></Button>
+                                <Link to="/profile">
+                                    <Button type='button' size={"lg"} className='mt-5 cursor-pointer'>Know More <ArrowRight /></Button>
+                                </Link>
                             </div>
                         </div>
-                        <div className=''>
+                        <div className='flex justify-center'>
                             <img src="/Brand Logo.png" alt="" className='size-[300px] lg:size-[400px]' />
                         </div>
                     </div>
@@ -205,21 +208,25 @@ const HomePage = () => {
 
                         <div className='group cursor-default hover:scale-102 transition'>
                             <div className='bg-[url(/ui_images/why1.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
-                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 flex transition-all duration-200 bg-black/60 h-full'>All our products are backed by COAs and meet stringent international quality standards.
+                                <p
+                                    className='text-center text-white items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100  flex transition-all duration-200 bg-black/60 h-full'
+                                    tabIndex={0}
+                                >
+                                    All our products are backed by COAs and meet stringent international quality standards.
                                 </p>
                             </div>
                             <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><CheckCircle />Certified Quality</p>
                         </div>
                         <div className='group cursor-default hover:scale-102 transition'>
                             <div className='bg-[url(/ui_images/why2.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
-                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 flex transition-all duration-200 bg-black/60 h-full'> From basic laboratory reagents to advanced research chemicals, we stock over 2,000+ chemical compounds.
+                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 flex transition-all duration-200 bg-black/60 h-full' tabIndex={0}> From basic laboratory reagents to advanced research chemicals, we stock over 2,000+ chemical compounds.
                                 </p>
                             </div>
                             <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><PillBottle />Wide Products Range</p>
                         </div>
                         <div className='group cursor-default hover:scale-102 transition'>
                             <div className='bg-[url(/ui_images/why4.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
-                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 flex transition-all duration-200 bg-black/60 h-full'>Experienced chemical experts ready to assist with specifications, documentation, and custom requirements.
+                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 flex transition-all duration-200 bg-black/60 h-full' tabIndex={1}>Experienced chemical experts ready to assist with specifications, documentation, and custom requirements.
                                 </p>
                             </div>
                             <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><Headphones />Customer-Centric Support</p>
