@@ -36,7 +36,10 @@ const COA = () => {
 
     // Utility to clean up ItemName: remove extra spaces and trim
     const cleanItemName = (name: string) =>
-        name.replace(/\s+/g, ' ').trim();
+        name
+            .replace(/\s+/g, ' ') // collapse spaces
+           .replace(/[‘’“”]/g, '') // remove curly single and double quotes
+            .trim();
 
     // Add coaLink to each item
     const coaDataWithLinks = coa_data.map(item => ({
