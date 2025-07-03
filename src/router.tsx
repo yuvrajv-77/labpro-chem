@@ -10,6 +10,7 @@ import { Gallery } from "./pages/Gallery"
 import Search from "./pages/Search"
 import ErrorPage from "./pages/ErrorPage"
 import Chemicals from "./pages/Chemicals"
+import Contact from "./pages/Contact"
 
 export const router = createBrowserRouter([
 
@@ -36,7 +37,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <div className="flex items-center justify-center h-screen text-3xl animate-pulse"> This page is in 🧑🏻‍💻development🧑🏻‍💻 </div>
+        element: <Contact/>
       },
       {
         path: "/chemicals",

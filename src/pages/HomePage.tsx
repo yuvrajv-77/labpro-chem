@@ -132,9 +132,8 @@ const HomePage = () => {
                             </span>
                             <div className='space-y-2   '>
                                 <h4 className=' font-bold text-2xl'>Manufacturers of Laboratory Reagents and Fine Chemicals</h4>
-                                <p className='text-justify font-medium'>Labpro Chem is a trusted name in the chemical industry, dedicated to supplying high-quality laboratory and industrial chemicals to clients across India and beyond.
-                                    <br />At Labpro Chem, we specialize in providing high-quality laboratory chemicals and reagents to research institutions, industries, academic laboratories, and healthcare sectors across India and beyond.
-                                    <br /> With a commitment to precision, purity, and performance, we offer an extensive range of analytical-grade, AR/GR, and custom-blended chemicals to meet your every scientific need.
+                                <p className='text-justify font-medium'>At LabPro Chem, we are committed to delivering high-quality laboratory chemicals and fine reagents to scientific industries, research labs, pharmaceuticals, and educational institutions across India. With our extensive product range, reliable service, and customer-first approach, we have earned a reputation for excellence and trust.
+
                                 </p>
                             </div>
                             <div className='flex justify-center'>
@@ -209,28 +208,51 @@ const HomePage = () => {
 
                         <div className='group cursor-default hover:scale-102 transition'>
                             <div className='bg-[url(/ui_images/why1.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
-                                <p
-                                    className='text-center text-white items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100  flex transition-all duration-200 bg-black/60 h-full'
-                                    tabIndex={0}
-                                >
-                                    All our products are backed by COAs and meet stringent international quality standards.
+                                <p className='text-center text-white items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100  flex transition-all duration-200 bg-black/60 h-full'
+                                    tabIndex={0}>All our products are backed by COAs and meet stringent international quality standards.
                                 </p>
                             </div>
                             <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><CheckCircle />Certified Quality</p>
                         </div>
                         <div className='group cursor-default hover:scale-102 transition'>
                             <div className='bg-[url(/ui_images/why2.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
-                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 flex transition-all duration-200 bg-black/60 h-full' tabIndex={0}> From basic laboratory reagents to advanced research chemicals, we stock over 2,000+ chemical compounds.
+                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 flex transition-all duration-200 bg-black/60 h-full'
+                                    tabIndex={0}> From basic laboratory reagents to advanced research chemicals, we stock over 2,000+ chemical compounds.
                                 </p>
                             </div>
                             <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><PillBottle />Wide Products Range</p>
                         </div>
                         <div className='group cursor-default hover:scale-102 transition'>
                             <div className='bg-[url(/ui_images/why4.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
-                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 flex transition-all duration-200 bg-black/60 h-full' tabIndex={1}>Experienced chemical experts ready to assist with specifications, documentation, and custom requirements.
+                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 flex transition-all duration-200 bg-black/60 h-full'
+                                    tabIndex={1}>Experienced chemical experts ready to assist with specifications, documentation, and custom requirements.
                                 </p>
                             </div>
                             <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><Headphones />Customer-Centric Support</p>
+                        </div>
+                        <div className='group cursor-default hover:scale-102 transition'>
+                            <div className='bg-[url(/ui_images/why5.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
+                                <p className='text-center text-white items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100  flex transition-all duration-200 bg-black/60 h-full'
+                                    tabIndex={0}>All our products are backed by COAs and meet stringent international quality standards.
+                                </p>
+                            </div>
+                            <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><CheckCircle />Premium Chemicals</p>
+                        </div>
+                        <div className='group cursor-default hover:scale-102 transition'>
+                            <div className='bg-[url(/ui_images/why6.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
+                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 flex transition-all duration-200 bg-black/60 h-full'
+                                    tabIndex={0}> From basic laboratory reagents to advanced research chemicals, we stock over 2,000+ chemical compounds.
+                                </p>
+                            </div>
+                            <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><PillBottle />Fast Dispatch</p>
+                        </div>
+                        <div className='group cursor-default hover:scale-102 transition'>
+                            <div className='bg-[url(/ui_images/why7.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
+                                <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 flex transition-all duration-200 bg-black/60 h-full'
+                                    tabIndex={1}>Experienced chemical experts ready to assist with specifications, documentation, and custom requirements.
+                                </p>
+                            </div>
+                            <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><Headphones /> Custom Packing & Labeling</p>
                         </div>
                     </div>
 

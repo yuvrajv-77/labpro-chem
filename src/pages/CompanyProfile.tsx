@@ -93,10 +93,13 @@ const CompanyProfile = () => {
                             </span>
                             <div className='space-y-2   '>
                                 <h4 className=' font-bold text-2xl'>Manufacturers of Laboratory Reagents and Fine Chemicals</h4>
-                                <p className='text-justify font-medium'>Labpro Chem is a trusted name in the chemical industry, dedicated to supplying high-quality laboratory and industrial chemicals to clients across India and beyond.
-                                    <br />At Labpro Chem, we specialize in providing high-quality laboratory chemicals and reagents to research institutions, industries, academic laboratories, and healthcare sectors across India and beyond.
-                                    <br /> With a commitment to precision, purity, and performance, we offer an extensive range of analytical-grade, AR/GR, and custom-blended chemicals to meet your every scientific need.
-                                </p>
+                                <p className='text-justify font-medium'>LabPro Chem is a Mumbai-based supplier and distributor of laboratory-grade chemicals, solvents, and reagents. With years of experience in the chemical distribution industry, we cater to a wide range of industries including:</p>
+                                <ul className='list-disc pl-5 text-sm text-gray-700 space-y-1 mt-10 font-semibold'>
+                                    <li>Research & Development labs</li>
+                                    <li>Pharmaceuticals & Biotechnology</li>
+                                    <li>Educational Institutions</li>
+                                    <li>Industrial Labs</li>
+                                </ul>
                             </div>
                         </div>
 
@@ -117,7 +120,16 @@ const CompanyProfile = () => {
                         <h2 className='text-center  text-2xl'>Our Mission &</h2>
                         <h2 className='bg-primary text-white p-2 rounded-'>Vision</h2>
                     </span>
-                    <div className='  grid grid-rows-7 md:grid-rows-4 grid-cols-1 md:grid-cols-2 gap-5 py-10'>
+
+                    <div className='py-10 text-center'>
+                        <p className=' font-medium text-lg mb-2 text-justify'>
+                        Our goal is to provide high-purity materials at competitive prices, backed by responsive service and timely delivery.
+                        </p>
+                        <p className=' font-medium text-lg mb-2 text-justify'>
+                        Our vision is to be recognized by our clients as a preferred problem-solving applied research group, solving our client's specific needs in the environmental, chemical, process optimization, and industrial forensics specialties by linking technology to solutions.
+                        </p>
+                    </div>
+                    {/* <div className='  grid grid-rows-7 md:grid-rows-4 grid-cols-1 md:grid-cols-2 gap-5 py-10'>
                         <div className=''>
                             <h4 className=' font-black text-lg mb-2'>Our Mission</h4>
                             <p className='text-justify text-sm font-semibold'>
@@ -157,7 +169,7 @@ const CompanyProfile = () => {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque tempora sed consequuntur atque laudantium asperiores ipsam explicabo in. Expedita?
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                 </motion.div>
             </section>
 
@@ -170,9 +182,9 @@ const CompanyProfile = () => {
                     transition={{ duration: 0.6 }}
                     className='max-w-6xl mx-auto px-7 md:px-10 lg:px-0'>
                     <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
-                    <h2 className='text-center  text-2xl'>Our</h2>
-                    <h2 className='bg-primary text-white p-2 rounded-'>Certifications</h2>
-                </span>
+                        <h2 className='text-center  text-2xl'>Our</h2>
+                        <h2 className='bg-primary text-white p-2 rounded-'>Certifications</h2>
+                    </span>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-20'>
                         {

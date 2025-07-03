@@ -1,6 +1,7 @@
 import { Linkedin } from 'lucide-react'
 import React from 'react'
 import { Link, useNavigate } from 'react-router'
+import  labprochem from '../data/labprochem.json'
 
 const Footer = () => {
 
@@ -45,19 +46,19 @@ const Footer = () => {
                             <div>
                                 <h2 className='text-lg font-bold mb-3'>Head Office</h2>
                                 <p className='text-sm font-bold '>
-                                    No.32, H-Block, 15th Main Road, Anna Nagar, Chennai - 600040. Tamilnadu, India.
+                                    {labprochem[0].address}
                                 </p>
                             </div>
                             <div>
                                 <h2 className='text-lg font-bold mb-3'>Call Us</h2>
                                 <p className='text-sm font-bold'>
-                                    +91-7894563210
+                                    {labprochem[0].phone}
                                 </p>
                             </div>
                             <div>
                                 <h2 className='text-lg font-bold mb-3'>Write Us</h2>
                                 <p className='text-sm font-bold'>
-                                    info@labprochemicals.co.in
+                                    {labprochem[0].email}
                                 </p>
                             </div>
                         </div>

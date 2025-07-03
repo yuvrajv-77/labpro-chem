@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArrowUp, ChevronUp, ChevronUpCircle } from "lucide-react"; // Optional: lucide icon
+import  labprochem from '../data/labprochem.json'
+
 
 const FloatingButtons = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -20,7 +22,7 @@ const FloatingButtons = () => {
     return (
 
         <span className='fixed flex flex-col items-center bottom-5 right-5 z-50 bg-transparent gap-4 rounded-full transition-all duration-100'>
-            <span
+            <span onClick={() => window.open(`https://api.whatsapp.com/send?phone=${labprochem[0].phone}&text=Hello%20LabPro%20Chemicals`, "_blank")}
                 className=' bg-[#25D366] rounded-full shadow-2xl p-3 lg:p-4 cursor-pointer  transition-transform hover:bg-green-300'>
                 <img src="https://cdn.brandfetch.io/id6Zq084G_/theme/light/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" className='size-6 lg:size-7' alt="WhatsApp" />
             </span>
