@@ -9,6 +9,7 @@ import {
     CarouselPrevious,
 } from '@/components/ui/carousel'
 import { motion } from "motion/react"
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
 
 const galleryImages = [
     {
@@ -47,6 +48,19 @@ export const Gallery = () => {
 
     return (
         <main>
+             <Breadcrumb className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-8'>
+                <BreadcrumbList>
+                    <BreadcrumbItem>
+                        <BreadcrumbLink href="/">Home</BreadcrumbLink>
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbSeparator />
+                    </BreadcrumbItem>
+                    <BreadcrumbItem>
+                        <BreadcrumbPage>Downloads</BreadcrumbPage>
+                    </BreadcrumbItem>
+                </BreadcrumbList>
+            </Breadcrumb>
             <section className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-16'>
                 <span className='text-center font-extrabold text-2xl flex gap-2 items-center justify-center uppercase'>
                     {/* <h2 className='text-center  text-2xl'>certificate of</h2> */}

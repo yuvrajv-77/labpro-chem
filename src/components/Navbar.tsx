@@ -5,6 +5,7 @@ import { CheckSquare, CheckSquare2, Mail, Menu, Search, X } from 'lucide-react'
 import { Link, useNavigate } from 'react-router'
 import { Button } from './ui/button'
 import { motion, AnimatePresence } from "framer-motion";
+import  labprochem from '../data/labprochem.json';
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -24,8 +25,7 @@ const navLinks = [
     { name: 'Downloads', href: '/downloads' },
     { name: 'Laboratory Chemicals', href: '/chemicals' },
     { name: 'CoAs', href: '/coa' },
-
-    { name: 'Events', href: '/events' },
+    // { name: 'Events', href: '/events' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'Contact', href: '/contact' },
 ]
@@ -40,7 +40,7 @@ const Navbar = () => {
                 <div className='bg-primary py-2 md:py-1 px-4 md:px-10 lg:px-0'>
                     <div className='md:max-w-6xl text-white  mx-auto  flex items-center justify-between '>
                         <p className='hidden md:flex text-sm items-center gap-2 font-bold '> <Mail size={15} />
-                            info@labprochemicals.co.in</p>
+                            {labprochem[0].email}</p>
                         <span className='w-50 relative md:w-70 border rounded-lg cursor-text text-xs md:text-base flex items-center gap-3 justify-center text-white/80 h-6  md:h-7 border-white/60' onClick={() => navigate('/search')} >
                             <Search size={15} /> Search 7000+ Chemicals
                         </span>
@@ -66,7 +66,7 @@ const Navbar = () => {
                                 <img src="/Brand Logo.png" className='size-14' alt="" />
                             </span>
                             <span>
-                                <h1 className='text-lg md:text-2xl font-black text-primary'>LABPRO CHEMICALS</h1>
+                                <h1 className='text-lg md:text-2xl font-black text-primary'>LABPRO CHEM</h1>
                                 <p className='text-[9px] font-semibold md:text-xs'>High-Purity Chemicals. On Time. Every Time</p>
                             </span>
                         </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
                                         <span className='border border-primary p-1'>
                                             <img src="/Brand Logo.png" className='size-10 rounded-sm' alt="" />
                                         </span>
-                                        <h1 className='text-lg font-extrabold text-white'>LABPRO CHEMICALS</h1>
+                                        <h1 className='text-lg font-extrabold text-white'>LABPRO CHEM</h1>
                                     </div>
                                     <Button
                                         size="icon"
@@ -161,13 +161,13 @@ const Navbar = () => {
                                         </AccordionItem>
                                     </Accordion>
 
-                                    <Link
+                                    {/* <Link
                                         to={'/events'}
                                         className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
                                         onClick={() => setIsMobileNavOpen(false)}
                                     >
                                         Events
-                                    </Link>
+                                    </Link> */}
                                     <Link
                                         to={'/gallery'}
                                         className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
@@ -273,11 +273,11 @@ const Navbar = () => {
                                     </NavigationMenuLink>
                                 </NavigationMenuItem>
 
-                                <NavigationMenuItem>
+                                {/* <NavigationMenuItem>
                                     <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
                                         <Link to="/events">Events</Link>
                                     </NavigationMenuLink>
-                                </NavigationMenuItem>
+                                </NavigationMenuItem> */}
 
                                 <NavigationMenuItem>
                                     <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>

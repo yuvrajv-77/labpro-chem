@@ -46,6 +46,15 @@ const certificateImages = [
     },
 ]
 
+/**
+ * The Certifications page displays a list of certifications held by the company.
+ * When a certification is clicked, a modal appears with a carousel of images
+ * that can be scrolled through using the arrow keys or the arrows on the side
+ * of the carousel.
+ *
+ * The carousel is full-screen and can be closed by clicking the X button in the
+ * top-right corner.
+ */
 const Certifications = () => {
 
     const [showCarousel, setShowCarousel] = useState(false)

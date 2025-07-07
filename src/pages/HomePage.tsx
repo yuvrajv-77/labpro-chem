@@ -14,7 +14,7 @@ import {
 import Autoplay from "embla-carousel-autoplay"
 import { ImagesSlider } from '@/components/ui/images-slider'
 import { WordRotate } from '@/components/magicui/word-rotate'
-import { Link } from 'react-router'
+import { Link, useNavigate } from 'react-router'
 
 const heroSlides = [
     {
@@ -38,7 +38,7 @@ const heroSlides = [
         lines: [
             "Empowering Research, Enabling Progress",
             "Excellence in Every Batch.",
-            "LABPRO CHEMICALS"
+            "LABPRO CHEM"
         ]
     }
 ]
@@ -52,6 +52,8 @@ const herolines = [
 const HomePage = () => {
     const [current, setCurrent] = useState(0)
     const [fade, setFade] = useState(true)
+
+    const navigate = useNavigate()
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -67,7 +69,7 @@ const HomePage = () => {
 
     const images = [
         "/ui_images/hero-banner1.jpg",
-        "/ui_images/footer.png",
+        // "/ui_images/footer.png",
         "/ui_images/grid-chem.jpg",
         "/ui_images/bannermin1.jpg",
         "/ui_images/hero.jpg",
@@ -89,7 +91,7 @@ const HomePage = () => {
                             y: 0,
                         }}
                         transition={{
-                            duration: 0.5,
+                            duration: 1,
                         }}
                         className="z-50 flex flex-col justify-center items-center"
                     >
@@ -100,7 +102,7 @@ const HomePage = () => {
                         {/* <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text leading-20  text-white py-4">
                             Driving Innovation with Quality Lab Chemicals <br /> Precision. Purity. Performance.<br /> LABPRO
                         </motion.p> */}
-                        <Button type='button' size={"lg"} className='mt-2  cursor-pointer'>Read More <ArrowRight /></Button>
+                        <Button onClick={() => {navigate('/profile') }} type='button' size={"lg"} className='mt-2  cursor-pointer'>Read More <ArrowRight /></Button>
 
                     </motion.div>
                 </ImagesSlider>
@@ -223,7 +225,7 @@ const HomePage = () => {
                             <p className='text-center font-extrabold text-xl mt-2 flex gap-2 items-center justify-center group-hover:text-primary'><PillBottle />Wide Products Range</p>
                         </div>
                         <div className='group cursor-default hover:scale-102 transition'>
-                            <div className='bg-[url(/ui_images/why4.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
+                            <div className='bg-[url(/ui_images/hero.jpg)] h-[230px] bg-cover bg-center flex  items-center rounded-xl overflow-hidden '>
                                 <p className='text-center text-white  items-center justify-center font-bold text-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 flex transition-all duration-200 bg-black/60 h-full'
                                     tabIndex={1}>Experienced chemical experts ready to assist with specifications, documentation, and custom requirements.
                                 </p>

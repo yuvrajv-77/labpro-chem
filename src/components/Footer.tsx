@@ -71,7 +71,7 @@ const Footer = () => {
             <div className='bg-primary px-2 md:px-10 text-white '>
                 <div className='w-full md:max-w-6xl mx-auto flex flex-col md:flex-row gap-y-3 items-center justify-between  py-5'>
                     <span className='space-x-2'>
-                        <span>© 2023</span>
+                        <span>© 2025</span>
                         <strong>LABPRO CHEM.</strong>
                         <span>All Rights Reserved.</span>
                     </span>

@@ -2,6 +2,17 @@ import * as React from "react"
 
 import { cn } from "@/lib/utils"
 
+/**
+ * Input component
+ *
+ * @remarks
+ *
+ * This component is a wrapper around the native HTML input element. It
+ * supports all the same props as the native element, and adds some
+ * additional styles and behavior.
+ *
+ * @public
+ */
 function Input({ className, type, ...props }: React.ComponentProps<"input">) {
   return (
     <input
