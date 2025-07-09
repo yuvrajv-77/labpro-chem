@@ -38,7 +38,7 @@ const COA = () => {
     const cleanItemName = (name: string) =>
         name
             .replace(/\s+/g, ' ') // collapse spaces
-           .replace(/[‘’“”]/g, '') // remove curly single and double quotes
+            .replace(/[‘’“”]/g, '') // remove curly single and double quotes
             .trim();
 
     // Add coaLink to each item

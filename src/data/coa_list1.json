@@ -239,21 +239,21 @@
   },
   {
     "ID": 35,
-    "ItemName": "AGAROSE (H) (High EEO) For Microbiology",
+    "ItemName": "AGAROSE (H) (high EEO) For Microbiology",
     "CatalogueNumber": "LA0137",
     "CASNumber": "9012-36-6",
     "BatchNumber": "452HB"
   },
   {
     "ID": 36,
-    "ItemName": "AGAROSE (L) (Low EEO) For Microbiology",
+    "ItemName": "AGAROSE (L) (low EEO) For Microbiology",
     "CatalogueNumber": "LA0138",
     "CASNumber": "9012-36-6",
     "BatchNumber": "105BN"
   },
   {
     "ID": 37,
-    "ItemName": "AGAROSE (M) (Medium EEO) For Microbiology",
+    "ItemName": "AGAROSE (M) (medium EEO) For Microbiology",
     "CatalogueNumber": "LA0149",
     "CASNumber": "9012-36-6",
     "BatchNumber": "800JV"
@@ -1237,5 +1237,600 @@
     "CatalogueNumber": "LA0194",
     "CASNumber": "7727-15-3",
     "BatchNumber": "410HH"
+  },
+  {
+    "ID": 178,
+    "ItemName": "Aluminium Carbonate",
+    "CatalogueNumber": "LA0195",
+    "CASNumber": "1339-92-0",
+    "BatchNumber": "710SF"
+  },
+  {
+    "ID": 179,
+    "ItemName": "Aluminium Chloride (Anhydrous)",
+    "CatalogueNumber": "LA0196",
+    "CASNumber": "7446-70-0",
+    "BatchNumber": "924DC"
+  },
+  {
+    "ID": 180,
+    "ItemName": "Aluminium Chloride (Hexahydrate)",
+    "CatalogueNumber": "LA0197",
+    "CASNumber": "7784-13-6",
+    "BatchNumber": "710DG"
+  },
+  {
+    "ID": 181,
+    "ItemName": "Aluminium Chloride AR (Hexahydrate)",
+    "CatalogueNumber": "LA0198",
+    "CASNumber": "7784-13-6",
+    "BatchNumber": "781BB"
+  },
+  {
+    "ID": 182,
+    "ItemName": "Aluminium Chloride 0.16M Solution",
+    "CatalogueNumber": "LA0199",
+    "CASNumber": "",
+    "BatchNumber": "752AC"
+  },
+  {
+    "ID": 183,
+    "ItemName": "Aluminium Citrate",
+    "CatalogueNumber": "LA0200",
+    "CASNumber": "31142-56-0",
+    "BatchNumber": "715SX"
+  },
+  {
+    "ID": 184,
+    "ItemName": "Aluminium Fluoride (3-hydrate)",
+    "CatalogueNumber": "LA0201",
+    "CASNumber": "15098-87-0",
+    "BatchNumber": "860FG"
+  },
+  {
+    "ID": 185,
+    "ItemName": "Aluminium Fluoride AR (3-hydrate)",
+    "CatalogueNumber": "LA0202",
+    "CASNumber": "15098-87-0",
+    "BatchNumber": "708SG"
+  },
+  {
+    "ID": 186,
+    "ItemName": "Aluminium Formate",
+    "CatalogueNumber": "LA0203",
+    "CASNumber": "7360-53-4",
+    "BatchNumber": "910DV"
+  },
+  {
+    "ID": 187,
+    "ItemName": "ALUMINIUM HYDROXIDE GEL",
+    "CatalogueNumber": "LA0204",
+    "CASNumber": "21645-51-2",
+    "BatchNumber": "120UJ"
+  },
+  {
+    "ID": 188,
+    "ItemName": "ALUMINIUM IODIDE",
+    "CatalogueNumber": "LA0205",
+    "CASNumber": "7784-23-8",
+    "BatchNumber": "565HS"
+  },
+  {
+    "ID": 189,
+    "ItemName": "ALUMINIUM ISOPROPOXIDE",
+    "CatalogueNumber": "LA0206",
+    "CASNumber": "555-31-7",
+    "BatchNumber": "816FG"
+  },
+  {
+    "ID": 190,
+    "ItemName": "ALUMINIUM NITRATE (Nonahydrate)",
+    "CatalogueNumber": "LA0207",
+    "CASNumber": "7784-27-2",
+    "BatchNumber": "762RE"
+  },
+  {
+    "ID": 191,
+    "ItemName": "ALUMINIUM NITRATE AR (Nonahydrate)",
+    "CatalogueNumber": "LA0208",
+    "CASNumber": "7784-27-2",
+    "BatchNumber": "406GH"
+  },
+  {
+    "ID": 192,
+    "ItemName": "ALUMINIUM OXALATE",
+    "CatalogueNumber": "LA0209",
+    "CASNumber": "814-87-9",
+    "BatchNumber": "406MY"
+  },
+  {
+    "ID": 193,
+    "ItemName": "ALUMINIUM OXIDE (Practical) (Calcined White)",
+    "CatalogueNumber": "LA0210",
+    "CASNumber": "1344-28-1",
+    "BatchNumber": "408YJ"
+  },
+  {
+    "ID": 194,
+    "ItemName": "ALUMINIUM OXIDE (Active) Acidic",
+    "CatalogueNumber": "LA0211",
+    "CASNumber": "1344-28-1",
+    "BatchNumber": "638UY"
+  },
+  {
+    "ID": 195,
+    "ItemName": "ALUMINIUM OXIDE (Active) BASIC",
+    "CatalogueNumber": "LA0212",
+    "CASNumber": "1344-28-1",
+    "BatchNumber": "687YH"
+  },
+  {
+    "ID": 196,
+    "ItemName": "ALUMINIUM OXIDE (Active) NEUTRAL",
+    "CatalogueNumber": "LA0213",
+    "CASNumber": "1344-28-1",
+    "BatchNumber": "371RY"
+  },
+  {
+    "ID": 197,
+    "ItemName": "ALUMINIUM OXIDE G (NEUTRAL)",
+    "CatalogueNumber": "LA0214",
+    "CASNumber": "1344-28-1",
+    "BatchNumber": "169RF"
+  },
+  {
+    "ID": 198,
+    "ItemName": "ALUMINIUM PHOSPHATE",
+    "CatalogueNumber": "LA0215",
+    "CASNumber": "7784-30-7",
+    "BatchNumber": "178SF"
+  },
+  {
+    "ID": 199,
+    "ItemName": "ALUMINIUM POTASSIUM SULPHATE (Dodecahydrate)",
+    "CatalogueNumber": "LA0216",
+    "CASNumber": "7784-24-9",
+    "BatchNumber": "109VV"
+  },
+  {
+    "ID": 200,
+    "ItemName": "ALUMINIUM POTASSIUM SULPHATE AR (Dodecahydrate)",
+    "CatalogueNumber": "LA0217",
+    "CASNumber": "7784-24-9",
+    "BatchNumber": "710SF"
+  },
+  {
+    "ID": 201,
+    "ItemName": "ALUMINIUM SILICATE (Powder) (Hydrate)",
+    "CatalogueNumber": "LA0218",
+    "CASNumber": "12141-46-7",
+    "BatchNumber": "476GD"
+  },
+  {
+    "ID": 202,
+    "ItemName": "ALUMINIUM SILICOFLUORIDE",
+    "CatalogueNumber": "LA0219",
+    "CASNumber": "17099-70-6",
+    "BatchNumber": "791SF"
+  },
+  {
+    "ID": 203,
+    "ItemName": "ALUMINIUM SODIUM PHOSPHATE",
+    "CatalogueNumber": "LA0220",
+    "CASNumber": "7785-88-8",
+    "BatchNumber": "861VV"
+  },
+  {
+    "ID": 204,
+    "ItemName": "ALUMINIUM STEARATE",
+    "CatalogueNumber": "LA0221",
+    "CASNumber": "637-12-7",
+    "BatchNumber": "186FV"
+  },
+  {
+    "ID": 205,
+    "ItemName": "ALUMINIUM SULPHATE",
+    "CatalogueNumber": "LA0222",
+    "CASNumber": "7784-31-8",
+    "BatchNumber": "386WF"
+  },
+  {
+    "ID": 206,
+    "ItemName": "ALUMINIUM SULPHATE AR (18-hydrate)",
+    "CatalogueNumber": "LA0224",
+    "CASNumber": "7784-31-8",
+    "BatchNumber": "560JF"
+  },
+  {
+    "ID": 207,
+    "ItemName": "ALUMINIUM SULPHIDE",
+    "CatalogueNumber": "LA0225",
+    "CASNumber": "1302-81-4",
+    "BatchNumber": "605HG"
+  },
+  {
+    "ID": 208,
+    "ItemName": "ALUMINIUM SULPHITE",
+    "CatalogueNumber": "LA0226",
+    "CASNumber": "",
+    "BatchNumber": "364SF"
+  },
+  {
+    "ID": 209,
+    "ItemName": "ALUMINIUM TARTRATE",
+    "CatalogueNumber": "LA0227",
+    "CASNumber": "815-78-1",
+    "BatchNumber": "419HU"
+  },
+  {
+    "ID": 210,
+    "ItemName": "ALUMINON AR (Aurin Tricarboxylic Acid Triammonium Salt)",
+    "CatalogueNumber": "LA0228",
+    "CASNumber": "569-58-4",
+    "BatchNumber": "916HU"
+  },
+  {
+    "ID": 211,
+    "ItemName": "ALUMINON REAGENT Solution",
+    "CatalogueNumber": "LA0229",
+    "CASNumber": "569-58-4",
+    "BatchNumber": "405WD"
+  },
+  {
+    "ID": 212,
+    "ItemName": "AMARANTH",
+    "CatalogueNumber": "LA0230",
+    "CASNumber": "915-67-3",
+    "BatchNumber": "405VV"
+  },
+  {
+    "ID": 213,
+    "ItemName": "AMARANTH Indicator Solution",
+    "CatalogueNumber": "LA0231",
+    "CASNumber": "",
+    "BatchNumber": "962SF"
+  },
+  {
+    "ID": 214,
+    "ItemName": "AMBERLITE IR 120 (Strong Acid)",
+    "CatalogueNumber": "LA0232",
+    "CASNumber": "63182-08-1",
+    "BatchNumber": "346WS"
+  },
+  {
+    "ID": 215,
+    "ItemName": "AMBERLITE IRA 400 (Strong Base Anion Exchange Resin)",
+    "CatalogueNumber": "LA0233",
+    "CASNumber": "60177-39-1",
+    "BatchNumber": "416FF"
+  },
+  {
+    "ID": 216,
+    "ItemName": "AMIDO BLACK 10B (For Molecular Biology)",
+    "CatalogueNumber": "LA0234",
+    "CASNumber": "1064-48-8",
+    "BatchNumber": "785CG"
+  },
+  {
+    "ID": 217,
+    "ItemName": "AMIDOL",
+    "CatalogueNumber": "LA0235",
+    "CASNumber": "137-09-7",
+    "BatchNumber": "923HT"
+  },
+  {
+    "ID": 218,
+    "ItemName": "AMIKACIN SULPHATE",
+    "CatalogueNumber": "LA0236",
+    "CASNumber": "39831-55-5",
+    "BatchNumber": "634YY"
+  },
+  {
+    "ID": 219,
+    "ItemName": "p-AMINO ACETANILIDE",
+    "CatalogueNumber": "LA0237",
+    "CASNumber": "122-80-5",
+    "BatchNumber": "761EV"
+  },
+  {
+    "ID": 220,
+    "ItemName": "AMINO ACETIC ACID",
+    "CatalogueNumber": "LA0238",
+    "CASNumber": "56-40-6",
+    "BatchNumber": "921SD"
+  },
+  {
+    "ID": 221,
+    "ItemName": "AMINO ACETIC ACID AR",
+    "CatalogueNumber": "LA0239",
+    "CASNumber": "56-40-6",
+    "BatchNumber": "300DD"
+  },
+  {
+    "ID": 222,
+    "ItemName": "m-AMINOACETOPHENONE",
+    "CatalogueNumber": "LA0240",
+    "CASNumber": 36225,
+    "BatchNumber": "416BR"
+  },
+  {
+    "ID": 223,
+    "ItemName": "o-AMINOACETOPHENONE",
+    "CatalogueNumber": "LA0241",
+    "CASNumber": "551-93-9",
+    "BatchNumber": "406SZ"
+  },
+  {
+    "ID": 224,
+    "ItemName": "p-AMINOACETOPHENONE",
+    "CatalogueNumber": "LA0241",
+    "CASNumber": "99-92-3",
+    "BatchNumber": "320QE"
+  },
+  {
+    "ID": 225,
+    "ItemName": "p-AMINO ANTIPYRINE",
+    "CatalogueNumber": "LA0243",
+    "CASNumber": 30505,
+    "BatchNumber": "405FJ"
+  },
+  {
+    "ID": 226,
+    "ItemName": "p-AMINO ANTIPYRINE AR",
+    "CatalogueNumber": "LA0244",
+    "CASNumber": 30505,
+    "BatchNumber": "358HY"
+  },
+  {
+    "ID": 227,
+    "ItemName": "p-AMINO AZOBENZENE",
+    "CatalogueNumber": "LA0245",
+    "CASNumber": 22162,
+    "BatchNumber": "624JY"
+  },
+  {
+    "ID": 228,
+    "ItemName": "4-AMINOBENZAMIDE",
+    "CatalogueNumber": "LA0246",
+    "CASNumber": "2835-68-9",
+    "BatchNumber": "626NT"
+  },
+  {
+    "ID": 229,
+    "ItemName": "2-AMINOBENZIMIDAZOLE",
+    "CatalogueNumber": "LA0247",
+    "CASNumber": "934-32-7",
+    "BatchNumber": "523FV"
+  },
+  {
+    "ID": 230,
+    "ItemName": "m-AMINO BENZOIC ACID",
+    "CatalogueNumber": "LA0248",
+    "CASNumber": 36288,
+    "BatchNumber": "410WF"
+  },
+  {
+    "ID": 231,
+    "ItemName": "p-AMINO BENZOIC ACID",
+    "CatalogueNumber": "LA0249",
+    "CASNumber": "150-13-0",
+    "BatchNumber": "624FB"
+  },
+  {
+    "ID": 232,
+    "ItemName": "2-AMINOBENZONITRILE",
+    "CatalogueNumber": "LA0250",
+    "CASNumber": "1885-29-6",
+    "BatchNumber": "641HG"
+  },
+  {
+    "ID": 233,
+    "ItemName": "2-AMINO BENZOPHENONE",
+    "CatalogueNumber": "LA0251",
+    "CASNumber": "2835-77-0",
+    "BatchNumber": "406GR"
+  },
+  {
+    "ID": 234,
+    "ItemName": "4-AMINO BENZOPHENONE",
+    "CatalogueNumber": "LA0252",
+    "CASNumber": "1137-41-3",
+    "BatchNumber": "710WV"
+  },
+  {
+    "ID": 235,
+    "ItemName": "2-AMINOBENZOTHIAZOLE",
+    "CatalogueNumber": "LA0253",
+    "CASNumber": "136-95-8",
+    "BatchNumber": "581HT"
+  },
+  {
+    "ID": 236,
+    "ItemName": "6-AMINOBENZOTHIAZOLE",
+    "CatalogueNumber": "LA0254",
+    "CASNumber": "533-30-2",
+    "BatchNumber": "810GG"
+  },
+  {
+    "ID": 237,
+    "ItemName": "4-AMINO-1-BENZYLPIPERIDINE",
+    "CatalogueNumber": "LA0255",
+    "CASNumber": "50541-93-0",
+    "BatchNumber": "406DT"
+  },
+  {
+    "ID": 238,
+    "ItemName": "3-AMINO-5-BROMOPYRIDINE",
+    "CatalogueNumber": "LA0256",
+    "CASNumber": "13535-01-8",
+    "BatchNumber": "725SF"
+  },
+  {
+    "ID": 239,
+    "ItemName": "2-AMINO-6-BROMOPYRIDINE",
+    "CatalogueNumber": "LA0257",
+    "CASNumber": "19798-81-3",
+    "BatchNumber": "741SS"
+  },
+  {
+    "ID": 240,
+    "ItemName": "S (+)-2-AMINO-1-BUTANOL",
+    "CatalogueNumber": "LA0258",
+    "CASNumber": "5856-62-2",
+    "BatchNumber": "710JH"
+  },
+  {
+    "ID": 241,
+    "ItemName": "DL-2-AMINO BUTYRIC ACID",
+    "CatalogueNumber": "LA0259",
+    "CASNumber": "2835-81-6",
+    "BatchNumber": "615SV"
+  },
+  {
+    "ID": 242,
+    "ItemName": "p-AMINO BUTYRIC ACID AR",
+    "CatalogueNumber": "LA0260",
+    "CASNumber": 20791,
+    "BatchNumber": "406FG"
+  },
+  {
+    "ID": 243,
+    "ItemName": "6-AMINO CAPROIC ACID (For Biochemistry)",
+    "CatalogueNumber": "LA0261",
+    "CASNumber": "60-32-2",
+    "BatchNumber": "453TG"
+  },
+  {
+    "ID": 244,
+    "ItemName": "2-AMINO-4-CHLOROPHENOL",
+    "CatalogueNumber": "LA0262",
+    "CASNumber": "95-85-2",
+    "BatchNumber": "416FH"
+  },
+  {
+    "ID": 245,
+    "ItemName": "p-AMINO DIPHENYLAMINE (Crystalline)",
+    "CatalogueNumber": "LA0263",
+    "CASNumber": "101-54-2",
+    "BatchNumber": "540DF"
+  },
+  {
+    "ID": 246,
+    "ItemName": "[3-(2-AMINOETHYLAMINO)PROPYL] TRIMETHOXYSILANE",
+    "CatalogueNumber": "LA0264",
+    "CASNumber": "1760-24-3",
+    "BatchNumber": "810HJ"
+  },
+  {
+    "ID": 247,
+    "ItemName": "N-(2-AMINOETHYL) ETHANOLAMINE (For Synthesis)",
+    "CatalogueNumber": "LA0265",
+    "CASNumber": "111-41-1",
+    "BatchNumber": "615JN"
+  },
+  {
+    "ID": 248,
+    "ItemName": "AMINOGUANIDINE BICARBONATE (For Synthesis)",
+    "CatalogueNumber": "LA0266",
+    "CASNumber": "2582-30-1",
+    "BatchNumber": "231JH"
+  },
+  {
+    "ID": 249,
+    "ItemName": "p-AMINOHIPPURIC ACID",
+    "CatalogueNumber": "LA0267",
+    "CASNumber": "61-78-9",
+    "BatchNumber": "745GH"
+  },
+  {
+    "ID": 250,
+    "ItemName": "2-AMINO-3-HYDROXYPYRIDINE",
+    "CatalogueNumber": "LA0268",
+    "CASNumber": "16867-03-1",
+    "BatchNumber": "405HS"
+  },
+  {
+    "ID": 251,
+    "ItemName": "2-AMINO-2-METHYL-1,3-PROPANEDIOL AR",
+    "CatalogueNumber": "LA0269",
+    "CASNumber": "115-69-5",
+    "BatchNumber": "741SF"
+  },
+  {
+    "ID": 252,
+    "ItemName": "2-AMINO-2-METHYL-1-PROPANOL Extra Pure (AMP)",
+    "CatalogueNumber": "LA0270",
+    "CASNumber": "124-68-5",
+    "BatchNumber": "476HH"
+  },
+  {
+    "ID": 253,
+    "ItemName": "2-AMINO-4-METHYLPYRIDINE (For Synthesis)",
+    "CatalogueNumber": "LA0271",
+    "CASNumber": "695-34-1",
+    "BatchNumber": "406DH"
+  },
+  {
+    "ID": 254,
+    "ItemName": "2-AMINO-5-METHYLPYRIDINE",
+    "CatalogueNumber": "LA0272",
+    "CASNumber": "1603-41-4",
+    "BatchNumber": "412HH"
+  },
+  {
+    "ID": 255,
+    "ItemName": "2-AMINO-6-METHYLPYRIDINE",
+    "CatalogueNumber": "LA0273",
+    "CASNumber": "1824-81-3",
+    "BatchNumber": "478XR"
+  },
+  {
+    "ID": 256,
+    "ItemName": "2-AMINO-4-METHYL THIAZOLE",
+    "CatalogueNumber": "LA0274",
+    "CASNumber": "1603-91-4",
+    "BatchNumber": "415SG"
+  },
+  {
+    "ID": 257,
+    "ItemName": "4-AMINOMORPHOLINE",
+    "CatalogueNumber": "LA0275",
+    "CASNumber": "4319-49-7",
+    "BatchNumber": "946YF"
+  },
+  {
+    "ID": 258,
+    "ItemName": "2-AMINONAPHTHALENE-1-SULPHONIC ACID (For Synthesis",
+    "CatalogueNumber": "LA0276",
+    "CASNumber": "81-16-3",
+    "BatchNumber": "974UL"
+  },
+  {
+    "ID": 259,
+    "ItemName": "1-AMINO-2-NAPHTHOL-4-SULPHONIC ACID",
+    "CatalogueNumber": "LA0278",
+    "CASNumber": "116-63-2",
+    "BatchNumber": "852TK"
+  },
+  {
+    "ID": 260,
+    "ItemName": "1-AMINO-2-NAPHTHOL-4-SULPHONIC ACID AR",
+    "CatalogueNumber": "LA0279",
+    "CASNumber": "116-63-2",
+    "BatchNumber": "410HG"
+  },
+  {
+    "ID": 261,
+    "ItemName": "2-AMINONICOTINIC ACID",
+    "CatalogueNumber": "LA0280",
+    "CASNumber": "5345-47-1",
+    "BatchNumber": "524NO"
+  },
+  {
+    "ID": 262,
+    "ItemName": "4-AMINO-3-NITROTOLUENE",
+    "CatalogueNumber": "LA0281",
+    "CASNumber": "89-62-3",
+    "BatchNumber": "103HY"
   }
 ]
