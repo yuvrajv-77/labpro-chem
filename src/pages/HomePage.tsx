@@ -345,7 +345,7 @@ const HomePage = () => {
 
 
             {/* Certifications */}
-            <section className='my-20 py-20 bg-white'>
+            {/* <section className='my-20 py-20 bg-white'>
                 <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
                     <h2 className='text-center'>our</h2>
                     <h2 className='bg-primary text-white p-2 rounded-'>Certifications </h2>
@@ -372,7 +372,7 @@ const HomePage = () => {
                     <CarouselPrevious className='hidden lg:flex' />
                     <CarouselNext className='hidden lg:flex' />
                 </Carousel>
-            </section>
+            </section> */}
 
 
 

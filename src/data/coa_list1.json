@@ -1751,7 +1751,7 @@
   },
   {
     "ID": 251,
-    "ItemName": "2-AMINO-2-METHYL-1 and 3-PROPANEDIOL AR",
+    "ItemName": "2-AMINO-2-METHYL-1,3-PROPANEDIOL AR",
     "CatalogueNumber": "LA0269",
     "CASNumber": "115-69-5",
     "BatchNumber": "741SF"
@@ -1832,5 +1832,516 @@
     "CatalogueNumber": "LA0281",
     "CASNumber": "89-62-3",
     "BatchNumber": "103HY"
+  },
+  {
+    "ID": 263,
+    "ItemName": "m-AMINO PHENOL",
+    "CatalogueNumber": "LA0282",
+    "CASNumber": "591-27-5",
+    "BatchNumber": "642UH"
+  },
+  {
+    "ID": 264,
+    "ItemName": "o-AMINO PHENOL",
+    "CatalogueNumber": "LA0283",
+    "CASNumber": "95-55-6",
+    "BatchNumber": "461SG"
+  },
+  {
+    "ID": 265,
+    "ItemName": "p-AMINO PHENOL",
+    "CatalogueNumber": "LA0284",
+    "CASNumber": "123-30-8",
+    "BatchNumber": "465IG"
+  },
+  {
+    "ID": 266,
+    "ItemName": "AMINOPHYLLINE",
+    "CatalogueNumber": "LA0285",
+    "CASNumber": "317-34-0",
+    "BatchNumber": "976FU"
+  },
+  {
+    "ID": 267,
+    "ItemName": "4-(4-AMINOPHENYL) MORPHOLINE",
+    "CatalogueNumber": "LA0286",
+    "CASNumber": "2524-67-6",
+    "BatchNumber": "974FR"
+  },
+  {
+    "ID": 268,
+    "ItemName": "3-AMINO-1-PROPANOL For Synthesis",
+    "CatalogueNumber": "LA0287",
+    "CASNumber": "156-87-6",
+    "BatchNumber": "345DG"
+  },
+  {
+    "ID": 269,
+    "ItemName": "(3-AMINOPROPYL) TRIETHOXYSILANE For Synthesis",
+    "CatalogueNumber": "LA0288",
+    "CASNumber": "919-30-2",
+    "BatchNumber": "406DU"
+  },
+  {
+    "ID": 270,
+    "ItemName": "2-AMINOPYRAZINE",
+    "CatalogueNumber": "LA0289",
+    "CASNumber": "5049-61-6",
+    "BatchNumber": "973SG"
+  },
+  {
+    "ID": 271,
+    "ItemName": "3-AMINO-2-PYRAZINECARBOXYLIC ACID",
+    "CatalogueNumber": "LA0290",
+    "CASNumber": 1287116,
+    "BatchNumber": "647DT"
+  },
+  {
+    "ID": 272,
+    "ItemName": "m-AMINOPYRIDINE For Synthesis",
+    "CatalogueNumber": "LA0291",
+    "CASNumber": "462-08-8",
+    "BatchNumber": "462DG"
+  },
+  {
+    "ID": 273,
+    "ItemName": "o-AMINOPYRIDINE For Synthesis",
+    "CatalogueNumber": "LA0292",
+    "CASNumber": "504-29-0",
+    "BatchNumber": "274GC"
+  },
+  {
+    "ID": 274,
+    "ItemName": "p-AMINOPYRIDINE For Synthesis",
+    "CatalogueNumber": "LA0293",
+    "CASNumber": "504-24-5",
+    "BatchNumber": "506DH"
+  },
+  {
+    "ID": 275,
+    "ItemName": "2-AMINOPYRIMIDINE For Synthesis",
+    "CatalogueNumber": "LA0294",
+    "CASNumber": "109-12-6",
+    "BatchNumber": "579RD"
+  },
+  {
+    "ID": 276,
+    "ItemName": "AMINOPYRINE",
+    "CatalogueNumber": "LA0295",
+    "CASNumber": "58-15-1",
+    "BatchNumber": "679DF"
+  },
+  {
+    "ID": 277,
+    "ItemName": "3-AMINOSALICYLIC ACID",
+    "CatalogueNumber": "LA0296",
+    "CASNumber": "570-23-0",
+    "BatchNumber": "987OG"
+  },
+  {
+    "ID": 278,
+    "ItemName": "4-AMINOSALICYLIC ACID",
+    "CatalogueNumber": "LA0297",
+    "CASNumber": "65-49-6",
+    "BatchNumber": "317FU"
+  },
+  {
+    "ID": 279,
+    "ItemName": "5-AMINOSALICYLIC ACID",
+    "CatalogueNumber": "LA0298",
+    "CASNumber": "89-57-6",
+    "BatchNumber": "665LJ"
+  },
+  {
+    "ID": 280,
+    "ItemName": "3-AMINO-1H-TETRAZOLE Monohydrate",
+    "CatalogueNumber": "LA0299",
+    "CASNumber": "15454-54-",
+    "BatchNumber": "674DH"
+  },
+  {
+    "ID": 281,
+    "ItemName": "5-AMINO-1H-TETRAZOLE",
+    "CatalogueNumber": "LA0200",
+    "CASNumber": "5378-49-4",
+    "BatchNumber": "987HD"
+  },
+  {
+    "ID": 282,
+    "ItemName": "2-AMINOTHIAZOLE",
+    "CatalogueNumber": "LA0301",
+    "CASNumber": "96-50-4",
+    "BatchNumber": "149AS"
+  },
+  {
+    "ID": 283,
+    "ItemName": "2-AMINO THIOPHENOL",
+    "CatalogueNumber": "LA0302",
+    "CASNumber": "137-07-5",
+    "BatchNumber": "203MH"
+  },
+  {
+    "ID": 284,
+    "ItemName": "3-AMINO-1,2,4-TRIAZOLE",
+    "CatalogueNumber": "LA0303",
+    "CASNumber": "61-82-5",
+    "BatchNumber": "450JF"
+  },
+  {
+    "ID": 285,
+    "ItemName": "2-AMINOURACIL",
+    "CatalogueNumber": "LA0304",
+    "CASNumber": "932-52-5",
+    "BatchNumber": "795FH"
+  },
+  {
+    "ID": 286,
+    "ItemName": "AMMONIA BUFFER SOLUTION",
+    "CatalogueNumber": "LA0305",
+    "CASNumber": "",
+    "BatchNumber": "653AB"
+  },
+  {
+    "ID": 287,
+    "ItemName": "AMMONIA SOLUTION",
+    "CatalogueNumber": "LA0306",
+    "CASNumber": "1336-21-6",
+    "BatchNumber": "920GJ"
+  },
+  {
+    "ID": 288,
+    "ItemName": "AMMONIA SOLUTION 32",
+    "CatalogueNumber": "LA0307",
+    "CASNumber": "1336-21-6",
+    "BatchNumber": "750DF"
+  },
+  {
+    "ID": 289,
+    "ItemName": "AMMONIA SOLUTION 25",
+    "CatalogueNumber": "LA0308",
+    "CASNumber": "1336-21-6",
+    "BatchNumber": "781BX"
+  },
+  {
+    "ID": 290,
+    "ItemName": "AMMONIA SOLUTION AR",
+    "CatalogueNumber": "LA0309",
+    "CASNumber": "1336-21-6",
+    "BatchNumber": "650KO"
+  },
+  {
+    "ID": 291,
+    "ItemName": "AMMONIA 0.1M (0.1N) STANDARDIZED SOLUTION",
+    "CatalogueNumber": "LA0310",
+    "CASNumber": "",
+    "BatchNumber": "752AS"
+  },
+  {
+    "ID": 292,
+    "ItemName": "AMMONIUM ACETATE",
+    "CatalogueNumber": "LA0311",
+    "CASNumber": "631-61-8",
+    "BatchNumber": "681YB"
+  },
+  {
+    "ID": 293,
+    "ItemName": "AMMONIUM ACETATE AR",
+    "CatalogueNumber": "LA0312",
+    "CASNumber": "631-61-8",
+    "BatchNumber": "230HD"
+  },
+  {
+    "ID": 294,
+    "ItemName": "AMMONIUM ACETATE (For Molecular Biology)",
+    "CatalogueNumber": "LA0313",
+    "CASNumber": "631-61-8",
+    "BatchNumber": "412DG"
+  },
+  {
+    "ID": 295,
+    "ItemName": "AMMONIUM ACETATE (For HPLC)",
+    "CatalogueNumber": "LA0314",
+    "CASNumber": "631-61-8",
+    "BatchNumber": "678VU"
+  },
+  {
+    "ID": 296,
+    "ItemName": "AMMONIUM ACETATE 6.7 w v SOLUTION",
+    "CatalogueNumber": "LA0315",
+    "CASNumber": "",
+    "BatchNumber": "328JU"
+  },
+  {
+    "ID": 297,
+    "ItemName": "AMMONIUM ACETATE 5M ULTRAPURE SOLUTION",
+    "CatalogueNumber": "LA0316",
+    "CASNumber": "",
+    "BatchNumber": "106LO"
+  },
+  {
+    "ID": 298,
+    "ItemName": "AMMONIUM ADIPATE",
+    "CatalogueNumber": "LA0317",
+    "CASNumber": "3385-41-9",
+    "BatchNumber": "396KO"
+  },
+  {
+    "ID": 299,
+    "ItemName": "AMMONIUM BENZOATE",
+    "CatalogueNumber": "LA0318",
+    "CASNumber": "1863-63-4",
+    "BatchNumber": "620KI"
+  },
+  {
+    "ID": 300,
+    "ItemName": "AMMONIUM BICARBONATE",
+    "CatalogueNumber": "LA0319",
+    "CASNumber": "1066-33-7",
+    "BatchNumber": "878AE"
+  },
+  {
+    "ID": 301,
+    "ItemName": "AMMONIUM BICARBONATE AR",
+    "CatalogueNumber": "LA0320",
+    "CASNumber": "1066-33-7",
+    "BatchNumber": "540KY"
+  },
+  {
+    "ID": 302,
+    "ItemName": "AMMONIUM BICHROMATE",
+    "CatalogueNumber": "LA0321",
+    "CASNumber": 2151163,
+    "BatchNumber": "798XE"
+  },
+  {
+    "ID": 303,
+    "ItemName": "AMMONIUM BICHROMATE AR",
+    "CatalogueNumber": "LA0322",
+    "CASNumber": 2151163,
+    "BatchNumber": "640CG"
+  },
+  {
+    "ID": 304,
+    "ItemName": "AMMONIUM BIFLUORIDE",
+    "CatalogueNumber": "LA0323",
+    "CASNumber": "1341-49-7",
+    "BatchNumber": "645YT"
+  },
+  {
+    "ID": 305,
+    "ItemName": "AMMONIUM BISMUTH CITRATE",
+    "CatalogueNumber": "LA0324",
+    "CASNumber": "31886-41-",
+    "BatchNumber": "304FY"
+  },
+  {
+    "ID": 306,
+    "ItemName": "AMMONIUM BORATE (Penta)",
+    "CatalogueNumber": "LA0325",
+    "CASNumber": "12007-89-",
+    "BatchNumber": "672FD"
+  },
+  {
+    "ID": 307,
+    "ItemName": "AMMONIUM BORATE AR (Penta)",
+    "CatalogueNumber": "LA0326",
+    "CASNumber": "12007-89-",
+    "BatchNumber": "893DO"
+  },
+  {
+    "ID": 308,
+    "ItemName": "AMMONIUM BROMIDE",
+    "CatalogueNumber": "LA0327",
+    "CASNumber": "12124-97-",
+    "BatchNumber": "320DG"
+  },
+  {
+    "ID": 309,
+    "ItemName": "AMMONIUM BROMIDE AR",
+    "CatalogueNumber": "LA0328",
+    "CASNumber": "12124-97-",
+    "BatchNumber": "647GB"
+  },
+  {
+    "ID": 310,
+    "ItemName": "AMMONIUM CARBONATE Extra Pure",
+    "CatalogueNumber": "LA0329",
+    "CASNumber": "506-87-6",
+    "BatchNumber": "642KY"
+  },
+  {
+    "ID": 311,
+    "ItemName": "AMMONIUM CARBONATE AR",
+    "CatalogueNumber": "LA0330",
+    "CASNumber": "506-87-6",
+    "BatchNumber": "640VG"
+  },
+  {
+    "ID": 312,
+    "ItemName": "AMMONIUM CARBONATE For HPLC",
+    "CatalogueNumber": "LA0331",
+    "CASNumber": "506-87-6",
+    "BatchNumber": "678VF"
+  },
+  {
+    "ID": 313,
+    "ItemName": "AMMONIUM CERIC NITRATE Extra Pure",
+    "CatalogueNumber": "LA0332",
+    "CASNumber": "16774-21-",
+    "BatchNumber": "986SF"
+  },
+  {
+    "ID": 314,
+    "ItemName": "AMMONIUM CERIC NITRATE AR",
+    "CatalogueNumber": "LA0333",
+    "CASNumber": "16774-21-",
+    "BatchNumber": "402SF"
+  },
+  {
+    "ID": 315,
+    "ItemName": "AMMONIUM CERIC NITRATE 0.05 N Solution",
+    "CatalogueNumber": "LA0334",
+    "CASNumber": "",
+    "BatchNumber": "985FY"
+  },
+  {
+    "ID": 316,
+    "ItemName": "AMMONIUM CERIC SULPHATE",
+    "CatalogueNumber": "LA0335",
+    "CASNumber": "10378-47-",
+    "BatchNumber": "203SG"
+  },
+  {
+    "ID": 317,
+    "ItemName": "AMMONIUM CERIC SULPHATE AR",
+    "CatalogueNumber": "LA0336",
+    "CASNumber": "10378-47-",
+    "BatchNumber": "325LK"
+  },
+  {
+    "ID": 318,
+    "ItemName": "AMMONIUM CHLORIDE",
+    "CatalogueNumber": "LA0337",
+    "CASNumber": "12125-02-",
+    "BatchNumber": "267AD"
+  },
+  {
+    "ID": 319,
+    "ItemName": "AMMONIUM CHLORIDE AR",
+    "CatalogueNumber": "LA0338",
+    "CASNumber": "12125-02-",
+    "BatchNumber": "598FG"
+  },
+  {
+    "ID": 320,
+    "ItemName": "AMMONIUM CHLORIDE For Molecular Biology",
+    "CatalogueNumber": "LA0339",
+    "CASNumber": "12125-02-",
+    "BatchNumber": "335FH"
+  },
+  {
+    "ID": 321,
+    "ItemName": "AMMONIUM CHLOROPLATINATE",
+    "CatalogueNumber": "LA0340",
+    "CASNumber": "13820-41-",
+    "BatchNumber": "345SF"
+  },
+  {
+    "ID": 322,
+    "ItemName": "AMMONIUM CHROMATE",
+    "CatalogueNumber": "LA0341",
+    "CASNumber": "7788-98-9",
+    "BatchNumber": "865SR"
+  },
+  {
+    "ID": 323,
+    "ItemName": "AMMONIUM CITRATE 10 w w SOLUTION",
+    "CatalogueNumber": "LA0342",
+    "CASNumber": "",
+    "BatchNumber": "516QD"
+  },
+  {
+    "ID": 324,
+    "ItemName": "di-AMMONIUM CITRATE",
+    "CatalogueNumber": "LA0343",
+    "CASNumber": "3012-65-5",
+    "BatchNumber": "964WQ"
+  },
+  {
+    "ID": 325,
+    "ItemName": "tri-AMMONIUM CITRATE",
+    "CatalogueNumber": "LA0344",
+    "CASNumber": "3458-72-8",
+    "BatchNumber": "462QW"
+  },
+  {
+    "ID": 326,
+    "ItemName": "tri-AMMONIUM CITRATE AR",
+    "CatalogueNumber": "LA0345",
+    "CASNumber": "3458-72-8",
+    "BatchNumber": "164FG"
+  },
+  {
+    "ID": 327,
+    "ItemName": "AMMONIUM DIETHYL DITHIOCARBAMATE AR",
+    "CatalogueNumber": "LA0346",
+    "CASNumber": "21124-33-",
+    "BatchNumber": "106GH"
+  },
+  {
+    "ID": 328,
+    "ItemName": "AMMONIUM FERRIC CITRATE (Brown)",
+    "CatalogueNumber": "LA0347",
+    "CASNumber": "1185-57-5",
+    "BatchNumber": "564YG"
+  },
+  {
+    "ID": 329,
+    "ItemName": "AMMONIUM FERRIC SULPHATE (Dodecahydrate)",
+    "CatalogueNumber": "LA0348",
+    "CASNumber": "7783-83-7",
+    "BatchNumber": "986HH"
+  },
+  {
+    "ID": 330,
+    "ItemName": "AMMONIUM FERRIC SULPHATE AR (Dodecahydrate)",
+    "CatalogueNumber": "LA0349",
+    "CASNumber": "7783-83-7",
+    "BatchNumber": "686YR"
+  },
+  {
+    "ID": 331,
+    "ItemName": "AMMONIUM FERROUS SULFATE (Hexahydrate)",
+    "CatalogueNumber": "LA0350",
+    "CASNumber": "7783-85-9",
+    "BatchNumber": "496RE"
+  },
+  {
+    "ID": 332,
+    "ItemName": "AMMONIUM FERROUS SULFATE AR (Hexahydrate)",
+    "CatalogueNumber": "LA0351",
+    "CASNumber": "7783-85-9",
+    "BatchNumber": "445GJ"
+  },
+  {
+    "ID": 333,
+    "ItemName": "AMMONIUM FLUORIDE",
+    "CatalogueNumber": "LA0352",
+    "CASNumber": "12125-01-",
+    "BatchNumber": "635TJ"
+  },
+  {
+    "ID": 334,
+    "ItemName": "AMMONIUM FLUORIDE AR",
+    "CatalogueNumber": "LA0353",
+    "CASNumber": "12125-01-",
+    "BatchNumber": "642DG"
+  },
+  {
+    "ID": 335,
+    "ItemName": "AMMONIUM FORMATE",
+    "CatalogueNumber": "LA0354",
+    "CASNumber": "540-69-2",
+    "BatchNumber": "894DH"
   }
 ]

@@ -37,10 +37,10 @@ const Footer = () => {
                         <div className=' text-white flex flex-col gap-3'>
                             <h2 className='text-lg font-bold mb-4'>Support</h2>
                             <Link to={"/certifications"} className='text-sm font-bold hover:text-violet-400'>Our Certification</Link>
-                            <Link to={"/"} className='text-sm font-bold hover:text-violet-400'>F.A.Qs</Link>
+                            {/* <Link to={"/"} className='text-sm font-bold hover:text-violet-400'>F.A.Qs</Link> */}
                             <Link to={"/privacy-policy"} className='text-sm font-bold hover:text-violet-400'>Privacy Policy</Link>
-                            <Link to={"/"} className='text-sm font-bold hover:text-violet-400'>Quality Control & Assurance</Link>
-                            <Link to={"/"} className='text-sm font-bold hover:text-violet-400'>Global Harmonized System (GHS)</Link>
+                            {/* <Link to={"/"} className='text-sm font-bold hover:text-violet-400'>Quality Control & Assurance</Link> */}
+                            {/* <Link to={"/"} className='text-sm font-bold hover:text-violet-400'>Global Harmonized System (GHS)</Link> */}
                         </div>
                         <div className=' text-white flex flex-col gap-3 md:col-span-3 lg:col-span-1'>
                             <div>

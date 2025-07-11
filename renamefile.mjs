@@ -15,7 +15,7 @@ const rawData = fs.readFileSync(jsonPath, "utf-8");
 const certificates = JSON.parse(rawData);
 
 // ✅ PDF directory
-const pdfDir = path.join(__dirname, "public", "pdfs", "coa");
+const pdfDir = path.join(__dirname, "src", "pdfnamechange");
 
 certificates.forEach((cert) => {
   const itemName = cert.ItemName.trim().replace(/\s+/g, " ");

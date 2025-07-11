@@ -19,31 +19,8 @@ import {
 import { motion } from "motion/react"
 
 const certificateImages = [
-    {
-        image: '/images/certificates/certificate-dummy.jpg',
-        title: 'Certificate of ISO 9001:2015'
-    },
-    {
-        image: '/images/certificates/certificate-dummy.jpg',
-        title: 'Certificate of ISO 9001:2015'
-    },
-    {
-        image: '/images/certificates/certificate-dummy.jpg',
-        title: 'Certificate of ISO 9001:2015'
-    },
-    {
-        image: '/images/certificates/certificate-dummy.jpg',
-        title: 'Certificate of ISO 9001:2015'
-    },
+   
 
-    {
-        image: '/images/certificates/certificate-dummy.jpg',
-        title: 'Certificate of ISO 9001:2015'
-    },
-    {
-        image: '/images/certificates/certificate-dummy.jpg',
-        title: 'Certificate of ISO 9001:2015'
-    },
 ]
 
 /**
@@ -98,7 +75,7 @@ const Certifications = () => {
                 </span>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-20'>
-                    {
+                    { 
                         certificateImages.map((item, index) => (
                             <motion.div
                                 initial={{ opacity: 0, y: 40 }}
@@ -115,7 +92,7 @@ const Certifications = () => {
                                 </div>
                                 <p className='text-center text-primary font-black'>{item.title}</p>
                             </motion.div>
-                        ))
+                        )) 
                     }
 
                 </div>

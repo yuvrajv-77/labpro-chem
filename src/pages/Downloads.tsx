@@ -10,21 +10,7 @@ const pdfs = [
         title: 'Price List 2025',
         file: '/pdfs/price_list/Price List 2025.pdf'
     },
-    {
-        thumbnail: '/images/price_list-2025.png',
-        title: 'Price List 2025',
-        file: '/pdfs/price_list/Price List 2025.pdf'
-    },
-    {
-        thumbnail: '/images/price_list-2025.png',
-        title: 'Price List 2025',
-        file: '/pdfs/price_list/Price List 2025.pdf'
-    },
-    {
-        thumbnail: '/images/price_list-2025.png',
-        title: 'Price List 2025',
-        file: '/pdfs/price_list/Price List 2025.pdf'
-    },
+   
    
  
 ]

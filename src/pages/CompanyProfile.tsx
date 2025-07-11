@@ -11,6 +11,7 @@ import {
 import { useNavigate } from 'react-router'
 import { motion } from "motion/react";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
+
 const certificateImages = [
     {
         image: '/images/certificates/iso-9001-2015.new2.jpg',
@@ -174,7 +175,7 @@ const CompanyProfile = () => {
             </section>
 
             {/* certicicates section */}
-            <section className='bg-gray-50 py-22'>
+            {/* <section className='bg-gray-50 py-22'>
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -206,7 +207,7 @@ const CompanyProfile = () => {
                         <Button onClick={() => navigate('/certifications')}>See All <ArrowRight /></Button>
                     </div>
                 </motion.div>
-            </section>
+            </section> */}
 
             {/* Fullscreen Carousel Modal */}
             {showCarousel && (

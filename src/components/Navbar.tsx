@@ -1,6 +1,4 @@
 import React from 'react'
-import { Input } from './ui/input'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select'
 import { CheckSquare, CheckSquare2, Mail, Menu, Search, X } from 'lucide-react'
 import { Link, useNavigate } from 'react-router'
 import { Button } from './ui/button'
@@ -19,16 +17,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
 
-const navLinks = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/profile' },
-    { name: 'Downloads', href: '/downloads' },
-    { name: 'Laboratory Chemicals', href: '/chemicals' },
-    { name: 'CoAs', href: '/coa' },
-    // { name: 'Events', href: '/events' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'Contact', href: '/contact' },
-]
+
 const Navbar = () => {
     const navigate = useNavigate();
 
@@ -39,8 +28,8 @@ const Navbar = () => {
 
                 <div className='bg-primary py-2 md:py-1 px-4 md:px-10 lg:px-0'>
                     <div className='md:max-w-6xl text-white  mx-auto  flex items-center justify-between '>
-                        <p className='hidden md:flex text-sm items-center gap-2 font-bold '> <Mail size={15} />
-                            {labprochem[0].email}</p>
+                        <Link to={"mailto:" + labprochem[0].email} className='hidden md:flex text-sm items-center gap-2 font-bold '> <Mail size={15} />
+                            {labprochem[0].email}</Link>
                         <span className='w-50 relative md:w-70 border rounded-lg cursor-text text-xs md:text-base flex items-center gap-3 justify-center text-white/80 h-6  md:h-7 border-white/60' onClick={() => navigate('/search')} >
                             <Search size={15} /> Search 7000+ Chemicals
                         </span>

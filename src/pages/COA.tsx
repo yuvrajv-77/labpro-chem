@@ -22,7 +22,7 @@ import { Input } from '@/components/ui/input';
 import { Search } from 'lucide-react';
 import PdfModal from '@/components/PDFModal';
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 
 /**
  * COA
@@ -39,10 +39,6 @@ const COA = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [pdfUrl, setPdfUrl] = useState<string | null>(null);
     const [searchQuery, setSearchQuery] = useState('');
-
-    // Utility to sanitize ItemName for URL (replace spaces with underscores, remove special chars)
-    const sanitizeFileName = (name: string) =>
-        name.trim().replace(/\s+/g, '_').replace(/[^a-zA-Z0-9_\-]/g, '');
 
     // Utility to clean up ItemName: remove extra spaces and trim
     const cleanItemName = (name: string) =>
@@ -130,6 +126,7 @@ const COA = () => {
 
                 <div className='mt-6'>
                     <div className='flex justify-center md:justify-end  mb-5'>
+
                         <form className=' relative flex items-center gap-2' onSubmit={handleSearchSubmit}>
                             <Input type="text" onChange={handleSearchChange} value={searchQuery}
                                 placeholder=" Search CoA by Name, CAS Number, etc."
