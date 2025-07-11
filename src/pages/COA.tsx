@@ -24,6 +24,16 @@ import PdfModal from '@/components/PDFModal';
 
 const ITEMS_PER_PAGE = 10;
 
+/**
+ * COA
+ *
+ * This component renders a table of CoA data.
+ * The component includes a search bar and a table with columns for Item Name, Catalogue Number, CAS Number, Batch Number, and COA.
+ * The table is paginated and has a maximum of 10 items per page.
+ * The component also includes a mobile view that renders a card view of the data.
+ *
+ * @return {JSX.Element} The COA component.
+ */
 const COA = () => {
 
     const [currentPage, setCurrentPage] = useState(1);
@@ -45,15 +55,15 @@ const COA = () => {
     const coaDataWithLinks = coa_data.map(item => ({
         ...item,
         ItemName: cleanItemName(item.ItemName),
-        coaLink: `pdfs/coa/${encodeURIComponent(cleanItemName(item.ItemName))}.pdf`
+        coaLink: `pdfs/coa/${encodeURIComponent(item.CatalogueNumber)}.pdf`
     }));
 
     // Filter data based on search query
     const filteredData = coaDataWithLinks.filter(item =>
         item.ItemName.toLowerCase().includes(searchQuery.toLowerCase()) ||
         item.CatalogueNumber.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        item.CASNumber.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        item.BatchNumber.toLowerCase().includes(searchQuery.toLowerCase())
+        String(item.CASNumber).toLowerCase().includes(searchQuery.toLowerCase()) ||
+        String(item.BatchNumber).toLowerCase().includes(searchQuery.toLowerCase())
     );
 
     const totalPages = Math.ceil(filteredData.length / ITEMS_PER_PAGE);
