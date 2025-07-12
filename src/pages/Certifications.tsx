@@ -20,6 +20,14 @@ import { motion } from "motion/react"
 
 const certificateImages = [
    
+{
+    image: '/images/certificates/gst_certificate.png',
+    title: 'Certificate of GST'
+},
+{
+    image: '/images/certificates/msme_certificate.png',
+    title: 'MSME Udhyam Certificate'
+},
 
 ]
 
@@ -67,7 +75,7 @@ const Certifications = () => {
                     </BreadcrumbItem>
                 </BreadcrumbList>
             </Breadcrumb>
-            <section className='max-w-6xl mx-auto py-15 px-5 md:px-0'>
+            <section className='max-w-6xl mx-auto py-15 px-16 md:px-0'>
 
                 <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
                     <h2 className='text-center'>Our</h2>

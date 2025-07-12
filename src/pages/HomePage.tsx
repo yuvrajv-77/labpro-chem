@@ -300,7 +300,7 @@ const HomePage = () => {
                 </span>
                 <div className="py-10 rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
                     <InfiniteMovingCards
-                        items={events}
+                        items={galleryImages}
                         direction="right"
                         speed="normal"
                     />
@@ -458,25 +458,26 @@ const certifications = [
     }
 ];
 
-const events = [
+const galleryImages = [
     {
-        image: "/images/events/event (1).jpg",
-        title: "Zimbabwe",
+        image: '/images/gallery/gallery (1).png',
+        title: ''
     },
     {
-        image: "/images/events/event (2).jpg",
-        title: "Australia",
+        image: '/images/gallery/gallery (2).png',
+        title: ''
     },
     {
-        image: "/images/events/event (3).jpg",
-        title: "Malaysia",
+        image: '/images/gallery/gallery (5).jpg',
+        title: ''
     },
     {
-        image: "/images/events/event (4).jpg",
-        title: "Bangladesh",
+        image: '/images/gallery/gallery (3).png',
+        title: ''
     },
     {
-        image: "/images/events/event (2).jpg",
-        title: "Saudi Arabia",
+        image: '/images/gallery/gallery (4).jpg',
+        title: ''
     },
+ 
 ];

@@ -18,7 +18,7 @@ const Footer = () => {
                                     <img src="/Brand Logo.png" className='w-15' alt="" />
                                 </span>
                                 <span>
-                                    <h1 className='text-lg  font-bold text-white'>LABPRO CHEMICALS</h1>
+                                    <h1 className='text-lg  font-bold text-white'>LABPRO CHEM</h1>
                                     <p className='text-[9px] font-semibold text-white'>High-Purity Chemicals. On Time. Every Time</p>
                                 </span>
                             </div>

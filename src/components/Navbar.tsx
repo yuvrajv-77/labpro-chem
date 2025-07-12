@@ -177,7 +177,7 @@ const Navbar = () => {
                         )}
                     </AnimatePresence>
 
-                    <div className='flex mx-auto md:mx-0 item-center md:gap-10 md:mt-0 mt-5 gap-4 text-[8px] md:text-base'>
+                    {/* <div className='flex mx-auto md:mx-0 item-center md:gap-10 md:mt-0 mt-5 gap-4 text-[8px] md:text-base'>
                         <span className='flex flex-col items-start md:items-end font-semibold'>
                             <p className='flex items-center gap-1'><CheckSquare2 size={20} /> Certified</p>
                             <p>ISO 9001:2008 + more</p>
@@ -192,7 +192,7 @@ const Navbar = () => {
                         </span>
 
 
-                    </div>
+                    </div> */}
                 </div>
 
 

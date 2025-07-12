@@ -13,25 +13,26 @@ import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbP
 
 const galleryImages = [
     {
-        image: '/ui_images/grid-chem.jpg',
-        title: 'Ghanaian Culture 1'
+        image: '/images/gallery/gallery (1).png',
+        title: ''
     },
     {
-        image: '/ui_images/grid-bio.jpg',
-        title: 'Ghanaian Culture 1'
+        image: '/images/gallery/gallery (2).png',
+        title: ''
     },
     {
-        image: '/ui_images/grid-pharm.jpg',
-        title: 'Ghanaian Culture 1'
+        image: '/images/gallery/gallery (5).jpg',
+        title: ''
     },
     {
-        image: '/ui_images/why3.jpg',
-        title: 'Ghanaian Culture 1'
+        image: '/images/gallery/gallery (3).png',
+        title: ''
     },
     {
-        image: '/ui_images/why1.jpg',
-        title: 'Ghanaian Culture 1'
+        image: '/images/gallery/gallery (4).jpg',
+        title: ''
     },
+ 
 ]
 export const Gallery = () => {
 
