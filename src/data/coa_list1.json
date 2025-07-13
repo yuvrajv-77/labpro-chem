@@ -2343,5 +2343,145 @@
     "CatalogueNumber": "LA0354",
     "CASNumber": "540-69-2",
     "BatchNumber": "894DH"
+  },
+  {
+    "ID": 336,
+    "ItemName": "AMMONIUM FORMATE AR",
+    "CatalogueNumber": "LA0355",
+    "CASNumber": "540-69-2",
+    "BatchNumber": "215RS"
+  },
+  {
+    "ID": 337,
+    "ItemName": "AMMONIUM IODIDE Practical",
+    "CatalogueNumber": "LA0356",
+    "CASNumber": "12027-06-4",
+    "BatchNumber": "641HF"
+  },
+  {
+    "ID": 338,
+    "ItemName": "AMMONIUM IODIDE Extra Pure",
+    "CatalogueNumber": "LA0357",
+    "CASNumber": "12027-06-4",
+    "BatchNumber": "964HY"
+  },
+  {
+    "ID": 339,
+    "ItemName": "AMMONIUM IODIDE AR",
+    "CatalogueNumber": "LA0358",
+    "CASNumber": "12027-06-4",
+    "BatchNumber": "525DF"
+  },
+  {
+    "ID": 340,
+    "ItemName": "AMMONIUM IRON (II) SULPHATE 0.1M",
+    "CatalogueNumber": "LA0359",
+    "CASNumber": "",
+    "BatchNumber": "102DD"
+  },
+  {
+    "ID": 341,
+    "ItemName": "AMMONIUM METAVANADATE",
+    "CatalogueNumber": "LA0360",
+    "CASNumber": "7803-55-6",
+    "BatchNumber": "372FG"
+  },
+  {
+    "ID": 342,
+    "ItemName": "AMMONIUM METAVANADATE AR",
+    "CatalogueNumber": "LA0361",
+    "CASNumber": "7803-55-6",
+    "BatchNumber": "512WR"
+  },
+  {
+    "ID": 343,
+    "ItemName": "AMMONIUM MOLYBDATE (Tetrahydrate)",
+    "CatalogueNumber": "LA0362",
+    "CASNumber": "12054-85-2",
+    "BatchNumber": "516JU"
+  },
+  {
+    "ID": 344,
+    "ItemName": "AMMONIUM MOLYBDATE AR (Tetrahydrate)",
+    "CatalogueNumber": "LA0363",
+    "CASNumber": "12054-85-2",
+    "BatchNumber": "746DY"
+  },
+  {
+    "ID": 345,
+    "ItemName": "AMMONIUM MOLYBDATE REAGENT Solution",
+    "CatalogueNumber": "LA0364",
+    "CASNumber": "",
+    "BatchNumber": "962HY"
+  },
+  {
+    "ID": 346,
+    "ItemName": "AMMONIUM NICKEL SULPHATE",
+    "CatalogueNumber": "LA0365",
+    "CASNumber": "7785-20-8",
+    "BatchNumber": "316YG"
+  },
+  {
+    "ID": 347,
+    "ItemName": "AMMONIUM NICKEL SULPHATE 99% AR",
+    "CatalogueNumber": "LA0366",
+    "CASNumber": "7785-20-8",
+    "BatchNumber": "206WD"
+  },
+  {
+    "ID": 348,
+    "ItemName": "AMMONIUM-4-NITRO BENZOATE (dihydrate)",
+    "CatalogueNumber": "LA0367",
+    "CASNumber": "19416-70-7",
+    "BatchNumber": "416VF"
+  },
+  {
+    "ID": 349,
+    "ItemName": "AMMONIUM OXALATE ACS (Monohydrate)",
+    "CatalogueNumber": "LA0368",
+    "CASNumber": "6009-70-7",
+    "BatchNumber": "410SG"
+  },
+  {
+    "ID": 350,
+    "ItemName": "AMMONIUM OXALATE",
+    "CatalogueNumber": "LA0369",
+    "CASNumber": "6009-70-7",
+    "BatchNumber": "523BG"
+  },
+  {
+    "ID": 351,
+    "ItemName": "AMMONIUM OXALATE AR",
+    "CatalogueNumber": "LA0370",
+    "CASNumber": "6009-70-7",
+    "BatchNumber": "922ER"
+  },
+  {
+    "ID": 352,
+    "ItemName": "AMMONIUM PERCHLORATE AR",
+    "CatalogueNumber": "LA0371",
+    "CASNumber": "7790-98-9",
+    "BatchNumber": "206RH"
+  },
+  {
+    "ID": 353,
+    "ItemName": "AMMONIUM PERSULPHATE",
+    "CatalogueNumber": "LA0372",
+    "CASNumber": "7727-54-0",
+    "BatchNumber": "315HS"
+  },
+  {
+    "ID": 354,
+    "ItemName": "AMMONIUM PERSULPHATE AR",
+    "CatalogueNumber": "LA0373",
+    "CASNumber": "7727-54-0",
+    "BatchNumber": "505RH"
+  },
+  {
+    "ID": 355,
+    "ItemName": "AMMONIUM PERSULPHATE For Molecular Biology",
+    "CatalogueNumber": "LA0374",
+    "CASNumber": "7727-54-0",
+    "BatchNumber": "860WT"
   }
 ]
