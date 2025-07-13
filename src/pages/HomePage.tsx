@@ -295,8 +295,8 @@ const HomePage = () => {
             {/* event gallery  */}
             <section className=' my-20 '>
                 <span className='text-center font-extrabold text-lg md:text-2xl flex gap-2 items-center justify-center uppercase'>
-                    <h2 className='bg-primary text-white p-2 rounded-'>Events </h2>
-                    <h2 className='text-center  '>WorldWide</h2>
+                    <h2 className='bg-primary text-white p-2 rounded-'>Gallery </h2>
+                    {/* <h2 className='text-center  '>WorldWide</h2> */}
                 </span>
                 <div className="py-10 rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
                     <InfiniteMovingCards
@@ -407,11 +407,6 @@ const testimonials = [
         image: "/assets/grid-env.jpg",
         title: "Consistent quality and documentation for every batch.",
         name: "Vikram Patel",
-    },
-    {
-        image: "/assets/grid-pharm.jpg",
-        title: "Labpro Chem is our trusted partner for all lab needs.",
-        name: "Vijay Mallya",
     },
     {
         image: "/assets/why2.jpg",
