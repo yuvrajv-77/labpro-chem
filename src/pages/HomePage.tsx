@@ -153,7 +153,7 @@ const HomePage = () => {
 
 
             {/* industries we serve */}
-            <section className='bg-[url(./ui_images/grid-bg.jpg)] bg-cover bg-center my-20 py-20 md: relative'>
+            <section className='bg-[url(/ui_images/grid-bg.jpg)] bg-cover bg-center my-20 py-20 md: relative'>
                 <div className="absolute inset-0 bg-black/60 backdrop-blur-sm pointer-events-none" />
                 <div className='relative max-w-6xl mx-auto px-5 md:px-10 lg:px-0'>
                     <span className='text-center font-extrabold text-lg  md:text-2xl flex gap-2 items-center justify-center uppercase '>
