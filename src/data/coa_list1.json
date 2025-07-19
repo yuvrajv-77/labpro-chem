@@ -2483,5 +2483,530 @@
     "CatalogueNumber": "LA0374",
     "CASNumber": "7727-54-0",
     "BatchNumber": "860WT"
+  },
+  {
+    "ID": 356,
+    "ItemName": "AMMONIUM PHOSPHATE Dibasis (Anhydrous)",
+    "CatalogueNumber": "LA0375",
+    "CASNumber": "7783-28-0",
+    "BatchNumber": "461YG"
+  },
+  {
+    "ID": 357,
+    "ItemName": "AMMONIUM PHOSPHATE Dibasic AR (Anhydrous)",
+    "CatalogueNumber": "LA0376",
+    "CASNumber": "7783-28-0",
+    "BatchNumber": "503FH"
+  },
+  {
+    "ID": 358,
+    "ItemName": "AMMONIUM PHOSPHATE Dibasic For Molecular Biology",
+    "CatalogueNumber": "LA0377",
+    "CASNumber": "7783-28-0",
+    "BatchNumber": "786SH"
+  },
+  {
+    "ID": 359,
+    "ItemName": "AMMONIUM PHOSPHATE Monobasic",
+    "CatalogueNumber": "LA0378",
+    "CASNumber": "7722-76-1",
+    "BatchNumber": "406HB"
+  },
+  {
+    "ID": 360,
+    "ItemName": "AMMONIUM PHOSPHATE Monobasic AR",
+    "CatalogueNumber": "LA0379",
+    "CASNumber": "7722-76-1",
+    "BatchNumber": "716ST"
+  },
+  {
+    "ID": 361,
+    "ItemName": "AMMONIUM PHOSPHATE Monobasic For Molecular Biology",
+    "CatalogueNumber": "LA0380",
+    "CASNumber": "7722-76-1",
+    "BatchNumber": "791GJ"
+  },
+  {
+    "ID": 362,
+    "ItemName": "AMMONIUM POLYPHOSPHATE (NH₄PO₃)ₙ",
+    "CatalogueNumber": "LA0381",
+    "CASNumber": "68333-79-9",
+    "BatchNumber": "532JH"
+  },
+  {
+    "ID": 363,
+    "ItemName": "AMMONIUM PURPURATE",
+    "CatalogueNumber": "LA0382",
+    "CASNumber": 420638,
+    "BatchNumber": "561DT"
+  },
+  {
+    "ID": 364,
+    "ItemName": "AMMONIUM PURPURATE AR",
+    "CatalogueNumber": "LA0383",
+    "CASNumber": 420638,
+    "BatchNumber": "761HU"
+  },
+  {
+    "ID": 365,
+    "ItemName": "AMMONIUM PURPURATE Solution",
+    "CatalogueNumber": "LA0383A",
+    "CASNumber": "",
+    "BatchNumber": "610SG"
+  },
+  {
+    "ID": 366,
+    "ItemName": "AMMONIUM REINECKATE",
+    "CatalogueNumber": "LA0384",
+    "CASNumber": "13573-16-5",
+    "BatchNumber": "461XG"
+  },
+  {
+    "ID": 367,
+    "ItemName": "AMMONIUM REINECKATE AR",
+    "CatalogueNumber": "LA0385",
+    "CASNumber": "13573-16-5",
+    "BatchNumber": "461SG"
+  },
+  {
+    "ID": 368,
+    "ItemName": "AMMONIUM SODIUM PHOSPHATE (Dibasic, Tetrahydrate)",
+    "CatalogueNumber": "LA0386",
+    "CASNumber": "7783-13-3",
+    "BatchNumber": "761YH"
+  },
+  {
+    "ID": 369,
+    "ItemName": "AMMONIUM SULPHAMATE",
+    "CatalogueNumber": "LA0387",
+    "CASNumber": 2145222,
+    "BatchNumber": "795SG"
+  },
+  {
+    "ID": 370,
+    "ItemName": "AMMONIUM SULPHAMATE AR",
+    "CatalogueNumber": "LA0388",
+    "CASNumber": 2145222,
+    "BatchNumber": "161NF"
+  },
+  {
+    "ID": 371,
+    "ItemName": "AMMONIUM SULPHATE",
+    "CatalogueNumber": "LA0389",
+    "CASNumber": "7783-20-2",
+    "BatchNumber": "520SG"
+  },
+  {
+    "ID": 372,
+    "ItemName": "AMMONIUM SULPHATE AR",
+    "CatalogueNumber": "LA0390",
+    "CASNumber": "7783-20-2",
+    "BatchNumber": "516HG"
+  },
+  {
+    "ID": 373,
+    "ItemName": "AMMONIUM SULPHATE For Molecular Biology",
+    "CatalogueNumber": "LA0391",
+    "CASNumber": "7783-20-2",
+    "BatchNumber": "415DH"
+  },
+  {
+    "ID": 374,
+    "ItemName": "AMMONIUM SULPHATE 0.5M (1N) Standardized Solution",
+    "CatalogueNumber": "LA0392",
+    "CASNumber": "",
+    "BatchNumber": "852SY"
+  },
+  {
+    "ID": 375,
+    "ItemName": "AMMONIUM SULPHIDE YELLOW (Solution)",
+    "CatalogueNumber": "LA0393",
+    "CASNumber": "12135-76-1",
+    "BatchNumber": "951EY"
+  },
+  {
+    "ID": 376,
+    "ItemName": "AMMONIUM (+) TARTRATE",
+    "CatalogueNumber": "LA0394",
+    "CASNumber": "3164-29-2",
+    "BatchNumber": "741SH"
+  },
+  {
+    "ID": 377,
+    "ItemName": "AMMONIUM (+) TARTRATE AR",
+    "CatalogueNumber": "LA0395",
+    "CASNumber": "3164-29-2",
+    "BatchNumber": "963HR"
+  },
+  {
+    "ID": 378,
+    "ItemName": "AMMONIUM TETRAMETHYLENE DITHIOCARBAMATE AR",
+    "CatalogueNumber": "LA0396",
+    "CASNumber": "5108-96-3",
+    "BatchNumber": "145HY"
+  },
+  {
+    "ID": 379,
+    "ItemName": "AMMONIUM THIOCYANATE",
+    "CatalogueNumber": "LA0397",
+    "CASNumber": "1762-95-4",
+    "BatchNumber": "258AF"
+  },
+  {
+    "ID": 380,
+    "ItemName": "AMMONIUM THIOCYANATE AR",
+    "CatalogueNumber": "LA0398",
+    "CASNumber": "1762-95-4",
+    "BatchNumber": "369AA"
+  },
+  {
+    "ID": 381,
+    "ItemName": "AMMONIUM THIOCYANATE 0.1M (0.1N) Standardized Solution",
+    "CatalogueNumber": "LA0399",
+    "CASNumber": "",
+    "BatchNumber": "369SH"
+  },
+  {
+    "ID": 382,
+    "ItemName": "AMMONIUM THIOCYANATE 1M (1N) Standardized Solution",
+    "CatalogueNumber": "LA0400",
+    "CASNumber": "",
+    "BatchNumber": "358AG"
+  },
+  {
+    "ID": 383,
+    "ItemName": "AMMONIUM THIOSULPHATE",
+    "CatalogueNumber": "LA0401",
+    "CASNumber": "7783-18-8",
+    "BatchNumber": "159XH"
+  },
+  {
+    "ID": 384,
+    "ItemName": "AMOXYCILLIN",
+    "CatalogueNumber": "LA0402",
+    "CASNumber": "26787-78-0",
+    "BatchNumber": "654DJ"
+  },
+  {
+    "ID": 385,
+    "ItemName": "AMPICILLIN (Trihydrate)",
+    "CatalogueNumber": "LA0403",
+    "CASNumber": "7177-48-2",
+    "BatchNumber": "987SH"
+  },
+  {
+    "ID": 386,
+    "ItemName": "AMPICILLIN SODIUM SALT For Molecular Biology",
+    "CatalogueNumber": "LA0404",
+    "CASNumber": "69-52-3",
+    "BatchNumber": "452GF"
+  },
+  {
+    "ID": 387,
+    "ItemName": "iso-AMYL ACETATE (For Synthesis)",
+    "CatalogueNumber": "LA0405",
+    "CASNumber": "123-92-2",
+    "BatchNumber": "953DG"
+  },
+  {
+    "ID": 388,
+    "ItemName": "iso-AMYL ALCOHOL (For Milk Testing)",
+    "CatalogueNumber": "LA0406",
+    "CASNumber": "30899-19-5",
+    "BatchNumber": "410DJ"
+  },
+  {
+    "ID": 389,
+    "ItemName": "iso-AMYL ALCOHOL (For Synthesis)",
+    "CatalogueNumber": "LA0407",
+    "CASNumber": "123-51-3",
+    "BatchNumber": "102SH"
+  },
+  {
+    "ID": 390,
+    "ItemName": "iso-AMYL ALCOHOL AR",
+    "CatalogueNumber": "LA0408",
+    "CASNumber": "123-51-3",
+    "BatchNumber": "320TG"
+  },
+  {
+    "ID": 391,
+    "ItemName": "iso-AMYL ALCOHOL (For Molecular Biology)",
+    "CatalogueNumber": "LA0409",
+    "CASNumber": "123-51-3",
+    "BatchNumber": "654EF"
+  },
+  {
+    "ID": 392,
+    "ItemName": "n-AMYL ALCOHOL",
+    "CatalogueNumber": "LA0410",
+    "CASNumber": "71-41-0",
+    "BatchNumber": "745YG"
+  },
+  {
+    "ID": 393,
+    "ItemName": "n-AMYL ALCOHOL AR",
+    "CatalogueNumber": "LA0411",
+    "CASNumber": "71-41-0",
+    "BatchNumber": "965GV"
+  },
+  {
+    "ID": 394,
+    "ItemName": "tert-AMYL ALCOHOL",
+    "CatalogueNumber": "LA0412",
+    "CASNumber": "75-85-4",
+    "BatchNumber": "894DG"
+  },
+  {
+    "ID": 395,
+    "ItemName": "tert-AMYL ALCOHOL AR & HPLC",
+    "CatalogueNumber": "LA0413",
+    "CASNumber": "75-85-4",
+    "BatchNumber": "955ED"
+  },
+  {
+    "ID": 396,
+    "ItemName": "AMYLAMINE (For Synthesis)",
+    "CatalogueNumber": "LA0414",
+    "CASNumber": "110-58-7",
+    "BatchNumber": "789CB"
+  },
+  {
+    "ID": 397,
+    "ItemName": "AMYL BENZOATE",
+    "CatalogueNumber": "LA0415",
+    "CASNumber": "2049-96-9",
+    "BatchNumber": "852GD"
+  },
+  {
+    "ID": 398,
+    "ItemName": "AMYL CINNAMATE",
+    "CatalogueNumber": "LA0416",
+    "CASNumber": "3487-99-8",
+    "BatchNumber": "654DG"
+  },
+  {
+    "ID": 399,
+    "ItemName": "AMYL-M-CRESOL",
+    "CatalogueNumber": "LA0417",
+    "CASNumber": "1300-94-3",
+    "BatchNumber": "520JH"
+  },
+  {
+    "ID": 400,
+    "ItemName": "AMYLOPECTIN",
+    "CatalogueNumber": "LA0418",
+    "CASNumber": "9037-22-3",
+    "BatchNumber": "963SV"
+  },
+  {
+    "ID": 401,
+    "ItemName": "AMYLOSE (from Potato Starch)",
+    "CatalogueNumber": "LA0419",
+    "CASNumber": "9005-82-7",
+    "BatchNumber": "782CG"
+  },
+  {
+    "ID": 402,
+    "ItemName": "AMYL SALICYLATE",
+    "CatalogueNumber": "LA0420",
+    "CASNumber": 55000,
+    "BatchNumber": "450SD"
+  },
+  {
+    "ID": 403,
+    "ItemName": "ANALGIN",
+    "CatalogueNumber": "LA0421",
+    "CASNumber": "5907-38-0",
+    "BatchNumber": "950DV"
+  },
+  {
+    "ID": 404,
+    "ItemName": "ANDRADE'S REAGENT Solution",
+    "CatalogueNumber": "LA0422",
+    "CASNumber": "",
+    "BatchNumber": "354DF"
+  },
+  {
+    "ID": 405,
+    "ItemName": "ANETHOL (For Synthesis)",
+    "CatalogueNumber": "LA0423",
+    "CASNumber": "104-46-1",
+    "BatchNumber": "210DV"
+  },
+  {
+    "ID": 406,
+    "ItemName": "ANILINE (For Synthesis)",
+    "CatalogueNumber": "LA0424",
+    "CASNumber": "62-53-3",
+    "BatchNumber": "120VF"
+  },
+  {
+    "ID": 407,
+    "ItemName": "ANILINE AR (Analytical Reagent Grade)",
+    "CatalogueNumber": "LA0425",
+    "CASNumber": "62-53-3",
+    "BatchNumber": "LA0425"
+  },
+  {
+    "ID": 408,
+    "ItemName": "ANILINE BLUE",
+    "CatalogueNumber": "LA0426",
+    "CASNumber": "28631-66-5",
+    "BatchNumber": "478DF"
+  },
+  {
+    "ID": 409,
+    "ItemName": "ANILINE BLUE (Water Soluble)",
+    "CatalogueNumber": "LA0427",
+    "CASNumber": "28983-56-4",
+    "BatchNumber": "654SF"
+  },
+  {
+    "ID": 410,
+    "ItemName": "ANILINE BLUE Stain Solution",
+    "CatalogueNumber": "LA0428",
+    "CASNumber": "",
+    "BatchNumber": "852SF"
+  },
+  {
+    "ID": 411,
+    "ItemName": "ANILINE HYDROCHLORIDE (For Synthesis)",
+    "CatalogueNumber": "LA0429",
+    "CASNumber": "142-04-1",
+    "BatchNumber": "789HY"
+  },
+  {
+    "ID": 412,
+    "ItemName": "ANILINE SULPHATE",
+    "CatalogueNumber": "LA0430",
+    "CASNumber": "542-16-5",
+    "BatchNumber": "410HF"
+  },
+  {
+    "ID": 413,
+    "ItemName": "m-ANISALDEHYDE",
+    "CatalogueNumber": "LA0431",
+    "CASNumber": "591-31-3",
+    "BatchNumber": "652HT"
+  },
+  {
+    "ID": 414,
+    "ItemName": "o-ANISALDEHYDE",
+    "CatalogueNumber": "LA0432",
+    "CASNumber": "135-02-4",
+    "BatchNumber": "410SC"
+  },
+  {
+    "ID": 415,
+    "ItemName": "p-ANISALDEHYDE",
+    "CatalogueNumber": "LA0433",
+    "CASNumber": "123-11-5",
+    "BatchNumber": "987DC"
+  },
+  {
+    "ID": 416,
+    "ItemName": "ANISEED OIL Extra Pure",
+    "CatalogueNumber": "LA0434",
+    "CASNumber": "8007-70-3",
+    "BatchNumber": "652VD"
+  },
+  {
+    "ID": 417,
+    "ItemName": "m-ANISIC ACID",
+    "CatalogueNumber": "LA0435",
+    "CASNumber": "586-38-9",
+    "BatchNumber": "321XC"
+  },
+  {
+    "ID": 418,
+    "ItemName": "o-ANISIC ACID",
+    "CatalogueNumber": "LA0436",
+    "CASNumber": "579-75-9",
+    "BatchNumber": "320XV"
+  },
+  {
+    "ID": 419,
+    "ItemName": "p-ANISIC ACID",
+    "CatalogueNumber": "LA0437",
+    "CASNumber": "100-09-4",
+    "BatchNumber": "410XV"
+  },
+  {
+    "ID": 420,
+    "ItemName": "m-ANISIDINE",
+    "CatalogueNumber": "LA0438",
+    "CASNumber": "536-90-3",
+    "BatchNumber": "963JY"
+  },
+  {
+    "ID": 421,
+    "ItemName": "o-ANISIDINE",
+    "CatalogueNumber": "LA0439",
+    "CASNumber": 32963,
+    "BatchNumber": "789YN"
+  },
+  {
+    "ID": 422,
+    "ItemName": "p-ANISIDINE",
+    "CatalogueNumber": "LA0440",
+    "CASNumber": "104-94-9",
+    "BatchNumber": "654FC"
+  },
+  {
+    "ID": 423,
+    "ItemName": "ANISOLE",
+    "CatalogueNumber": "LA0441",
+    "CASNumber": "100-66-3",
+    "BatchNumber": "321FH"
+  },
+  {
+    "ID": 424,
+    "ItemName": "ANISOLE AR",
+    "CatalogueNumber": "LA0442",
+    "CASNumber": "100-66-3",
+    "BatchNumber": "963FD"
+  },
+  {
+    "ID": 425,
+    "ItemName": "ANITHOLE OIL Extra Pure",
+    "CatalogueNumber": "LA0443",
+    "CASNumber": "104-46-1",
+    "BatchNumber": "442VH"
+  },
+  {
+    "ID": 426,
+    "ItemName": "ANTHRACENE Purified",
+    "CatalogueNumber": "LA0444",
+    "CASNumber": "120-12-7",
+    "BatchNumber": "789VH"
+  },
+  {
+    "ID": 427,
+    "ItemName": "ANTHRACENE Scintillation Grade",
+    "CatalogueNumber": "LA0445",
+    "CASNumber": "120-12-7",
+    "BatchNumber": "321KK"
+  },
+  {
+    "ID": 428,
+    "ItemName": "ANTHRALIN Extra Pure",
+    "CatalogueNumber": "LA0446",
+    "CASNumber": "1143-38-0",
+    "BatchNumber": "987DE"
+  },
+  {
+    "ID": 429,
+    "ItemName": "ANTHRAQUINONE For Synthesis",
+    "CatalogueNumber": "LA0447",
+    "CASNumber": "84-65-1",
+    "BatchNumber": "359DD"
+  },
+  {
+    "ID": 430,
+    "ItemName": "ANTHRAQUINONE-2,6-DISULFONIC ACID DISODIUM SALT",
+    "CatalogueNumber": "LA0448",
+    "CASNumber": "853-68-9",
+    "BatchNumber": "654YG"
   }
 ]
