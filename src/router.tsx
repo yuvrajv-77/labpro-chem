@@ -13,6 +13,7 @@ import Chemicals from "./pages/Chemicals"
 import Contact from "./pages/Contact"
 import { Download } from "lucide-react"
 import Downloads from "./pages/Downloads"
+import ChemicalCategories from "./pages/Categories"
 
 export const router = createBrowserRouter([
 
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
       {
         path: "/chemicals",
         element: <Chemicals/>
+      },
+      {
+        path: "/categories",
+        element: <ChemicalCategories/>
       },
       {
         path: "/certifications",

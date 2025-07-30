@@ -4,44 +4,10 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious, PaginationNext, PaginationEllipsis } from '@/components/ui/pagination'
 import { Search } from 'lucide-react'
+import sampleChemicals from '@/data/sampleChemicals.json'
 
 // Sample data
-const sampleChemicals = [
-    {
-        articleNo: "A1001",
-        chemicalName: "Acetone",
-        casNumber: "67-64-1",
-        units: [
-            { unit: "500ml", price: 120 },
-            { unit: "2.5L", price: 400 }
-        ],
-        msds: "/pdfs/msds/Acetone.pdf",
-        coa: "/pdfs/coa/Acetone.pdf"
-    },
-    {
-        articleNo: "B2002",
-        chemicalName: "Benzene",
-        casNumber: "71-43-2",
-        units: [
-            { unit: "500ml", price: 180 },
-            { unit: "2.5L", price: 650 }
-        ],
-        msds: "/pdfs/msds/Benzene.pdf",
-        coa: "/pdfs/coa/Benzene.pdf"
-    },
-    {
-        articleNo: "C3003",
-        chemicalName: "Chloroform",
-        casNumber: "67-66-3",
-        units: [
-            { unit: "500ml", price: 200 },
-            { unit: "2.5L", price: 750 }
-        ],
-        msds: "/pdfs/msds/Chloroform.pdf",
-        coa: "/pdfs/coa/Chloroform.pdf"
-    },
-    // Add more sample data as needed
-]
+
 
 const ITEMS_PER_PAGE = 10
 
@@ -131,7 +97,7 @@ const Chemicals = () => {
                             <span className='absolute left-2'><Search color='gray' size={20} /></span>
                         </form>
                     </div>
-                    <div className="overflow-x-auto bg-white rounded-lg shadow">
+                    <div className="overflow-x-auto bg-white rounded-lg shadow hidden md:block">
                         <table className="min-w-full text-sm text-left border border-gray-200">
                             <thead className="bg-gray-100 text-gray-700 font-semibold">
                                 <tr>
@@ -175,6 +141,71 @@ const Chemicals = () => {
                                 )}
                             </tbody>
                         </table>
+                    </div>
+                      {/* ✅ Mobile Card View */}
+                    <div className="block md:hidden space-y-3">
+                        {paginatedData.length === 0 ? (
+                            <div className="text-center py-6 font-bold text-neutral-500">No results found.</div>
+                        ) : (
+                            paginatedData.map((item, index) => (
+                                <div key={index} className="border-b border-gray-200 py-2 space-y-3 bg-white">
+                                    <table>
+                                        <tbody className='text-sm space-y-5'>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">Article No. :</td>
+                                                <td className='p-2'>{item.articleNo}</td>
+                                            </tr>
+                                            <tr className='bg-zinc-100'>
+                                                <td className="font-bold whitespace-nowrap p-2">Chemical Name :</td>
+                                                <td className="p-2 w-full text-gray-900">{item.chemicalName}</td>
+                                            </tr>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">Category :</td>
+                                                <td className='p-2'>{item.category}</td>
+                                            </tr>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">CAS Number :</td>
+                                                <td className='p-2'>{item.casNumber}</td>
+                                            </tr>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">Units :</td>
+                                                <td className='p-2'>
+                                                    {item.units.map((u, i) => (
+                                                        <div key={i}>{u.unit} - ₹{u.price}</div>
+                                                    ))}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">MSDS :</td>
+                                                <td className='p-2'>
+                                                    <a
+                                                        href={item.msds}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-blue-600 underline cursor-pointer"
+                                                    >
+                                                        View
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="font-bold whitespace-nowrap p-2">COA :</td>
+                                                <td className='p-2'>
+                                                    <a
+                                                        href={item.coa}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-blue-600 underline cursor-pointer"
+                                                    >
+                                                        View
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            ))
+                        )}
                     </div>
 
                     {/* Pagination */}

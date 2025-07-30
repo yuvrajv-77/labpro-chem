@@ -1,0 +1,230 @@
+[
+  {
+    "articleNo": "A1001",
+    "chemicalName": "Acetone",
+    "category": "Solvents",
+    "casNumber": "67-64-1",
+    "units": [
+      { "unit": "500ml", "price": 120 },
+      { "unit": "2.5L", "price": 400 }
+    ],
+    "msds": "/pdfs/msds/Acetone.pdf",
+    "coa": "/pdfs/coa/Acetone.pdf"
+  },
+  {
+    "articleNo": "B2002",
+    "chemicalName": "Benzene",
+    "category": "Aromatic Hydrocarbons",
+    "casNumber": "71-43-2",
+    "units": [
+      { "unit": "500ml", "price": 180 },
+      { "unit": "2.5L", "price": 650 }
+    ],
+    "msds": "/pdfs/msds/Benzene.pdf",
+    "coa": "/pdfs/coa/Benzene.pdf"
+  },
+  {
+    "articleNo": "C3003",
+    "chemicalName": "Chloroform",
+    "category": "Halogenated Solvents",
+    "casNumber": "67-66-3",
+    "units": [
+      { "unit": "500ml", "price": 200 },
+      { "unit": "2.5L", "price": 750 }
+    ],
+    "msds": "/pdfs/msds/Chloroform.pdf",
+    "coa": "/pdfs/coa/Chloroform.pdf"
+  },
+  {
+    "articleNo": "D4004",
+    "chemicalName": "Diethyl Ether",
+    "category": "Ethers",
+    "casNumber": "60-29-7",
+    "units": [
+      { "unit": "500ml", "price": 250 },
+      { "unit": "2.5L", "price": 900 }
+    ],
+    "msds": "/pdfs/msds/DiethylEther.pdf",
+    "coa": "/pdfs/coa/DiethylEther.pdf"
+  },
+  {
+    "articleNo": "E5005",
+    "chemicalName": "Ethanol",
+    "category": "Alcohols",
+    "casNumber": "64-17-5",
+    "units": [
+      { "unit": "500ml", "price": 110 },
+      { "unit": "2.5L", "price": 420 }
+    ],
+    "msds": "/pdfs/msds/Ethanol.pdf",
+    "coa": "/pdfs/coa/Ethanol.pdf"
+  },
+  {
+    "articleNo": "F6006",
+    "chemicalName": "Formaldehyde",
+    "category": "Aldehydes",
+    "casNumber": "50-00-0",
+    "units": [
+      { "unit": "500ml", "price": 130 },
+      { "unit": "2.5L", "price": 500 }
+    ],
+    "msds": "/pdfs/msds/Formaldehyde.pdf",
+    "coa": "/pdfs/coa/Formaldehyde.pdf"
+  },
+  {
+    "articleNo": "G7007",
+    "chemicalName": "Glycerol",
+    "category": "Polyols",
+    "casNumber": "56-81-5",
+    "units": [
+      { "unit": "500ml", "price": 140 },
+      { "unit": "2.5L", "price": 520 }
+    ],
+    "msds": "/pdfs/msds/Glycerol.pdf",
+    "coa": "/pdfs/coa/Glycerol.pdf"
+  },
+  {
+    "articleNo": "H8008",
+    "chemicalName": "Hexane",
+    "category": "Alkanes",
+    "casNumber": "110-54-3",
+    "units": [
+      { "unit": "500ml", "price": 160 },
+      { "unit": "2.5L", "price": 600 }
+    ],
+    "msds": "/pdfs/msds/Hexane.pdf",
+    "coa": "/pdfs/coa/Hexane.pdf"
+  },
+  {
+    "articleNo": "I9009",
+    "chemicalName": "Isoamyl Alcohol",
+    "category": "Alcohols",
+    "casNumber": "123-51-3",
+    "units": [
+      { "unit": "500ml", "price": 170 },
+      { "unit": "2.5L", "price": 630 }
+    ],
+    "msds": "/pdfs/msds/IsoamylAlcohol.pdf",
+    "coa": "/pdfs/coa/IsoamylAlcohol.pdf"
+  },
+  {
+    "articleNo": "J1010",
+    "chemicalName": "Methanol",
+    "category": "Alcohols",
+    "casNumber": "67-56-1",
+    "units": [
+      { "unit": "500ml", "price": 115 },
+      { "unit": "2.5L", "price": 410 }
+    ],
+    "msds": "/pdfs/msds/Methanol.pdf",
+    "coa": "/pdfs/coa/Methanol.pdf"
+  },
+  {
+    "articleNo": "K1111",
+    "chemicalName": "Nitric Acid",
+    "category": "Acids",
+    "casNumber": "7697-37-2",
+    "units": [
+      { "unit": "500ml", "price": 180 },
+      { "unit": "2.5L", "price": 700 }
+    ],
+    "msds": "/pdfs/msds/NitricAcid.pdf",
+    "coa": "/pdfs/coa/NitricAcid.pdf"
+  },
+  {
+    "articleNo": "L1212",
+    "chemicalName": "Phenol",
+    "category": "Phenols",
+    "casNumber": "108-95-2",
+    "units": [
+      { "unit": "500ml", "price": 210 },
+      { "unit": "2.5L", "price": 800 }
+    ],
+    "msds": "/pdfs/msds/Phenol.pdf",
+    "coa": "/pdfs/coa/Phenol.pdf"
+  },
+  {
+    "articleNo": "M1313",
+    "chemicalName": "Potassium Hydroxide",
+    "category": "Bases",
+    "casNumber": "1310-58-3",
+    "units": [
+      { "unit": "500g", "price": 220 },
+      { "unit": "2.5kg", "price": 900 }
+    ],
+    "msds": "/pdfs/msds/PotassiumHydroxide.pdf",
+    "coa": "/pdfs/coa/PotassiumHydroxide.pdf"
+  },
+  {
+    "articleNo": "N1414",
+    "chemicalName": "Sodium Chloride",
+    "category": "Salts",
+    "casNumber": "7647-14-5",
+    "units": [
+      { "unit": "500g", "price": 60 },
+      { "unit": "2.5kg", "price": 200 }
+    ],
+    "msds": "/pdfs/msds/SodiumChloride.pdf",
+    "coa": "/pdfs/coa/SodiumChloride.pdf"
+  },
+  {
+    "articleNo": "O1515",
+    "chemicalName": "Sulphuric Acid",
+    "category": "Acids",
+    "casNumber": "7664-93-9",
+    "units": [
+      { "unit": "500ml", "price": 190 },
+      { "unit": "2.5L", "price": 750 }
+    ],
+    "msds": "/pdfs/msds/SulphuricAcid.pdf",
+    "coa": "/pdfs/coa/SulphuricAcid.pdf"
+  },
+  {
+    "articleNo": "P1616",
+    "chemicalName": "Toluene",
+    "category": "Aromatic Hydrocarbons",
+    "casNumber": "108-88-3",
+    "units": [
+      { "unit": "500ml", "price": 175 },
+      { "unit": "2.5L", "price": 670 }
+    ],
+    "msds": "/pdfs/msds/Toluene.pdf",
+    "coa": "/pdfs/coa/Toluene.pdf"
+  },
+  {
+    "articleNo": "Q1717",
+    "chemicalName": "Urea",
+    "category": "Amides",
+    "casNumber": "57-13-6",
+    "units": [
+      { "unit": "500g", "price": 90 },
+      { "unit": "2.5kg", "price": 350 }
+    ],
+    "msds": "/pdfs/msds/Urea.pdf",
+    "coa": "/pdfs/coa/Urea.pdf"
+  },
+  {
+    "articleNo": "R1818",
+    "chemicalName": "Xylene",
+    "category": "Aromatic Hydrocarbons",
+    "casNumber": "1330-20-7",
+    "units": [
+      { "unit": "500ml", "price": 185 },
+      { "unit": "2.5L", "price": 690 }
+    ],
+    "msds": "/pdfs/msds/Xylene.pdf",
+    "coa": "/pdfs/coa/Xylene.pdf"
+  },
+  {
+    "articleNo": "S1919",
+    "chemicalName": "Zinc Sulphate",
+    "category": "Salts",
+    "casNumber": "7733-02-0",
+    "units": [
+      { "unit": "500g", "price": 130 },
+      { "unit": "2.5kg", "price": 480 }
+    ],
+    "msds": "/pdfs/msds/ZincSulphate.pdf",
+    "coa": "/pdfs/coa/ZincSulphate.pdf"
+  }
+]

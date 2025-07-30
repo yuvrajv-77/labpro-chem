@@ -133,14 +133,14 @@ const Navbar = () => {
                                             <AccordionTrigger className="text-white focus:bg-violet-400 font-semibold py-2 text-base px-2 rounded hover:bg-violet-400">Laboratory Chemicals</AccordionTrigger>
                                             <AccordionContent className='bg-violet-500 p-4 text-primary flex flex-col gap-2 rounded-b-lg'>
                                                 <Link
-                                                    to={'/coa'}
+                                                    to={'/chemicals'}
                                                     className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
                                                     onClick={() => setIsMobileNavOpen(false)}
                                                 >
                                                     All Chemicals
                                                 </Link>
                                                 <Link
-                                                    to={'/chemicals'}
+                                                    to={'/categories'}
                                                     className="text-white font-semibold py-2 px-2 rounded hover:bg-violet-400"
                                                     onClick={() => setIsMobileNavOpen(false)}
                                                 >
@@ -233,19 +233,15 @@ const Navbar = () => {
                                         <ul className=' p-1 font-bold  w-64 text-sm'>
                                             <li>
                                                 <NavigationMenuLink asChild>
-                                                    <Link to="/chemicals">Browse By Category</Link>
+                                                    <Link to="/chemicals">All Chemicals</Link>
                                                 </NavigationMenuLink>
                                             </li>
                                             <li>
                                                 <NavigationMenuLink asChild>
-                                                    <Link to="/chemicals/organic">Organic Chemicals</Link>
+                                                    <Link to="/categories">Browse By Category</Link>
                                                 </NavigationMenuLink>
                                             </li>
-                                            <li>
-                                                <NavigationMenuLink asChild>
-                                                    <Link to="/chemicals/inorganic">Inorganic Chemicals</Link>
-                                                </NavigationMenuLink>
-                                            </li>
+                                            
                                         </ul>
                                     </NavigationMenuContent>
                                 </NavigationMenuItem>
