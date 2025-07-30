@@ -9,11 +9,12 @@ import PrivacyPolicy from "@/pages/PrivacyPolicy"
 import { Gallery } from "./pages/Gallery"
 import Search from "./pages/Search"
 import ErrorPage from "./pages/ErrorPage"
-import Chemicals from "./pages/Chemicals"
+import Chemicals from "./pages/chemical/Chemicals"
 import Contact from "./pages/Contact"
 import { Download } from "lucide-react"
 import Downloads from "./pages/Downloads"
-import ChemicalCategories from "./pages/Categories"
+import ChemicalCategories from "./pages/chemical/Categories"
+import ChemicalDetails from "./pages/chemical/ChemicalDetails"
 
 export const router = createBrowserRouter([
 
@@ -23,7 +24,7 @@ export const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-       index: true,
+        index: true,
         element: <HomePage />
       },
       {
@@ -40,21 +41,25 @@ export const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <Contact/>
+        element: <Contact />
       },
       {
         path: "/chemicals",
-        element: <Chemicals/>
+        element: <Chemicals />
+      },
+      {
+        path: "/chemicals/:chemicalId",
+        element: <ChemicalDetails />
       },
       {
         path: "/categories",
-        element: <ChemicalCategories/>
+        element: <ChemicalCategories />
       },
       {
         path: "/certifications",
         element: <Certifications />
       },
-      { 
+      {
         path: "/CoA",
         element: <COA />
       },
