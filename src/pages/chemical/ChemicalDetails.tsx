@@ -33,6 +33,8 @@ const physicalProperties = [
   { "label": "Physical state at 20 °C", "value": "Liquid" }
 ]
 
+const chemicalImage = "/images/chemicals/check.jpg";
+
 
 const ChemicalDetails = () => {
     return (
@@ -46,7 +48,7 @@ const ChemicalDetails = () => {
                         <BreadcrumbSeparator />
                     </BreadcrumbItem>
                     <BreadcrumbItem>
-                        <BreadcrumbPage>Chemicals</BreadcrumbPage>
+                        <BreadcrumbLink href="/chemicals">Chemicals</BreadcrumbLink>
                     </BreadcrumbItem>
                     <BreadcrumbItem>
                         <BreadcrumbSeparator />
@@ -57,17 +59,17 @@ const ChemicalDetails = () => {
                 </BreadcrumbList>
             </Breadcrumb>
 
-            <div className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-8'>
+            <div className='max-w-6xl mx-auto px-6 md:px-3 lg:px-0 py-5'>
                 <div className='flex items-center gap-4 mb-6'>
                     <span className='flex text-sm text-white bg-primary px-2 py-2 rounded-sm items-center gap-2'><ChevronLeft size={15} />Back</span>
-                    <h2 className='text-xl md:text-2xl font-bold'>ACETIC ACID GLACIAL Extra Pure </h2>
+                    <h2 className='text-lg md:text-2xl font-bold'>ACETIC ACID GLACIAL Extra Pure </h2>
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-5 gap-6'>
+                <div className='grid grid-cols-1 md:grid-cols-5 md:gap-6 gap-y-5 '>
 
                     <aside className=' col-span-2 space-y-6'>
-                        <section className='h-72'>
-                            <img src="/images/gallery/event (1).jpg" className='w-full h-full object-cover' alt="" />
+                        <section className='h-'>
+                            <img src={chemicalImage} className='w-full h-full object-cover' alt="" />
                         </section>
 
                         {/* Chemical Information */}
