@@ -3008,5 +3008,188 @@
     "CatalogueNumber": "LA0448",
     "CASNumber": "853-68-9",
     "BatchNumber": "654YG"
+  },
+
+  {
+    "ID": 431,
+    "ItemName": "Barium Sulphate 98% AR",
+    "CatalogueNumber": "LA0537",
+    "CASNumber": "7727-43-7",
+    "BatchNumber": "582BS"
+  },
+  {
+    "ID": 432,
+    "ItemName": "Calcium Carbonate 99% AR",
+    "CatalogueNumber": "LA1058",
+    "CASNumber": "471-34-1",
+    "BatchNumber": "052CC"
+  },
+  {
+    "ID": 433,
+    "ItemName": "Copper(II) Sulphate 99% AR (Anhydrous)",
+    "CatalogueNumber": "LA1547",
+    "CASNumber": "7758-98-7",
+    "BatchNumber": "856CS"
+  },
+  {
+    "ID": 434,
+    "ItemName": "FERRIC CHLORIDE 98% AR (anhydrous)",
+    "CatalogueNumber": "LA2135",
+    "CASNumber": "7705-08-0",
+    "BatchNumber": "582FC"
+  },
+  {
+    "ID": 435,
+    "ItemName": "Ferrous Sulphate Heptahydrate 99% AR ",
+    "CatalogueNumber": "LA2165",
+    "CASNumber": "7782-63-0",
+    "BatchNumber": "948FR"
+  },
+  {
+    "ID": 436,
+    "ItemName": "Hydrochloric Acid 35–38%",
+    "CatalogueNumber": "LA2421",
+    "CASNumber": "7647-01-0",
+    "BatchNumber": "623HY"
+  },
+  {
+    "ID": 437,
+    "ItemName": "MAGNESIUM SULPHATE 99% (heptahydrate)",
+    "CatalogueNumber": "LA2809",
+    "CASNumber": "10034-99-8",
+    "BatchNumber": "472MS"
+  },
+  {
+    "ID": 438,
+    "ItemName": "MERCURY (Metal) 99.5% AR",
+    "CatalogueNumber": "LA2875",
+    "CASNumber": "7439-97-6",
+    "BatchNumber": "382M"
+  },
+  {
+    "ID": 439,
+    "ItemName": "Mercuric Acetate 99% AR",
+    "CatalogueNumber": "LA2877",
+    "CASNumber": "1600-27-7",
+    "BatchNumber": "954MA"
+  },
+  {
+    "ID": 440,
+    "ItemName": "Nitric Acid 69–72%",
+    "CatalogueNumber": "LA3244",
+    "CASNumber": "7697-37-2",
+    "BatchNumber": "946NA"
+  },
+  {
+    "ID": 441,
+    "ItemName": "Potassium Dichromate 99.9% AR ",
+    "CatalogueNumber": "LA3661",
+    "CASNumber": "7778-50-9",
+    "BatchNumber": "489PD"
+  },
+  {
+    "ID": 442,
+    "ItemName": "Potassium Hexafluorophosphate 98% ",
+    "CatalogueNumber": "LA3677",
+    "CASNumber": "17084-13-8",
+    "BatchNumber": "747PH"
+  },
+  {
+    "ID": 443,
+    "ItemName": "Potassium Hydroxide Pellets 85% ",
+    "CatalogueNumber": "LA3681",
+    "CASNumber": "1310-58-3",
+    "BatchNumber": "784PH"
+  },
+  {
+    "ID": 444,
+    "ItemName": "Potassium Iodate 99%",
+    "CatalogueNumber": "LA3694",
+    "CASNumber": 2139718,
+    "BatchNumber": "764PO"
+  },
+  {
+    "ID": 445,
+    "ItemName": "Potassium Iodide 99.5% – For Chromatography",
+    "CatalogueNumber": "LA3699",
+    "CASNumber": "7681-11-0",
+    "BatchNumber": "962PO"
+  },
+  {
+    "ID": 446,
+    "ItemName": "Potassium Nitrate 99.5% AR ",
+    "CatalogueNumber": "LA3714",
+    "CASNumber": "7757-79-1",
+    "BatchNumber": "367PN"
+  },
+  {
+    "ID": 447,
+    "ItemName": "iso-Propyl Alcohol 99% ",
+    "CatalogueNumber": "LA3790",
+    "CASNumber": "67-63-0",
+    "BatchNumber": "538IS"
+  },
+  {
+    "ID": 448,
+    "ItemName": "Silver Nitrate 99.9% AR",
+    "CatalogueNumber": "LA3972",
+    "CASNumber": "7761-88-8",
+    "BatchNumber": "853SL"
+  },
+  {
+    "ID": 449,
+    "ItemName": "Sodium Bicarbonate 99.5–101%",
+    "CatalogueNumber": "LA4068",
+    "CASNumber": "144-55-8",
+    "BatchNumber": "126SB"
+  },
+  {
+    "ID": 450,
+    "ItemName": "Sodium Bicarbonate 99.5% AR ",
+    "CatalogueNumber": "LA4069",
+    "CASNumber": "144-55-8",
+    "BatchNumber": "387SB"
+  },
+  {
+    "ID": 451,
+    "ItemName": "SODIUM CARBONATE 99.9% AR (anhydrous) (granulars)",
+    "CatalogueNumber": "LA4089",
+    "CASNumber": " 497-19-8",
+    "BatchNumber": "742SC"
+  },
+  {
+    "ID": 452,
+    "ItemName": "Sodium Chloride 99.9% AR ",
+    "CatalogueNumber": "LA4097",
+    "CASNumber": "7647-14-5",
+    "BatchNumber": "472SC"
+  },
+  {
+    "ID": 453,
+    "ItemName": "Sodium Hydroxide Pellets 98–100.5% AR",
+    "CatalogueNumber": "LA4147",
+    "CASNumber": "1310-73-2",
+    "BatchNumber": "263SH"
+  },
+  {
+    "ID": 454,
+    "ItemName": "Sodium Thiosulphate (Anhydrous) 97% AR ",
+    "CatalogueNumber": "LA4272",
+    "CASNumber": " 7772-98-7",
+    "BatchNumber": "457ST"
+  },
+  {
+    "ID": 455,
+    "ItemName": "SULPHURIC ACID 98%",
+    "CatalogueNumber": "LA4389",
+    "CASNumber": "7664-93-9",
+    "BatchNumber": "875SU"
+  },
+  {
+    "ID": 456,
+    "ItemName": " Zinc Sulphate 99.5% AR (Heptahydrate)",
+    "CatalogueNumber": "LA4786",
+    "CASNumber": "7446-20-0",
+    "BatchNumber": ""
   }
 ]
