@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious, PaginationNext, PaginationEllipsis } from '@/components/ui/pagination'
 import { Search } from 'lucide-react'
-import sampleChemicals from '@/data/sampleChemicals.json'
+// import sampleChemicals from '@/data/sampleChemicals.json'
 import {
     Accordion,
     AccordionContent,
@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/accordion"
 
 const ITEMS_PER_PAGE = 10
+const sampleChemicals = []
 
 const ChemicalCategories = () => {
     const [currentPage, setCurrentPage] = useState(1)

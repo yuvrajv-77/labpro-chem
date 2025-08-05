@@ -4,12 +4,12 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious, PaginationNext, PaginationEllipsis } from '@/components/ui/pagination'
 import { Search } from 'lucide-react'
-import sampleChemicals from '@/data/sampleChemicals.json'
+// import sampleChemicals from '@/data/sampleChemicals.json'
 import { Link } from 'react-router'
 
 // Sample data
 
-
+const sampleChemicals = []
 const ITEMS_PER_PAGE = 10
 
 const Chemicals = () => {
