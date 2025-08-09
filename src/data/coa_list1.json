@@ -3191,5 +3191,110 @@
     "CatalogueNumber": "LA4786",
     "CASNumber": "7446-20-0",
     "BatchNumber": ""
+  },
+  {
+    "ID": 457,
+    "ItemName": "L (+) Arabinose 99%",
+    "CatalogueNumber": "LA0473",
+    "CASNumber": "5328-37-0",
+    "BatchNumber": "543LA"
+  },
+  {
+    "ID": 458,
+    "ItemName": "D (+) - Arabitol 99%",
+    "CatalogueNumber": "LA0474",
+    "CASNumber": "488-82-4",
+    "BatchNumber": "533DA"
+  },
+  {
+    "ID": 459,
+    "ItemName": "L (+) - Arabitol 98%",
+    "CatalogueNumber": "LA0475",
+    "CASNumber": "7643-75-6",
+    "BatchNumber": "432LA"
+  },
+  {
+    "ID": 460,
+    "ItemName": "Arachis Oil Extra Pure (Liquid, d. 0.91)",
+    "CatalogueNumber": "LA0476",
+    "CASNumber": "8002-03-7",
+    "BatchNumber": "546AO"
+  },
+  {
+    "ID": 461,
+    "ItemName": "L-Arginine 98% (For Biochemistry)",
+    "CatalogueNumber": "LA0477",
+    "CASNumber": "74-79-3",
+    "BatchNumber": "474LA"
+  },
+  {
+    "ID": 462,
+    "ItemName": "L-Arginine Monohydrochloride 99% (For Biochemistry)",
+    "CatalogueNumber": "LA0478",
+    "CASNumber": "1119-34-2",
+    "BatchNumber": "864AM"
+  },
+  {
+    "ID": 463,
+    "ItemName": "p-Arsanilic Acid 98%",
+    "CatalogueNumber": "LA0479",
+    "CASNumber": "98-50-0",
+    "BatchNumber": "945AC"
+  },
+  {
+    "ID": 464,
+    "ItemName": "Arsenazo I AR (Reagent for Thorium)",
+    "CatalogueNumber": "LA0480",
+    "CASNumber": "520-10-5",
+    "BatchNumber": "675AI"
+  },
+  {
+    "ID": 465,
+    "ItemName": "Arsenazo III AR (Reagent for Thorium)",
+    "CatalogueNumber": "LA0481",
+    "CASNumber": "1668-00-4",
+    "BatchNumber": "030AR"
+  },
+  {
+    "ID": 466,
+    "ItemName": "Arsenic AAS Standard Solution",
+    "CatalogueNumber": "LA0482",
+    "CASNumber": "",
+    "BatchNumber": "949AA"
+  },
+  {
+    "ID": 467,
+    "ItemName": "Arsenic ICP Standard Solution 1000 mg/L in Nitric Acid",
+    "CatalogueNumber": "LA0483",
+    "CASNumber": "",
+    "BatchNumber": "959AI"
+  },
+  {
+    "ID": 468,
+    "ItemName": "Arsenic (Metal) Powder 99.9%",
+    "CatalogueNumber": "LA0484",
+    "CASNumber": "7440-38-2",
+    "BatchNumber": "784LA"
+  },
+  {
+    "ID": 469,
+    "ItemName": "Arsenic (III) Oxide 99%",
+    "CatalogueNumber": "LA0485",
+    "CASNumber": "1327-53-3",
+    "BatchNumber": "738LA"
+  },
+  {
+    "ID": 470,
+    "ItemName": "Arsenic (III) Oxide 99.5% AR",
+    "CatalogueNumber": "LA0486",
+    "CASNumber": "1327-53-3",
+    "BatchNumber": "934LA"
+  },
+  {
+    "ID": 471,
+    "ItemName": "Arsenic Pentoxide 99%",
+    "CatalogueNumber": "LA0487",
+    "CASNumber": "1303-28-2",
+    "BatchNumber": "734AP"
   }
 ]
