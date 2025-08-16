@@ -3009,7 +3009,6 @@
     "CASNumber": "853-68-9",
     "BatchNumber": "654YG"
   },
-
   {
     "ID": 431,
     "ItemName": "Barium Sulphate 98% AR",
@@ -3299,163 +3298,142 @@
   },
   {
     "ID": 472,
-    "ItemName": "Arsenic Sulphate 95%",
-    "CatalogueNumber": "LA0488",
-    "CASNumber": "1303-32-8",
-    "BatchNumber": "567AS"
+    "ItemName": "Azocarmine G For Histology (C.I. No.50085)",
+    "CatalogueNumber": "LA0511",
+    "CASNumber": "25641-18-3",
+    "BatchNumber": "592AZ"
   },
   {
     "ID": 473,
-    "ItemName": "Asbestos (for Gooch Crucibles)",
-    "CatalogueNumber": "LA0489",
-    "CASNumber": "1332-21-4",
-    "BatchNumber": "758AS"
+    "ItemName": "α,α’-Azoisobutyronitrile 98% For Synthesis",
+    "CatalogueNumber": "LA0512",
+    "CASNumber": "78-67-1",
+    "BatchNumber": "305AZ"
   },
   {
     "ID": 474,
-    "ItemName": "Asbestos Powder Practical",
-    "CatalogueNumber": "LA0490",
-    "CASNumber": "—",
-    "BatchNumber": "234AP"
+    "ItemName": "Azomethine-H Monosodium Salt Hydrate 90%",
+    "CatalogueNumber": "LA0513",
+    "CASNumber": "5378-49-4",
+    "BatchNumber": "758AM"
   },
   {
     "ID": 475,
-    "ItemName": "L-Ascorbic Acid 99% (Vitamin C)",
-    "CatalogueNumber": "LA0491",
-    "CASNumber": "50-81-7",
-    "BatchNumber": "345AA"
+    "ItemName": "Azure A (M.S.) (C.I. No.52005)",
+    "CatalogueNumber": "LA0514",
+    "CASNumber": "531-53-3",
+    "BatchNumber": "836AZ"
   },
   {
     "ID": 476,
-    "ItemName": "L-Ascorbic Acid 99.7% AR (For Biochemistry)",
-    "CatalogueNumber": "LA0492",
-    "CASNumber": "50-81-7",
-    "BatchNumber": "234AA"
+    "ItemName": "Azure B (M.S.) (C.I. No.52010) (Azur I)",
+    "CatalogueNumber": "LA0515",
+    "CASNumber": "531-55-5",
+    "BatchNumber": "983AZ"
   },
   {
     "ID": 477,
-    "ItemName": "L-Ascorbyl Palmitate 98% (For Synthesis)",
-    "CatalogueNumber": "LA0493",
-    "CASNumber": "137-66-6",
-    "BatchNumber": "345AP"
+    "ItemName": "Azure II (M.S.)",
+    "CatalogueNumber": "LA0516",
+    "CASNumber": "37247-10-2",
+    "BatchNumber": "074AZ"
   },
   {
     "ID": 478,
-    "ItemName": "L-Aspargine 99% (For Biochemistry, Monohydrate)",
-    "CatalogueNumber": "LA0494",
-    "CASNumber": "5794-13-8",
-    "BatchNumber": "345AS"
+    "ItemName": "Azure C (N-methylthionine)",
+    "CatalogueNumber": "LA0517",
+    "CASNumber": "531-57-7",
+    "BatchNumber": "586AZ"
   },
   {
     "ID": 479,
-    "ItemName": "Aspartame 98%",
-    "CatalogueNumber": "LA0495",
-    "CASNumber": "22839-47-0",
-    "BatchNumber": "345AS"
+    "ItemName": "Azure II Eosine (M.S.)",
+    "CatalogueNumber": "LA0518",
+    "CASNumber": "53092-85-6",
+    "BatchNumber": "846AZ"
   },
   {
     "ID": 480,
-    "ItemName": "DL-Aspartic Acid 99% (For Chromatography)",
-    "CatalogueNumber": "LA0496",
-    "CASNumber": "617-45-8",
-    "BatchNumber": "93DA"
+    "ItemName": "Balsam Canada (Synthetic)",
+    "CatalogueNumber": "LA0519",
+    "CASNumber": "8007-47-4",
+    "BatchNumber": "937BC"
   },
   {
     "ID": 481,
-    "ItemName": "L-Aspartic Acid 98% (For Biochemistry)",
-    "CatalogueNumber": "LA0497",
-    "CASNumber": "56-84-8",
-    "BatchNumber": "234AA"
+    "ItemName": "Balsam Canada (Colourless)",
+    "CatalogueNumber": "LA0520",
+    "CASNumber": "8007-00-9",
+    "BatchNumber": "734BC"
   },
   {
     "ID": 482,
-    "ItemName": "Atenolol 98% Extra Pure",
-    "CatalogueNumber": "LA0498",
-    "CASNumber": "29122-68-7",
-    "BatchNumber": "657AT"
+    "ItemName": "Balsam Peru (Resinoids)",
+    "CatalogueNumber": "LA0521",
+    "CASNumber": "—",
+    "BatchNumber": "836BP"
   },
   {
     "ID": 483,
-    "ItemName": "Atropine Sulphate 98% AR",
-    "CatalogueNumber": "LA0499",
-    "CASNumber": "5908-99-6",
-    "BatchNumber": "876AS"
+    "ItemName": "Balsam Tolu",
+    "CatalogueNumber": "LA0522",
+    "CASNumber": "9000-64-0",
+    "BatchNumber": "378BT"
   },
   {
     "ID": 484,
-    "ItemName": "Auramine (M.S.) (C.I. No. 41000)",
-    "CatalogueNumber": "LA0500",
-    "CASNumber": "2465-27-2",
-    "BatchNumber": "657AU"
+    "ItemName": "Barbituric Acid 98% (For Synthesis)",
+    "CatalogueNumber": "LA0523",
+    "CASNumber": "67-52-7",
+    "BatchNumber": "836BA"
   },
   {
     "ID": 485,
-    "ItemName": "Auric Chloride (Au 25%)",
-    "CatalogueNumber": "LA0501",
-    "CASNumber": "16903-35-8",
-    "BatchNumber": "654AC"
+    "ItemName": "Barbituric Acid 99% AR",
+    "CatalogueNumber": "LA0524",
+    "CASNumber": "67-52-7",
+    "BatchNumber": "478BA"
   },
   {
     "ID": 486,
-    "ItemName": "Auric Chloride (Au 49%)",
-    "CatalogueNumber": "LA0502",
-    "CASNumber": "16903-35-8",
-    "BatchNumber": "546AC"
+    "ItemName": "Barfoed’s Reagent",
+    "CatalogueNumber": "LA0525",
+    "CASNumber": "—",
+    "BatchNumber": "836BR"
   },
   {
     "ID": 487,
-    "ItemName": "Aurin (C.I. No.43800)",
-    "CatalogueNumber": "LA0503",
-    "CASNumber": "603-45-2",
-    "BatchNumber": "856AU"
+    "ItemName": "Barium AAS Standard Solution",
+    "CatalogueNumber": "LA0526",
+    "CASNumber": "—",
+    "BatchNumber": "636BS"
   },
   {
     "ID": 488,
-    "ItemName": "AVICEL-101 (pH 101)",
-    "CatalogueNumber": "LA0504",
-    "CASNumber": "99331-82-5",
-    "BatchNumber": "093AV"
+    "ItemName": "Barium ICP Standard Solution 1000 mg/L in Nitric Acid",
+    "CatalogueNumber": "LA0527",
+    "CASNumber": "—",
+    "BatchNumber": "926BS"
   },
   {
     "ID": 489,
-    "ItemName": "AVICEL-102 (pH 102)",
-    "CatalogueNumber": "LA0505",
-    "CASNumber": "99331-82-5",
-    "BatchNumber": "AV"
+    "ItemName": "Barium Acetate 99%",
+    "CatalogueNumber": "LA0528",
+    "CASNumber": "543-80-6",
+    "BatchNumber": "368BA"
   },
   {
     "ID": 490,
-    "ItemName": "7-AZAINDOLE 98% (For Synthesis)",
-    "CatalogueNumber": "LA0506",
-    "CASNumber": "271-63-6",
-    "BatchNumber": "038AZ"
+    "ItemName": "Barium Acetate 99% AR",
+    "CatalogueNumber": "LA0529",
+    "CASNumber": "543-80-6",
+    "BatchNumber": "547BA"
   },
   {
     "ID": 491,
-    "ItemName": "Azelaic Acid 98%",
-    "CatalogueNumber": "LA0507",
-    "CASNumber": "123-99-9",
-    "BatchNumber": "704AZ"
-  },
-  {
-    "ID": 492,
-    "ItemName": "Azithromycin 95% Extra Pure",
-    "CatalogueNumber": "LA0508",
-    "CASNumber": "83905-01-5",
-    "BatchNumber": "046AT"
-  },
-  {
-    "ID": 493,
-    "ItemName": "Azetidine-3-Carboxylic Acid 97%",
-    "CatalogueNumber": "LA0509",
-    "CASNumber": "36476-78-5",
-    "BatchNumber": "675AE"
-  },
-  {
-    "ID": 494,
-    "ItemName": "Azobenzene 97%",
-    "CatalogueNumber": "LA0510",
-    "CASNumber": "103-33-3",
-    "BatchNumber": "720AO"
+    "ItemName": "Barium Borate 97% (Monohydrate)",
+    "CatalogueNumber": "LA0530",
+    "CASNumber": "26124-86-7",
+    "BatchNumber": "937BB"
   }
 ]
