@@ -280,7 +280,7 @@ const Navbar = () => {
                             </NavigationMenuList>
                         </NavigationMenu>
 
-                        <Link to="/search" className='text-white p-2 hover:bg-white rounded-lg hover:text-black cursor-pointer'><Search size={20} /></Link>
+                        {/* <Link to="/chemicals" className='text-white p-2 hover:bg-white rounded-lg hover:text-black cursor-pointer'><Search size={20} /></Link> */}
                     </div>
                 </nav>
 
