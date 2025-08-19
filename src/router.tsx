@@ -51,7 +51,7 @@ export const router = createBrowserRouter([
         path: "/chemicals/:catalogueNumber",
         element: <ChemicalDetails />
       },
-      {
+      { 
         path: "/categories",
         element: <ChemicalCategories />
       },

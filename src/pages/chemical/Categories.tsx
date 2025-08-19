@@ -4,16 +4,17 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious, PaginationNext, PaginationEllipsis } from '@/components/ui/pagination'
 import { Search } from 'lucide-react'
-// import sampleChemicals from '@/data/sampleChemicals.json'
+import chemicals from '@/data/chemicals.json'
 import {
     Accordion,
     AccordionContent,
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import { Link } from 'react-router'
 
 const ITEMS_PER_PAGE = 10
-const sampleChemicals = []
+const USE_PAGINATION = false // Set to true to enable pagination, false to show all
 
 const ChemicalCategories = () => {
     const [currentPage, setCurrentPage] = useState(1)
@@ -24,23 +25,29 @@ const ChemicalCategories = () => {
     const groupByCategory = (data) => {
         const map = {};
         data.forEach(item => {
-            if (!map[item.category]) map[item.category] = [];
-            map[item.category].push(item);
+            if (!map[item.Category]) map[item.Category] = [];
+            map[item.Category].push(item);
         });
         return map;
     };
 
     // Filter data based on search query
-    const filteredData = sampleChemicals.filter(item =>
-        item.articleNo.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        item.chemicalName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        item.casNumber.toLowerCase().includes(searchQuery.toLowerCase())
+    const filteredData = chemicals.filter(item =>
+        item.ChemicalName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (item.CASNumber + '').toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (item.CatalogueNumber || '').toLowerCase().includes(searchQuery.toLowerCase())
     );
 
     const chemicalsByCategory = groupByCategory(filteredData);
     const categoryList = Object.keys(chemicalsByCategory);
 
-    // Pagination per category (optional: here, no pagination per category for simplicity)
+    // Pagination logic
+    const getPaginatedData = (items: any[]) => {
+        if (!USE_PAGINATION) return items;
+        const start = (currentPage - 1) * ITEMS_PER_PAGE;
+        const end = currentPage * ITEMS_PER_PAGE;
+        return items.slice(start, end);
+    };
 
     const handlePageChange = (page: number) => {
         setCurrentPage(page);
@@ -55,6 +62,22 @@ const ChemicalCategories = () => {
         e.preventDefault();
         setCurrentPage(1);
     };
+
+    const getUnitsList = (item: any) => {
+        const units: string[] = []
+        if (item["500GM Price"] && item["500GM Price"] !== "" && item["500GM Price"] !== "-") units.push("500GM")
+        if (item["100GM Price"] && item["100GM Price"] !== "" && item["100GM Price"] !== "-") units.push("100GM")
+        return units
+    }
+
+    // Helper to get available prices as array
+    const getPricesList = (item: any) => {
+        const prices: string[] = []
+        if (item["500GM Price"] && item["500GM Price"] !== "" && item["500GM Price"] !== "-") prices.push(`₹${item["500GM Price"]}`)
+        if (item["100GM Price"] && item["100GM Price"] !== "" && item["100GM Price"] !== "-") prices.push(`₹${item["100GM Price"]}`)
+        return prices
+    };
+
 
     return (
         <main>
@@ -97,55 +120,139 @@ const ChemicalCategories = () => {
                             {categoryList.length === 0 && (
                                 <div className="text-center py-6 font-bold text-neutral-500">No results found.</div>
                             )}
-                            {categoryList.map((cat, idx) => (
-                                <AccordionItem value={cat} key={cat}>
-                                    <AccordionTrigger className='bg-primary px-5 text-white'>{cat}</AccordionTrigger>
-                                    <AccordionContent>
-                                        <table className="min-w-full text-sm text-left border border-gray-200">
-                                            <thead className="bg-gray-100 text-gray-700 font-semibold">
-                                                <tr>
-                                                    <th className="px-4 py-3">Article No</th>
-                                                    <th className="px-4 py-3">Chemical Name</th>
-                                                    <th className="px-4 py-3">CAS Number</th>
-                                                    <th className="px-4 py-3">Units</th>
-                                                    <th className="px-4 py-3">Price (per unit)</th>
-                                                    <th className="px-4 py-3">MSDS</th>
-                                                    <th className="px-4 py-3">COA</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody className="divide-y divide-gray-200">
-                                                {chemicalsByCategory[cat].map((item, index) => (
-                                                    <tr key={index} className="hover:bg-gray-50">
-                                                        <td className="px-4 py-3">{item.articleNo}</td>
-                                                        <td className="px-4 py-3">{item.chemicalName}</td>
-                                                        <td className="px-4 py-3">{item.casNumber}</td>
-                                                        <td className="px-4 py-3">
-                                                            {item.units.map((u, i) => (
-                                                                <div key={i}>{u.unit}</div>
-                                                            ))}
-                                                        </td>
-                                                        <td className="px-4 py-3">
-                                                            {item.units.map((u, i) => (
-                                                                <div key={i}>₹{u.price}</div>
-                                                            ))}
-                                                        </td>
-                                                        <td className="px-4 py-3 text-blue-600 underline cursor-pointer">
-                                                            <a href={item.msds} target="_blank" rel="noopener noreferrer">View</a>
-                                                        </td>
-                                                        <td className="px-4 py-3 text-blue-600 underline cursor-pointer">
-                                                            <a href={item.coa} target="_blank" rel="noopener noreferrer">View</a>
-                                                        </td>
-                                                    </tr>
-                                                ))}
-                                            </tbody>
-                                        </table>
-                                    </AccordionContent>
-                                </AccordionItem>
-                            ))}
+                            {categoryList.map((cat, idx) => {
+                                const items = chemicalsByCategory[cat];
+                                const paginatedData = getPaginatedData(items);
+                                return (
+                                    <AccordionItem value={cat} key={cat}>
+                                        <AccordionTrigger className='bg-primary px-5 text-white'>{cat}</AccordionTrigger>
+                                        <AccordionContent>
+                                            <div className="overflow-x-auto bg-white rounded-lg shadow hidden md:block">
+                                                <table className="min-w-full text-sm text-left border border-gray-200">
+                                                    <thead className="bg-gray-100 text-gray-700 font-semibold">
+                                                        <tr>
+                                                            <th className="px-4 py-3">ID</th>
+                                                            <th className="px-4 py-3">Chemical Name</th>
+                                                            <th className="px-4 py-3">Purity</th>
+                                                            <th className="px-4 py-3">CAS Number</th>
+                                                            <th className="px-4 py-3">Units</th>
+                                                            <th className="px-4 py-3">Price</th>
+                                                            <th className="px-4 py-3">COA</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody className="divide-y divide-gray-200">
+                                                        {paginatedData.map((item, index) => (
+                                                            <tr key={index} className="hover:bg-gray-50">
+                                                                <td className="px-4 py-3">{item.Id}</td>
+                                                                <td className="px-4 py-3 text-blue-700 cursor-pointer hover:underline">
+                                                                    <Link to={`/chemicals/${item.CatalogueNumber}`}>{item.ChemicalName}</Link>
+                                                                </td>
+                                                                <td className="px-4 py-3">{item.Purity ? `${item.Purity * 100}%` : '-'}</td>
+                                                                <td className="px-4 py-3">{item.CASNumber}</td>
+                                                                <td className="px-4 py-3">
+                                                                    {getUnitsList(item).length > 0 ? (
+                                                                        <ul className="space-y-1 ">
+                                                                            {getUnitsList(item).map((unit, idx) => (
+                                                                                <li key={idx}>{unit}</li>
+                                                                            ))}
+                                                                        </ul>
+                                                                    ) : "-"
+                                                                    }
+                                                                </td>
+                                                                <td className="px-4 py-3">
+                                                                    {getPricesList(item).length > 0 ? (
+                                                                        <ul className="space-y-1">
+                                                                            {getPricesList(item).map((price, idx) => (
+                                                                                <li key={idx}>{price}</li>
+                                                                            ))}
+                                                                        </ul>
+                                                                    ) : "-"
+                                                                    }
+                                                                </td>
+                                                                <td className="px-4 py-3">
+                                                                    <Link to={`/pdfs/coa/${item.CatalogueNumber}.pdf`} target='_blank' className="text-primary underline">Click to view</Link>
+                                                                </td>
+                                                            </tr>
+                                                        ))}
+                                                        {paginatedData.length === 0 && (
+                                                            <tr>
+                                                                <td colSpan={7} className="text-center py-6 font-bold text-neutral-500">No results found.</td>
+                                                            </tr>
+                                                        )}
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            {/* ✅ Mobile Card View */}
+                                            <div className="block md:hidden space-y-3">
+                                                {paginatedData.length === 0 ? (
+                                                    <div className="text-center py-6 font-bold text-neutral-500">No results found.</div>
+                                                ) : (
+                                                    paginatedData.map((item, index) => (
+                                                        <div key={index} className="border-b border-gray-200 py-2 space-y-3 bg-white">
+                                                            <table>
+                                                                <tbody className='text-sm space-y-5'>
+                                                                    <tr>
+                                                                        <td className="font-bold whitespace-nowrap p-2">ID :</td>
+                                                                        <td className='p-2'>{item.Id}</td>
+                                                                    </tr>
+                                                                    <tr className='bg-zinc-100'>
+                                                                        <td className="font-bold whitespace-nowrap p-2">Chemical Name :</td>
+                                                                        <td className="p-2 w-full text-blue-700 cursor-pointer hover:underline">
+                                                                            <Link to={`/chemicals/${item.CatalogueNumber}`}>{item.ChemicalName}</Link>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td className="font-bold whitespace-nowrap p-2">Purity :</td>
+                                                                        <td className='p-2'>{item.Purity ? `${item.Purity * 100}%` : '-'}</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td className="font-bold whitespace-nowrap p-2">CAS Number :</td>
+                                                                        <td className='p-2'>{item.CASNumber}</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td className="font-bold whitespace-nowrap p-2">Units :</td>
+                                                                        <td className='p-2'>
+                                                                            {getUnitsList(item).length > 0 ? (
+                                                                                <ul className="">
+                                                                                    {getUnitsList(item).map((unit, idx) => (
+                                                                                        <li key={idx}>{unit}</li>
+                                                                                    ))}
+                                                                                </ul>
+                                                                            ) : "-"
+                                                                            }
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td className="font-bold whitespace-nowrap p-2">Price :</td>
+                                                                        <td className='p-2'>
+                                                                            {getPricesList(item).length > 0 ? (
+                                                                                <ul className="">
+                                                                                    {getPricesList(item).map((price, idx) => (
+                                                                                        <li key={idx}>{price}</li>
+                                                                                    ))}
+                                                                                </ul>
+                                                                            ) : "-"
+                                                                            }
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td className="font-bold whitespace-nowrap p-2">COA :</td>
+                                                                        <td className='p-2'>
+                                                                            <Link to={`/pdfs/coa/${item.CatalogueNumber}.pdf`} target='_blank' className="text-primary underline">Click to view</Link>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    ))
+                                                )}
+                                            </div>
+                                        </AccordionContent>
+                                    </AccordionItem>
+                                )
+                            })}
                         </Accordion>
                     </div>
-
-                  
                 </div>
             </section>
         </main>
