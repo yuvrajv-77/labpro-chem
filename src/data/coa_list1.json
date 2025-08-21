@@ -3435,5 +3435,145 @@
     "CatalogueNumber": "LA0530",
     "CASNumber": "26124-86-7",
     "BatchNumber": "937BB"
+  },
+  {
+    "ID": 492,
+    "ItemName": "Bathophenanthroline Disulphonic Acid Disodium Salt 99% AR",
+    "CatalogueNumber": "LA0551",
+    "CASNumber": "53744-42-6",
+    "BatchNumber": "837BD"
+  },
+  {
+    "ID": 493,
+    "ItemName": "Bay Oil Extra Pure",
+    "CatalogueNumber": "LA0552",
+    "CASNumber": "8006-78-8",
+    "BatchNumber": "837BO"
+  },
+  {
+    "ID": 494,
+    "ItemName": "Beam’s Reagent Solution",
+    "CatalogueNumber": "LA0553",
+    "CASNumber": "—",
+    "BatchNumber": "947BR"
+  },
+  {
+    "ID": 495,
+    "ItemName": "Beef Extract Paste (For Bacteriology, Lab Lemco Paste)",
+    "CatalogueNumber": "LA0554",
+    "CASNumber": "—",
+    "BatchNumber": "573BE"
+  },
+  {
+    "ID": 496,
+    "ItemName": "Barium Chloride 10% w/v Solution",
+    "CatalogueNumber": "LA0555",
+    "CASNumber": "10326-27-9",
+    "BatchNumber": "748BC"
+  },
+  {
+    "ID": 497,
+    "ItemName": "Barium Chromate 98%",
+    "CatalogueNumber": "LA0556",
+    "CASNumber": "10294-40-3",
+    "BatchNumber": "376BC"
+  },
+  {
+    "ID": 498,
+    "ItemName": "Barium Chromate 99% AR",
+    "CatalogueNumber": "LA0557",
+    "CASNumber": "10294-40-3",
+    "BatchNumber": "636BC"
+  },
+  {
+    "ID": 499,
+    "ItemName": "Barium Citrate 98%",
+    "CatalogueNumber": "LA0558",
+    "CASNumber": "512-25-4",
+    "BatchNumber": "757BC"
+  },
+  {
+    "ID": 500,
+    "ItemName": "Barium Diphenylamine Sulphonate 95% AR",
+    "CatalogueNumber": "LA0559",
+    "CASNumber": "6211-24-1",
+    "BatchNumber": "587BD"
+  },
+  {
+    "ID": 501,
+    "ItemName": "Barium Fluoride 98.5%",
+    "CatalogueNumber": "LA0560",
+    "CASNumber": "7787-32-8",
+    "BatchNumber": "768BF"
+  },
+  {
+    "ID": 502,
+    "ItemName": "Barium Fluoride 99% AR",
+    "CatalogueNumber": "LA0561",
+    "CASNumber": "7787-32-8",
+    "BatchNumber": "837BF"
+  },
+  {
+    "ID": 503,
+    "ItemName": "Barium Hydroxide 98% AR (Octahydrate)",
+    "CatalogueNumber": "LA0563",
+    "CASNumber": "12230-71-6",
+    "BatchNumber": "687BH"
+  },
+  {
+    "ID": 504,
+    "ItemName": "Barium Iodide 99%",
+    "CatalogueNumber": "LA0564",
+    "CASNumber": "13718-50-8",
+    "BatchNumber": "694BI"
+  },
+  {
+    "ID": 505,
+    "ItemName": "Barium Nitrate 98%",
+    "CatalogueNumber": "LA0565",
+    "CASNumber": "10022-31-8",
+    "BatchNumber": "376BN"
+  },
+  {
+    "ID": 506,
+    "ItemName": "Barium Nitrate 99% AR",
+    "CatalogueNumber": "LA0566",
+    "CASNumber": "10022-31-8",
+    "BatchNumber": "756BN"
+  },
+  {
+    "ID": 507,
+    "ItemName": "Barium Oxalate 97%",
+    "CatalogueNumber": "LA0567",
+    "CASNumber": "516-02-9",
+    "BatchNumber": "843BO"
+  },
+  {
+    "ID": 508,
+    "ItemName": "Barium Oxide 99.9% (Anhydrous)",
+    "CatalogueNumber": "LA0568",
+    "CASNumber": "1304-28-5",
+    "BatchNumber": "486BO"
+  },
+  {
+    "ID": 509,
+    "ItemName": "Barium Perchlorate 97% (Anhydrous)",
+    "CatalogueNumber": "LA0569",
+    "CASNumber": "13465-95-7",
+    "BatchNumber": "476BP"
+  },
+  {
+    "ID": 510,
+    "ItemName": "Barium Perchlorate 99% (Trihydrate)",
+    "CatalogueNumber": "LA0570",
+    "CASNumber": "10294-39-0",
+    "BatchNumber": "487BP"
+  },
+  {
+    "ID": 511,
+    "ItemName": "Barium Hydroxide 97% (Octahydrate)",
+    "CatalogueNumber": "LA0562",
+    "CASNumber": "12230-71-6",
+    "BatchNumber": "576BH"
   }
 ]
