@@ -52,7 +52,7 @@ export const Gallery = () => {
             <BreadcrumbSeparator />
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <BreadcrumbPage>Downloads</BreadcrumbPage>
+            <BreadcrumbPage>Gallery</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
