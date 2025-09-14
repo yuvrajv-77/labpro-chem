@@ -111,7 +111,7 @@ export const Gallery = () => {
                     <CarouselItem key={idx}>
                       <div className="flex flex-col items-center">
                         <img
-                          src={`/gallery/${item.name}`}
+                          src={`/images/gallery/${item.name}`}
                           alt={item.name}
                           className="max-h-[80vh] w-auto rounded-xl border-4 border-white shadow-lg"
                         />
