@@ -28,6 +28,10 @@ const certificateImages = [
     image: '/images/certificates/msme_certificate.png',
     title: 'MSME Udhyam Certificate'
 },
+{
+    image: '/images/certificates/Certificate of Registration.png',
+    title: 'Certificate of Registration'
+},
 
 ]
 
